@@ -1,0 +1,66 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "xfetch Theme Registry",
+    "description": "Schema for the xfetch theme registry index file",
+    "type": "object",
+    "required": ["registry", "themes"],
+    "properties": {
+        "registry": {
+            "type": "string",
+            "format": "uri",
+            "description": "Base URL for theme file downloads"
+        },
+        "themes": {
+            "type": "array",
+            "description": "List of available themes",
+            "items": {
+                "type": "object",
+                "required": ["name", "author", "version", "description", "source"],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Theme identifier used in xfetch config (theme: name)"
+                    },
+                    "author": {
+                        "type": "string",
+                        "description": "Theme author username or handle"
+                    },
+                    "version": {
+                        "type": "string",
+                        "pattern": "^\\d+\\.\\d+\\.\\d+$",
+                        "description": "Semantic version of the theme"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Short description of the theme style and colors"
+                    },
+                    "layout": {
+                        "type": "string",
+                        "description": "Default layout for this theme",
+                        "enum": ["default", "section", "pacman", "side-block", "tree", "box", "line", "dots", "bottom_line", "compact", "minimal", "horizontal", "bottom"]
+                    },
+                    "palette_style": {
+                        "type": "string",
+                        "description": "Default palette display style",
+                        "enum": ["squares", "circles", "triangles", "lines", "dots"]
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "description": "Searchable tags for theme discovery"
+                    },
+                    "source": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "URL to download the theme JSONC file"
+                    },
+                    "screenshot": {
+                        "type": "string",
+                        "format": "uri",
+                        "description": "URL to a screenshot preview of the theme"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "layout": "section",
+    "info_plugins": [
+        { "plugin": "music-player" },
+        {
+            "plugin": "weather",
+            "args": { "location": "auto" }
+        },
+        { "plugin": "timezone" },
+        { "plugin": "user-info" },
+        { "plugin": "display-resolution" },
+        { "plugin": "theme-detection" }
+    ],
+    "modules": [
+        {
+            "type": "group",
+            "title": "System",
+            "modules": [
+                "os", "kernel", "hostname", "uptime"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "plugin:user-info",
+                "plugin:timezone",
+                "plugin:theme-detection"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "cpu", "gpu", "memory", "disk", "plugin:display-resolution"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Media",
+            "modules": [
+                "plugin:music-player",
+                "plugin:weather"
+            ]
+        },
+        "palette"
+    ],
+    "show_colors": true,
+    "icons": {
+        "plugin:user-info": "",
+        "plugin:timezone": "",
+        "plugin:theme-detection": "",
+        "plugin:display-resolution": "",
+        "plugin:music-player": "",
+        "plugin:weather": ""
+    },
+    "colors": {
+        "plugin:user-info": "Magenta",
+        "plugin:timezone": "Cyan",
+        "plugin:theme-detection": "Blue",
+        "plugin:display-resolution": "Green",
+        "plugin:music-player": "Yellow",
+        "plugin:weather": "Cyan"
+    }
+}

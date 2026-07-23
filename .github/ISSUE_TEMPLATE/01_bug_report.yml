@@ -1,0 +1,17 @@
+name: Bug Report
+description: Report an issue with a config or preset
+labels: [bug]
+body:
+  - type: input
+    id: config
+    attributes:
+      label: Config file
+      description: Which config or preset has the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true

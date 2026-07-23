@@ -1,0 +1,10 @@
+name: Config Request
+description: Suggest a new preset, layout, or theme
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Describe the config you'd like to see
+    validations:
+      required: true

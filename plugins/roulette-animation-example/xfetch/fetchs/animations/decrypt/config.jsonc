@@ -1,4 +1,6 @@
 {
+    "daemon": true,
+    "daemon_min_rows": 6,
     "layout": "side-block",
     "palette_style": "circles",
     "show_colors": true,

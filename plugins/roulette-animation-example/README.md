@@ -91,6 +91,27 @@ different layout:
 | matrix    | `compact`    | `` (arch)     |
 | decrypt   | `side-block` | `` (terminal) |
 
+All configs carry `"daemon": true`, so running `xfetch` (with the roulette or
+with `--config` pointing to any of them) pins the animation at the top and
+loops it **without blocking the prompt**: the process forks to the background,
+the shell prompt returns immediately, and the animation keeps looping pinned at
+the top of the terminal.
+
+To stop it:
+
+```bash
+xfetch --daemon-stop
+```
+
+No extra shell configuration is required — everything activates from the JSON.
+
+**Note on height**: tall figures (`cat` ~29 rows, `matrix` ~24 rows) take up
+almost a whole 30-row terminal and leave little room for command output. The
+daemon reserves the top rows for the logo; command output stays below it in
+the remaining terminal height. Medium-height figures (`fox`, `kitty`,
+`blackhole`, `decrypt` ~13-17 rows) are the recommended ones for standard
+terminals.
+
 ### Logo files
 
 In `logos/animations/`, each figure has two files:
@@ -118,5 +139,9 @@ the static logo is shown.
   `_static.txt`, a config in `fetchs/animations/<name>/` and add the entry to
   `routes-anim.json`.
 - **Adjust speed**: change `fps` in the `logo_animation` block of each config.
+- **Limited duration**: with `"daemon": true` the animation loops forever and
+  `duration_ms`/`loop` are ignored; to make it run for a few seconds and stop
+  on its own, use `"daemon": false` (the animation plays once, without being
+  pinned).
 - **Disable the roulette**: point `routes` in `config.jsonc` to a file with a
   single config, or use `xfetch --config <path>` directly.

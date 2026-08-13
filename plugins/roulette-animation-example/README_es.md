@@ -92,6 +92,27 @@ distinto:
 | matrix     | `compact`   | `` (arch)     |
 | decrypt    | `side-block`| `` (terminal) |
 
+Todas las configs llevan `"daemon": true`, así que al correr `xfetch` (con la
+roulette o con `--config` apuntando a cualquiera de ellas) la animación queda
+pineada arriba en loop **sin bloquear el prompt**: el proceso hace fork a
+background, el prompt de la shell vuelve al instante y la animación sigue en
+loop pineada en la parte superior de la terminal.
+
+Para detenerla:
+
+```bash
+xfetch --daemon-stop
+```
+
+No requiere configuración extra en la shell — todo se activa desde el JSON.
+
+**Nota sobre altura**: las figuras altas (`cat` ~29 filas, `matrix` ~24 filas)
+ocupan casi toda una terminal de 30 filas y dejan poco espacio para la salida
+de comandos. El daemon reserva las filas superiores para el logo; la salida de
+comandos queda debajo en la altura restante. Las figuras de altura media
+(`fox`, `kitty`, `blackhole`, `decrypt` ~13-17 filas) son las recomendadas para
+terminales estándar.
+
 ### Archivos de logos
 
 En `logos/animations/`, cada figura tiene dos archivos:
@@ -120,5 +141,9 @@ pipes se muestra el logo estático.
   entrada en `routes-anim.json`.
 - **Ajustar velocidad**: cambiá `fps` en el bloque `logo_animation` de cada
   config.
+- **Duración limitada**: con `"daemon": true` la animación corre en loop
+  infinito y `duration_ms`/`loop` se ignoran; para que dure unos segundos y
+  termine sola, usá `"daemon": false` (la animación se reproduce una vez, sin
+  quedar pineada).
 - **Quitar la roulette**: apuntá `routes` en `config.jsonc` a un archivo con
   una sola config, o usá `xfetch --config <ruta>` directamente.

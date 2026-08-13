@@ -1,0 +1,26 @@
+[
+  {
+    "_name": "001-animate-fox",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/fox/config.jsonc"
+  },
+  {
+    "_name": "002-animate-cat",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/cat/config.jsonc"
+  },
+  {
+    "_name": "003-animate-kitty",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/kitty/config.jsonc"
+  },
+  {
+    "_name": "004-animate-blackhole",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/blackhole/config.jsonc"
+  },
+  {
+    "_name": "005-animate-matrix",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/matrix/config.jsonc"
+  },
+  {
+    "_name": "006-animate-decrypt",
+    "path": "/home/x0z/.config/xfetch/fetchs/animations/decrypt/config.jsonc"
+  }
+]

@@ -1,0 +1,11 @@
+{
+"config_providers": [
+  {
+    "extension": "config-roulette",
+    "args": {
+      "routes": "~/.config/xfetch/routes-anim.json",
+      "strategy": "random"
+            }
+        }
+    ]
+}

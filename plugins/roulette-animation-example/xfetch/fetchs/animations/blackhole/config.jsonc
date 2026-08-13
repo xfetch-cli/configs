@@ -1,0 +1,62 @@
+{
+    "daemon": true,
+    "daemon_min_rows": 6,
+    "layout": "tree",
+    "palette_style": "circles",
+    "show_colors": true,
+    "ascii": "~/.config/xfetch/logos/animations/blackhole_static.txt",
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "frame",
+        "fps": 15,
+        "duration_ms": 8000,
+        "loop": true,
+        "frames_path": "~/.config/xfetch/logos/animations/blackhole.txt"
+    },
+    "modules": [
+        "hostname",
+        "os",
+        "kernel",
+        "uptime",
+        "packages",
+        "wm",
+        "shell",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory",
+        "disk",
+        "palette"
+    ],
+    "icons": {
+        "hostname": "\uf109",
+        "os": "",
+        "kernel": "\uf17c",
+        "uptime": "\udb81\udd1b",
+        "packages": "\uf487",
+        "wm": "\uf2d0",
+        "shell": "\uf489",
+        "terminal": "\uf489",
+        "cpu": "\uf4bc",
+        "gpu": "\udb80\udf79",
+        "memory": "\ue266",
+        "disk": "\udb80\udeca",
+        "palette": "P"
+    },
+    "colors": {
+        "hostname": "Green",
+        "os": "Yellow",
+        "kernel": "Yellow",
+        "uptime": "Magenta",
+        "packages": "Cyan",
+        "wm": "Blue",
+        "shell": "Red",
+        "terminal": "Red",
+        "cpu": "Green",
+        "gpu": "Magenta",
+        "memory": "Blue",
+        "disk": "Cyan",
+        "palette": "White"
+    },
+    "footer_text": null
+}

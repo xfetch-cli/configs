@@ -1,0 +1,114 @@
+{
+    // Custom-X layout with animated kitty logo and daemon mode.
+    // Uses the full-width box, boxed group separators and the frame style
+    // animation of the animate-logo plugin.
+    "layout": "custom-x",
+    "daemon": true,
+    "daemon_min_rows": 6,
+    "ascii": "~/.config/xfetch/logos/animations/kitty_static.txt",
+    "logo_color": "Cyan",
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "frame",
+        "fps": 12,
+        "loop": true,
+        "frames_path": "~/.config/xfetch/logos/animations/kitty.txt"
+    },
+    "custom_x": {
+        "top": "╔═══════ XFETCH ═══════{fill}╗",
+        "bottom": "╚══════════════════════{fill}╝",
+        "left": "║",
+        "right": "║",
+        "fill": "═",
+        "padding": 1,
+        "width": "full",
+        "group_title": "╭─── {title} ───{fill}╮",
+        "divider": "",
+        "divider_between": "groups",
+        "module_top": "",
+        "module_bottom": ""
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "hostname",
+                "cpu",
+                "gpu",
+                "memory",
+                "swap",
+                "disk",
+                "battery"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "os",
+                "kernel",
+                "packages",
+                "shell",
+                "wm",
+                "terminal",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "user",
+                "uptime",
+                "datetime"
+            ]
+        },
+        "palette"
+    ],
+    "show_colors": true,
+    "icons": {
+        "hostname": "",
+        "cpu": "",
+        "gpu": "󰍹",
+        "memory": "",
+        "swap": "\uf0c5",
+        "disk": "󰋊",
+        "battery": "",
+        "os": "",
+        "kernel": "",
+        "packages": "",
+        "shell": "",
+        "wm": "",
+        "terminal": "",
+        "local_ip": "󰩟",
+        "user": "",
+        "uptime": "󰔛",
+        "datetime": "",
+        "palette": "",
+        "hardware": "",
+        "software": "",
+        "session": ""
+    },
+    "colors": {
+        "hostname": "Green",
+        "cpu": "Green",
+        "gpu": "Green",
+        "memory": "Green",
+        "swap": "Green",
+        "disk": "Green",
+        "battery": "Green",
+        "os": "Yellow",
+        "kernel": "Yellow",
+        "packages": "Yellow",
+        "shell": "Yellow",
+        "wm": "Yellow",
+        "terminal": "Yellow",
+        "local_ip": "Yellow",
+        "user": "Magenta",
+        "uptime": "Magenta",
+        "datetime": "Magenta",
+        "palette": "White"
+    },
+    "palette_style": "circles"
+}

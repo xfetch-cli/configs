@@ -10,6 +10,7 @@
 
 <ul>
   <li><code>presets/xfetch_pacman_animate.jsonc</code>: example config file.</li>
+  <li><code>presets/custom_x_kitty_animated.jsonc</code>: custom-x layout with a full-width box, boxed group separators, animated kitty logo and daemon mode.</li>
 </ul>
 
 <h2>Requirements</h2>

@@ -1,14 +1,13 @@
 # Changelog
 
 General changelog for the configs repository. Detailed entries live in the
-per-folder changelogs:
+per-folder changelog:
 
-- [`themes/CHANGELOG.md`](themes/CHANGELOG.md) — theme registry changes
 - [`plugins/CHANGELOG.md`](plugins/CHANGELOG.md) — example configuration changes
 
 ## 2026-08-19
 
-- Theme format simplified: registry themes dropped `icons` and gained `logo_color` — see [themes/CHANGELOG.md](themes/CHANGELOG.md).
+- Themes moved to their own repository ([`xfetch-cli/themes`](https://github.com/xfetch-cli/themes)) — registry, schema and theme files now live there.
 
 ## 2026-08-13 — roulette-animation-example
 

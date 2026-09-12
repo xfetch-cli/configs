@@ -1,0 +1,29 @@
+// Minimal wasm preset: the C /proc guest (load, memory, uptime) and the
+// matrix effect. Requires:
+//   xfetch plugin install ./plugins/plugins/wasm-proc
+//   xfetch effects install ./effects/effects/wasm-matrix
+{
+    "layout": "compact",
+    "show_colors": true,
+    "footer_text": "wasm sandbox",
+    "modules": [
+        "os",
+        "kernel",
+        "plugin:wasm-proc",
+        "shell",
+        "cpu",
+        "memory"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "wasm-proc"
+        }
+    ],
+    "effects": [
+        {
+            "plugin": "wasm-matrix",
+            "duration_ms": 500,
+            "fps": 24
+        }
+    ]
+}

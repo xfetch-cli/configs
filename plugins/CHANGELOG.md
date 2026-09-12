@@ -2,6 +2,17 @@
 
 Changes to the example xfetch configurations (`plugins/`): ready-to-use configs that combine core features with plugins and extensions.
 
+## 2026-09-12 — glyph fixes
+
+- `xfetch/defaults/config.jsonc` and the layout presets now use valid Nerd Font glyphs: the swap icon no longer carries U+FFFD and the palette icon is no longer an emoji.
+
+## 2026-09-12 — wasm-guests
+
+### WebAssembly Guests Example
+
+- Added `wasm-guests/` with two presets: `wasm_showcase.jsonc` (crypto prices via HTTP, IP geolocation via component, pacman package counts via exec, `/proc` stats via fs, plus both wasm effects) and `wasm_minimal.jsonc` (the C `/proc` guest plus the matrix effect)
+- Documents the install commands for every guest and the toolchains needed to build them from source (wasm32-wasip1, componentize-py, Go, clang)
+
 ## 2026-08-13 — roulette-animation-example
 
 ### Roulette Animation Example

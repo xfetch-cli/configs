@@ -1,0 +1,52 @@
+// Wasm showcase: crypto prices (HTTP), IP geolocation (HTTP component),
+// pacman package counts (exec) and /proc stats (fs), followed by both wasm
+// effects. Effects only play on a real terminal.
+{
+    "layout": "pacman",
+    "show_colors": true,
+    "footer_text": "wasm showcase",
+    "modules": [
+        "os",
+        "kernel",
+        "plugin:wasm-crypto",
+        "plugin:wasm-ip-geo",
+        "plugin:wasm-pacman",
+        "plugin:wasm-proc",
+        "shell",
+        "cpu",
+        "memory"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "wasm-crypto",
+            "args": {
+                "assets": ["BTC", "ETH"],
+                "currency": "EUR"
+            }
+        },
+        {
+            "plugin": "wasm-ip-geo"
+        },
+        {
+            "plugin": "wasm-pacman",
+            "args": {
+                "samples": 2
+            }
+        },
+        {
+            "plugin": "wasm-proc"
+        }
+    ],
+    "effects": [
+        {
+            "plugin": "wasm-matrix",
+            "duration_ms": 700,
+            "fps": 30
+        },
+        {
+            "plugin": "wasm-python-pulse",
+            "duration_ms": 700,
+            "fps": 30
+        }
+    ]
+}

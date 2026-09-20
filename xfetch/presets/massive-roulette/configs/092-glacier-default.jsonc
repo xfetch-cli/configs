@@ -1,0 +1,61 @@
+{
+    "theme": "glacier",
+    "ascii": "~/.config/xfetch/logos/opensuse-leap.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#1D79DC",
+        "kernel": "#6DC818",
+        "hostname": "#46F09E",
+        "uptime": "#7220BD",
+        "packages": "#D27715",
+        "shell": "#C4176B",
+        "terminal": "#1D79DC",
+        "wm": "#6DC818",
+        "cpu": "#46F09E",
+        "gpu": "#7220BD",
+        "memory": "#D27715",
+        "swap": "#C4176B",
+        "disk": "#1D79DC",
+        "battery": "#6DC818",
+        "user": "#46F09E",
+        "datetime": "#7220BD",
+        "local_ip": "#D27715",
+        "interfaces": "#1D79DC",
+        "palette": "#6DC818",
+        "plugin:docker": "#46F09E",
+        "plugin:github-stats": "#7220BD",
+        "plugin:music-player": "#D27715",
+        "plugin:weather": "#C4176B",
+        "plugin:timezone": "#1D79DC",
+        "plugin:user-info": "#6DC818",
+        "plugin:display-resolution": "#46F09E",
+        "plugin:theme-detection": "#7220BD",
+        "plugin:temperature": "#D27715"
+    },
+    "logo_color": "#D27715",
+    "modules": [
+        "os",
+        "memory",
+        "packages",
+        "local_ip"
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "memory": "{used}/{total} ({percent}%)",
+        "os": "{distro} · {arch}"
+    },
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 14,
+    "logo_gap": 14,
+    "logo_padding": 2,
+    "disable_cache": true
+}

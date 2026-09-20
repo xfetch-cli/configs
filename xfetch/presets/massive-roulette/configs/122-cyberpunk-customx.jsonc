@@ -1,0 +1,116 @@
+{
+    "theme": "cyberpunk",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "░░ {title} ░░{fill}░░",
+        "bottom": "░{fill}░",
+        "left": "░",
+        "right": "░",
+        "fill": "░",
+        "group_title": "▒ {title} ▒{fill}",
+        "width": 80
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "os",
+                "user",
+                "uptime",
+                "datetime",
+                "plugin:github-stats"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "swap",
+                "packages",
+                "terminal",
+                "wm",
+                "shell"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "kernel",
+                "memory",
+                "interfaces",
+                "disk",
+                "plugin:theme-detection"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#05D9E8",
+        "kernel": "#F9F002",
+        "hostname": "#D300C1",
+        "uptime": "#FF6E27",
+        "packages": "#D1D1E9",
+        "shell": "#00FF9F",
+        "terminal": "#FF2A6D",
+        "wm": "#05D9E8",
+        "cpu": "#F9F002",
+        "gpu": "#D300C1",
+        "memory": "#FF6E27",
+        "swap": "#D1D1E9",
+        "disk": "#00FF9F",
+        "battery": "#FF2A6D",
+        "user": "#05D9E8",
+        "datetime": "#F9F002",
+        "local_ip": "#D300C1",
+        "interfaces": "#D1D1E9",
+        "palette": "#00FF9F",
+        "plugin:docker": "#D300C1",
+        "plugin:github-stats": "#FF6E27",
+        "plugin:music-player": "#D1D1E9",
+        "plugin:weather": "#00FF9F",
+        "plugin:timezone": "#FF2A6D",
+        "plugin:user-info": "#05D9E8",
+        "plugin:display-resolution": "#F9F002",
+        "plugin:theme-detection": "#D300C1",
+        "plugin:temperature": "#FF6E27"
+    },
+    "logo_color": "#FF6E27",
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "disk": "{used}/{total} ({fs})",
+        "os": "{value}",
+        "packages": "{managers}: {value}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 8,
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 1200,
+        "fps": 30
+    },
+    "logo_gap": 10
+}

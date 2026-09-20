@@ -1,0 +1,108 @@
+{
+    "theme": "fern",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#3B5CCB",
+        "kernel": "#C1615F",
+        "hostname": "#49D8DA",
+        "uptime": "#71BE28",
+        "packages": "#9154C9",
+        "shell": "#BE9E38",
+        "terminal": "#3B5CCB",
+        "wm": "#C1615F",
+        "cpu": "#49D8DA",
+        "gpu": "#71BE28",
+        "memory": "#9154C9",
+        "swap": "#BE9E38",
+        "disk": "#3B5CCB",
+        "battery": "#C1615F",
+        "user": "#49D8DA",
+        "datetime": "#71BE28",
+        "local_ip": "#9154C9",
+        "interfaces": "#3B5CCB",
+        "palette": "#C1615F",
+        "plugin:docker": "#49D8DA",
+        "plugin:github-stats": "#71BE28",
+        "plugin:music-player": "#9154C9",
+        "plugin:weather": "#BE9E38",
+        "plugin:timezone": "#3B5CCB",
+        "plugin:user-info": "#C1615F",
+        "plugin:display-resolution": "#49D8DA",
+        "plugin:theme-detection": "#71BE28",
+        "plugin:temperature": "#9154C9",
+        "plugin:gauges": "#9154C9"
+    },
+    "logo_color": "#C1615F",
+    "modules": [
+        "os",
+        "kernel",
+        "interfaces",
+        "shell",
+        "wm",
+        "gpu",
+        "cpu",
+        "plugin:temperature",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "cpu": "{model}",
+        "gpu": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "logo_padding": 0,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    },
+    "labels": {
+        "plugin:gauges": ""
+    }
+}

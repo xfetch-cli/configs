@@ -1,0 +1,98 @@
+{
+    "theme": "tulip",
+    "ascii": "~/.config/xfetch/logos/bodhi.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#92DF33",
+        "kernel": "#6E83FA",
+        "hostname": "#604BD6",
+        "uptime": "#8E36FA",
+        "packages": "#FAE364",
+        "shell": "#E0FA4D",
+        "terminal": "#92DF33",
+        "wm": "#6E83FA",
+        "cpu": "#604BD6",
+        "gpu": "#8E36FA",
+        "memory": "#FAE364",
+        "swap": "#E0FA4D",
+        "disk": "#92DF33",
+        "battery": "#6E83FA",
+        "user": "#604BD6",
+        "datetime": "#8E36FA",
+        "local_ip": "#FAE364",
+        "interfaces": "#92DF33",
+        "palette": "#6E83FA",
+        "plugin:docker": "#604BD6",
+        "plugin:github-stats": "#8E36FA",
+        "plugin:music-player": "#FAE364",
+        "plugin:weather": "#E0FA4D",
+        "plugin:timezone": "#92DF33",
+        "plugin:user-info": "#6E83FA",
+        "plugin:display-resolution": "#604BD6",
+        "plugin:theme-detection": "#8E36FA",
+        "plugin:temperature": "#FAE364",
+        "plugin:gauges": "#FAE364"
+    },
+    "logo_color": "#8E36FA",
+    "modules": [
+        "os",
+        "memory",
+        "hostname",
+        "wm",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 8,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 16,
+                "metrics": [
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

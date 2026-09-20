@@ -1,0 +1,105 @@
+{
+    "theme": "orion",
+    "ascii": "~/.config/xfetch/logos/antix.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "▓▓▓ {title} {fill}▓▓▓",
+        "bottom": "▓{fill}▓",
+        "left": "▓",
+        "right": "▓",
+        "fill": "▓",
+        "group_title": "░ {title} {fill}",
+        "width": 78
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "hostname",
+                "wm",
+                "memory",
+                "uptime",
+                "plugin:theme-detection"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "kernel",
+                "terminal",
+                "datetime",
+                "gpu",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "swap",
+                "battery",
+                "packages",
+                "cpu",
+                "shell"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#F12429",
+        "kernel": "#D023CD",
+        "hostname": "#191AFA",
+        "uptime": "#2ECFCB",
+        "packages": "#58FA5B",
+        "shell": "#E8E71D",
+        "terminal": "#F12429",
+        "wm": "#D023CD",
+        "cpu": "#191AFA",
+        "gpu": "#2ECFCB",
+        "memory": "#58FA5B",
+        "swap": "#E8E71D",
+        "disk": "#F12429",
+        "battery": "#D023CD",
+        "user": "#191AFA",
+        "datetime": "#2ECFCB",
+        "local_ip": "#58FA5B",
+        "interfaces": "#F12429",
+        "palette": "#D023CD",
+        "plugin:docker": "#58FA5B",
+        "plugin:github-stats": "#E8E71D",
+        "plugin:music-player": "#F12429",
+        "plugin:weather": "#D023CD",
+        "plugin:timezone": "#191AFA",
+        "plugin:user-info": "#2ECFCB",
+        "plugin:display-resolution": "#58FA5B",
+        "plugin:theme-detection": "#E8E71D",
+        "plugin:temperature": "#F12429"
+    },
+    "logo_color": "#58FA5B",
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model}",
+        "gpu": "{value}",
+        "memory": "{used}/{total} ({percent}%)",
+        "uptime": "{days}d {hours}h {mins}m",
+        "battery": "{value}",
+        "datetime": "{date}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 1100,
+        "fps": 30
+    },
+    "logo_gap": 14
+}

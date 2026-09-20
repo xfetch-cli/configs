@@ -1,0 +1,108 @@
+{
+    "theme": "cyanide",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#C73084",
+        "kernel": "#F99239",
+        "hostname": "#89C747",
+        "uptime": "#56F39B",
+        "packages": "#51A4EB",
+        "shell": "#983CF9",
+        "terminal": "#C73084",
+        "wm": "#F99239",
+        "cpu": "#89C747",
+        "gpu": "#56F39B",
+        "memory": "#51A4EB",
+        "swap": "#983CF9",
+        "disk": "#C73084",
+        "battery": "#F99239",
+        "user": "#89C747",
+        "datetime": "#56F39B",
+        "local_ip": "#51A4EB",
+        "interfaces": "#C73084",
+        "palette": "#F99239",
+        "plugin:docker": "#89C747",
+        "plugin:github-stats": "#56F39B",
+        "plugin:music-player": "#51A4EB",
+        "plugin:weather": "#983CF9",
+        "plugin:timezone": "#C73084",
+        "plugin:user-info": "#F99239",
+        "plugin:display-resolution": "#89C747",
+        "plugin:theme-detection": "#56F39B",
+        "plugin:temperature": "#51A4EB",
+        "plugin:gauges": "#51A4EB"
+    },
+    "logo_color": "#983CF9",
+    "modules": [
+        "os",
+        "palette",
+        "wm",
+        "gpu",
+        "kernel",
+        "plugin:theme-detection",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 20,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "formats": {
+        "gpu": "{name}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 16,
+    "logo_colors": [
+        "#C73084",
+        "#F99239",
+        "#89C747"
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

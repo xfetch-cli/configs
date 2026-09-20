@@ -1,0 +1,59 @@
+{
+    "theme": "rose-pine",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#EBBCBA",
+        "kernel": "#9CCFD8",
+        "hostname": "#EB6F92",
+        "uptime": "#F6C177",
+        "packages": "#C4A7E7",
+        "shell": "#31748F",
+        "terminal": "#E0DEF4",
+        "wm": "#EBBCBA",
+        "cpu": "#9CCFD8",
+        "gpu": "#EB6F92",
+        "memory": "#F6C177",
+        "swap": "#C4A7E7",
+        "disk": "#31748F",
+        "battery": "#E0DEF4",
+        "user": "#EBBCBA",
+        "datetime": "#9CCFD8",
+        "local_ip": "#EB6F92",
+        "interfaces": "#C4A7E7",
+        "palette": "#31748F",
+        "plugin:docker": "#E0DEF4",
+        "plugin:github-stats": "#EBBCBA",
+        "plugin:music-player": "#9CCFD8",
+        "plugin:weather": "#EB6F92",
+        "plugin:timezone": "#F6C177",
+        "plugin:user-info": "#C4A7E7",
+        "plugin:display-resolution": "#31748F",
+        "plugin:theme-detection": "#E0DEF4",
+        "plugin:temperature": "#EBBCBA",
+        "plugin:langs": "#EBBCBA"
+    },
+    "logo_color": "#E0DEF4",
+    "modules": [
+        "os",
+        "user",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "owner": "xfetch-cli",
+                "limit": 5,
+                "include_forks": true
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 12
+}

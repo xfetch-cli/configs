@@ -1,0 +1,65 @@
+{
+    "theme": "mint",
+    "ascii": "~/.config/xfetch/logos/gentoo.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#E31819",
+        "kernel": "#CACC4D",
+        "hostname": "#47C844",
+        "uptime": "#28C6C5",
+        "packages": "#2F2DC3",
+        "shell": "#C941CD",
+        "terminal": "#E31819",
+        "wm": "#CACC4D",
+        "cpu": "#47C844",
+        "gpu": "#28C6C5",
+        "memory": "#2F2DC3",
+        "swap": "#C941CD",
+        "disk": "#E31819",
+        "battery": "#CACC4D",
+        "user": "#47C844",
+        "datetime": "#28C6C5",
+        "local_ip": "#2F2DC3",
+        "interfaces": "#E31819",
+        "palette": "#CACC4D",
+        "plugin:docker": "#47C844",
+        "plugin:github-stats": "#28C6C5",
+        "plugin:music-player": "#2F2DC3",
+        "plugin:weather": "#C941CD",
+        "plugin:timezone": "#E31819",
+        "plugin:user-info": "#CACC4D",
+        "plugin:display-resolution": "#47C844",
+        "plugin:theme-detection": "#28C6C5",
+        "plugin:temperature": "#2F2DC3"
+    },
+    "logo_color": "#2F2DC3",
+    "modules": [
+        "os",
+        "shell",
+        "disk",
+        "terminal",
+        "memory",
+        "packages",
+        "uptime",
+        "wm",
+        "cpu",
+        "interfaces",
+        "plugin:github-stats"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "memory": "{used}/{total} ({percent}%)"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 8
+}

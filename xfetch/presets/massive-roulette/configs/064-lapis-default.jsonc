@@ -1,0 +1,70 @@
+{
+    "theme": "lapis",
+    "ascii": "~/.config/xfetch/logos/alpine.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#69FA8E",
+        "kernel": "#5DD8FA",
+        "hostname": "#FA7196",
+        "uptime": "#DE9B89",
+        "packages": "#F167CE",
+        "shell": "#89D9C4",
+        "terminal": "#69FA8E",
+        "wm": "#5DD8FA",
+        "cpu": "#FA7196",
+        "gpu": "#DE9B89",
+        "memory": "#F167CE",
+        "swap": "#89D9C4",
+        "disk": "#69FA8E",
+        "battery": "#5DD8FA",
+        "user": "#FA7196",
+        "datetime": "#DE9B89",
+        "local_ip": "#F167CE",
+        "interfaces": "#69FA8E",
+        "palette": "#5DD8FA",
+        "plugin:docker": "#FA7196",
+        "plugin:github-stats": "#DE9B89",
+        "plugin:music-player": "#F167CE",
+        "plugin:weather": "#89D9C4",
+        "plugin:timezone": "#69FA8E",
+        "plugin:user-info": "#5DD8FA",
+        "plugin:display-resolution": "#FA7196",
+        "plugin:theme-detection": "#DE9B89",
+        "plugin:temperature": "#F167CE"
+    },
+    "logo_color": "#5DD8FA",
+    "modules": [
+        "os",
+        "packages",
+        "uptime",
+        "datetime",
+        "swap",
+        "battery",
+        "plugin:display-resolution",
+        "plugin:music-player"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "uptime": "{days}d {hours}h {mins}m"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 8,
+    "logo_gap": 14
+}

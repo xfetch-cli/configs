@@ -1,0 +1,105 @@
+{
+    "theme": "ash",
+    "ascii": "~/.config/xfetch/logos/nitrux.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#A4E117",
+        "kernel": "#B44BD1",
+        "hostname": "#5C35B6",
+        "uptime": "#FA29C3",
+        "packages": "#5CD33B",
+        "shell": "#35BB58",
+        "terminal": "#A4E117",
+        "wm": "#B44BD1",
+        "cpu": "#5C35B6",
+        "gpu": "#FA29C3",
+        "memory": "#5CD33B",
+        "swap": "#35BB58",
+        "disk": "#A4E117",
+        "battery": "#B44BD1",
+        "user": "#5C35B6",
+        "datetime": "#FA29C3",
+        "local_ip": "#5CD33B",
+        "interfaces": "#A4E117",
+        "palette": "#B44BD1",
+        "plugin:docker": "#5C35B6",
+        "plugin:github-stats": "#FA29C3",
+        "plugin:music-player": "#5CD33B",
+        "plugin:weather": "#35BB58",
+        "plugin:timezone": "#A4E117",
+        "plugin:user-info": "#B44BD1",
+        "plugin:display-resolution": "#5C35B6",
+        "plugin:theme-detection": "#FA29C3",
+        "plugin:temperature": "#5CD33B",
+        "plugin:gauges": "#5CD33B"
+    },
+    "logo_color": "#FA29C3",
+    "modules": [
+        "os",
+        "battery",
+        "hostname",
+        "shell",
+        "wm",
+        "datetime",
+        "interfaces",
+        "uptime",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro} {version}",
+        "uptime": "{value}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 12,
+    "logo_padding": 1,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "slashes",
+                "width": 14,
+                "metrics": [
+                    "swap",
+                    "disk"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

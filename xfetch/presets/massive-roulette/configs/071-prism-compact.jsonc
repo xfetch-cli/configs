@@ -1,0 +1,109 @@
+{
+    "theme": "prism",
+    "ascii": "~/.config/xfetch/logos/nitrux.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#B51D87",
+        "kernel": "#D2407A",
+        "hostname": "#D51529",
+        "uptime": "#28CE5A",
+        "packages": "#28E298",
+        "shell": "#16E0CC",
+        "terminal": "#B51D87",
+        "wm": "#D2407A",
+        "cpu": "#D51529",
+        "gpu": "#28CE5A",
+        "memory": "#28E298",
+        "swap": "#16E0CC",
+        "disk": "#B51D87",
+        "battery": "#D2407A",
+        "user": "#D51529",
+        "datetime": "#28CE5A",
+        "local_ip": "#28E298",
+        "interfaces": "#B51D87",
+        "palette": "#D2407A",
+        "plugin:docker": "#D51529",
+        "plugin:github-stats": "#28CE5A",
+        "plugin:music-player": "#28E298",
+        "plugin:weather": "#16E0CC",
+        "plugin:timezone": "#B51D87",
+        "plugin:user-info": "#D2407A",
+        "plugin:display-resolution": "#D51529",
+        "plugin:theme-detection": "#28CE5A",
+        "plugin:temperature": "#28E298",
+        "plugin:gauges": "#28E298"
+    },
+    "logo_color": "#B51D87",
+    "modules": [
+        "os",
+        "datetime",
+        "wm",
+        "hostname",
+        "gpu",
+        "plugin:display-resolution",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{value}",
+        "os": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "full",
+    "logo_gap": 16,
+    "disable_cache": true,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "theme": "everforest-dark",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#7FBBB3",
+        "kernel": "#E69875",
+        "hostname": "#E67E80",
+        "uptime": "#83C092",
+        "packages": "#D3C6AA",
+        "shell": "#DBBC7F",
+        "terminal": "#D6997E",
+        "wm": "#A7C080",
+        "cpu": "#7FBBB3",
+        "gpu": "#E69875",
+        "memory": "#E67E80",
+        "swap": "#83C092",
+        "disk": "#D3C6AA",
+        "battery": "#DBBC7F",
+        "user": "#D6997E",
+        "datetime": "#A7C080",
+        "local_ip": "#7FBBB3",
+        "interfaces": "#E67E80",
+        "palette": "#83C092",
+        "plugin:docker": "#D6997E",
+        "plugin:github-stats": "#A7C080",
+        "plugin:music-player": "#7FBBB3",
+        "plugin:weather": "#E69875",
+        "plugin:timezone": "#E67E80",
+        "plugin:user-info": "#83C092",
+        "plugin:display-resolution": "#D3C6AA",
+        "plugin:theme-detection": "#DBBC7F",
+        "plugin:temperature": "#D6997E"
+    },
+    "logo_color": "#D6997E",
+    "modules": [
+        "os",
+        "kernel",
+        "hostname",
+        "uptime",
+        "terminal",
+        "swap",
+        "plugin:temperature",
+        "plugin:user-info"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 16,
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "rainbow",
+        "fps": 10,
+        "duration_ms": 1800,
+        "loop": false
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "theme": "dracula-soft",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#8BE9FD",
+        "kernel": "#50FA7B",
+        "hostname": "#FFB86C",
+        "uptime": "#FF79C6",
+        "packages": "#BD93F9",
+        "shell": "#FF5555",
+        "terminal": "#F1FA8C",
+        "wm": "#6272A4",
+        "cpu": "#F5F5F5",
+        "gpu": "#8BE9FD",
+        "memory": "#50FA7B",
+        "swap": "#FFB86C",
+        "disk": "#FF79C6",
+        "battery": "#BD93F9",
+        "user": "#FF5555",
+        "datetime": "#F1FA8C",
+        "local_ip": "#6272A4",
+        "interfaces": "#8BE9FD",
+        "palette": "#50FA7B",
+        "plugin:docker": "#FFB86C",
+        "plugin:github-stats": "#FF79C6",
+        "plugin:music-player": "#BD93F9",
+        "plugin:weather": "#FF5555",
+        "plugin:timezone": "#F1FA8C",
+        "plugin:user-info": "#6272A4",
+        "plugin:display-resolution": "#F5F5F5",
+        "plugin:theme-detection": "#8BE9FD",
+        "plugin:temperature": "#50FA7B",
+        "plugin:gauges": "#50FA7B"
+    },
+    "logo_color": "#FFB86C",
+    "modules": [
+        "os",
+        "kernel",
+        "uptime",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10
+}

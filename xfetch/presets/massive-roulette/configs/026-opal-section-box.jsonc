@@ -1,0 +1,68 @@
+{
+    "theme": "opal",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#5EB940",
+        "kernel": "#D177BC",
+        "hostname": "#B662D1",
+        "uptime": "#C65173",
+        "packages": "#59CD74",
+        "shell": "#64AC98",
+        "terminal": "#5EB940",
+        "wm": "#D177BC",
+        "cpu": "#B662D1",
+        "gpu": "#C65173",
+        "memory": "#59CD74",
+        "swap": "#64AC98",
+        "disk": "#5EB940",
+        "battery": "#D177BC",
+        "user": "#B662D1",
+        "datetime": "#C65173",
+        "local_ip": "#59CD74",
+        "interfaces": "#5EB940",
+        "palette": "#D177BC",
+        "plugin:docker": "#B662D1",
+        "plugin:github-stats": "#C65173",
+        "plugin:music-player": "#59CD74",
+        "plugin:weather": "#64AC98",
+        "plugin:timezone": "#5EB940",
+        "plugin:user-info": "#D177BC",
+        "plugin:display-resolution": "#B662D1",
+        "plugin:theme-detection": "#C65173",
+        "plugin:temperature": "#59CD74"
+    },
+    "logo_color": "#5EB940",
+    "modules": [
+        "os",
+        "datetime",
+        "uptime",
+        "kernel",
+        "hostname",
+        "local_ip",
+        "memory",
+        "battery"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "os": "{value}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "logo_colors": [
+        "#5EB940",
+        "#D177BC",
+        "#B662D1",
+        "#C65173",
+        "#59CD74"
+    ]
+}

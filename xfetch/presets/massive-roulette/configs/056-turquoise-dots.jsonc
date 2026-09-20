@@ -1,0 +1,102 @@
+{
+    "theme": "turquoise",
+    "ascii": "~/.config/xfetch/logos/artix.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#E3B264",
+        "kernel": "#7CF1C4",
+        "hostname": "#6EA4FA",
+        "uptime": "#9AD475",
+        "packages": "#D1608B",
+        "shell": "#B267E0",
+        "terminal": "#E3B264",
+        "wm": "#7CF1C4",
+        "cpu": "#6EA4FA",
+        "gpu": "#9AD475",
+        "memory": "#D1608B",
+        "swap": "#B267E0",
+        "disk": "#E3B264",
+        "battery": "#7CF1C4",
+        "user": "#6EA4FA",
+        "datetime": "#9AD475",
+        "local_ip": "#D1608B",
+        "interfaces": "#E3B264",
+        "palette": "#7CF1C4",
+        "plugin:docker": "#D1608B",
+        "plugin:github-stats": "#B267E0",
+        "plugin:music-player": "#E3B264",
+        "plugin:weather": "#7CF1C4",
+        "plugin:timezone": "#6EA4FA",
+        "plugin:user-info": "#9AD475",
+        "plugin:display-resolution": "#D1608B",
+        "plugin:theme-detection": "#B267E0",
+        "plugin:temperature": "#E3B264",
+        "plugin:gauges": "#D1608B"
+    },
+    "logo_color": "#D1608B",
+    "modules": [
+        "os",
+        "shell",
+        "interfaces",
+        "hostname",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl",
+        "plugin:gauges": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "logo_colors": [
+        "#E3B264",
+        "#7CF1C4",
+        "#6EA4FA",
+        "#9AD475",
+        "#D1608B",
+        "#B267E0"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

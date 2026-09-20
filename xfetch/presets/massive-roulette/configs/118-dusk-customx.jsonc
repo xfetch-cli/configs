@@ -1,0 +1,96 @@
+{
+    "theme": "dusk",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╭╌╌ {title} ╌╌{fill}╮",
+        "bottom": "╰{fill}╯",
+        "left": "┊",
+        "right": "┊",
+        "fill": "╌",
+        "group_title": "╌ {title} ╌{fill}",
+        "divider_between": "groups"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Core",
+            "modules": [
+                "os",
+                "swap",
+                "interfaces",
+                "cpu",
+                "kernel"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Devices",
+            "modules": [
+                "uptime",
+                "hostname",
+                "disk",
+                "memory",
+                "gpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "local_ip",
+                "wm",
+                "battery",
+                "packages",
+                "user"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#1663D9",
+        "kernel": "#DDEA46",
+        "hostname": "#E9A640",
+        "uptime": "#6AD617",
+        "packages": "#4637EC",
+        "shell": "#9C35ED",
+        "terminal": "#1663D9",
+        "wm": "#DDEA46",
+        "cpu": "#E9A640",
+        "gpu": "#6AD617",
+        "memory": "#4637EC",
+        "swap": "#9C35ED",
+        "disk": "#1663D9",
+        "battery": "#DDEA46",
+        "user": "#E9A640",
+        "datetime": "#6AD617",
+        "local_ip": "#4637EC",
+        "interfaces": "#1663D9",
+        "palette": "#DDEA46",
+        "plugin:docker": "#E9A640",
+        "plugin:github-stats": "#6AD617",
+        "plugin:music-player": "#4637EC",
+        "plugin:weather": "#9C35ED",
+        "plugin:timezone": "#1663D9",
+        "plugin:user-info": "#DDEA46",
+        "plugin:display-resolution": "#E9A640",
+        "plugin:theme-detection": "#6AD617",
+        "plugin:temperature": "#4637EC"
+    },
+    "logo_color": "#6AD617",
+    "icons": {},
+    "formats": {
+        "cpu": "{value}",
+        "memory": "{used}/{total} ({percent}%)",
+        "os": "{value}",
+        "packages": "{managers}: {value}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "off",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 800,
+        "fps": 24
+    },
+    "logo_gap": 12
+}

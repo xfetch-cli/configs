@@ -1,0 +1,58 @@
+{
+    "theme": "orchid",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#95F948",
+        "kernel": "#286FCB",
+        "hostname": "#3DD895",
+        "uptime": "#F0A543",
+        "packages": "#B357FA",
+        "shell": "#E96AA1",
+        "terminal": "#95F948",
+        "wm": "#286FCB",
+        "cpu": "#3DD895",
+        "gpu": "#F0A543",
+        "memory": "#B357FA",
+        "swap": "#E96AA1",
+        "disk": "#95F948",
+        "battery": "#286FCB",
+        "user": "#3DD895",
+        "datetime": "#F0A543",
+        "local_ip": "#B357FA",
+        "interfaces": "#95F948",
+        "palette": "#286FCB",
+        "plugin:docker": "#3DD895",
+        "plugin:github-stats": "#F0A543",
+        "plugin:music-player": "#B357FA",
+        "plugin:weather": "#E96AA1",
+        "plugin:timezone": "#95F948",
+        "plugin:user-info": "#286FCB",
+        "plugin:display-resolution": "#3DD895",
+        "plugin:theme-detection": "#F0A543",
+        "plugin:temperature": "#B357FA"
+    },
+    "logo_color": "#F0A543",
+    "modules": [
+        "os",
+        "wm",
+        "datetime",
+        "uptime"
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "os": "{distro} {version}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "off",
+    "logo_gap": 10
+}

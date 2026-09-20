@@ -1,0 +1,105 @@
+{
+    "theme": "nebula",
+    "ascii": "~/.config/xfetch/logos/opensuse-leap.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "  ┌── {title} ──┐",
+        "bottom": "  └{fill}┘",
+        "left": "  │",
+        "right": "│",
+        "fill": "─",
+        "group_title": "  ├─ {title} {fill}",
+        "width": "full",
+        "padding": 2
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "gpu",
+                "uptime",
+                "interfaces"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "local_ip",
+                "packages",
+                "battery",
+                "disk"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "memory",
+                "shell",
+                "datetime",
+                "swap"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#F5B056",
+        "kernel": "#EE8863",
+        "hostname": "#D25C60",
+        "uptime": "#5893E0",
+        "packages": "#5FC6EB",
+        "shell": "#84D0CD",
+        "terminal": "#F5B056",
+        "wm": "#EE8863",
+        "cpu": "#D25C60",
+        "gpu": "#5893E0",
+        "memory": "#5FC6EB",
+        "swap": "#84D0CD",
+        "disk": "#F5B056",
+        "battery": "#EE8863",
+        "user": "#D25C60",
+        "datetime": "#5893E0",
+        "local_ip": "#5FC6EB",
+        "interfaces": "#F5B056",
+        "palette": "#EE8863",
+        "plugin:docker": "#5FC6EB",
+        "plugin:github-stats": "#84D0CD",
+        "plugin:music-player": "#F5B056",
+        "plugin:weather": "#EE8863",
+        "plugin:timezone": "#D25C60",
+        "plugin:user-info": "#5893E0",
+        "plugin:display-resolution": "#5FC6EB",
+        "plugin:theme-detection": "#84D0CD",
+        "plugin:temperature": "#F5B056"
+    },
+    "logo_color": "#D25C60",
+    "icons": {},
+    "formats": {
+        "memory": "{used} / {total}",
+        "disk": "{value}",
+        "os": "{distro} {version}",
+        "uptime": "{hours}h {mins}m",
+        "packages": "{value}",
+        "battery": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 10,
+    "effects": [
+        {
+            "plugin": "glitch",
+            "duration_ms": 700,
+            "fps": 30
+        },
+        {
+            "plugin": "decrypt",
+            "duration_ms": 1000,
+            "fps": 30
+        }
+    ],
+    "logo_gap": 10
+}

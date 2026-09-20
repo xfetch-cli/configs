@@ -1,0 +1,154 @@
+{
+    "theme": "magma",
+    "ascii": "~/.config/xfetch/logos/bodhi.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╭∩╮ {title} ╭∩╮{fill}",
+        "bottom": "╰{fill}╯",
+        "left": "│",
+        "right": "│",
+        "fill": "─",
+        "group_title": "☰ {title} {fill}",
+        "divider_between": "groups",
+        "width": 82
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "shell",
+                "terminal",
+                "kernel",
+                "plugin:display-resolution"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "gpu",
+                "packages",
+                "datetime",
+                "plugin:temperature"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "user",
+                "wm",
+                "plugin:timezone"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "colors": {
+        "os": "#F1B642",
+        "kernel": "#7CC25C",
+        "hostname": "#59DDAE",
+        "uptime": "#6798FA",
+        "packages": "#C384E0",
+        "shell": "#FA7BA8",
+        "terminal": "#F1B642",
+        "wm": "#7CC25C",
+        "cpu": "#59DDAE",
+        "gpu": "#6798FA",
+        "memory": "#C384E0",
+        "swap": "#FA7BA8",
+        "disk": "#F1B642",
+        "battery": "#7CC25C",
+        "user": "#59DDAE",
+        "datetime": "#6798FA",
+        "local_ip": "#C384E0",
+        "interfaces": "#F1B642",
+        "palette": "#7CC25C",
+        "plugin:docker": "#59DDAE",
+        "plugin:github-stats": "#6798FA",
+        "plugin:music-player": "#C384E0",
+        "plugin:weather": "#FA7BA8",
+        "plugin:timezone": "#F1B642",
+        "plugin:user-info": "#7CC25C",
+        "plugin:display-resolution": "#59DDAE",
+        "plugin:theme-detection": "#6798FA",
+        "plugin:temperature": "#C384E0",
+        "plugin:gauges": "#C384E0"
+    },
+    "logo_color": "#7CC25C",
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "os": "{distro} · {arch}",
+        "packages": "{managers}: {value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 8,
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 800,
+        "fps": 30
+    },
+    "logo_gap": 8,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    },
+    "labels": {
+        "plugin:gauges": ""
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "theme": "monokai",
+    "ascii": "~/.config/xfetch/logos/archbang.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#AE81FF",
+        "kernel": "#66D9EF",
+        "hostname": "#F92672",
+        "uptime": "#A6E22E",
+        "packages": "#F8F8F2",
+        "shell": "#FD5FF0",
+        "terminal": "#E6DB74",
+        "wm": "#FD971F",
+        "cpu": "#AE81FF",
+        "gpu": "#66D9EF",
+        "memory": "#F92672",
+        "swap": "#A6E22E",
+        "disk": "#F8F8F2",
+        "battery": "#FD5FF0",
+        "user": "#E6DB74",
+        "datetime": "#FD971F",
+        "local_ip": "#AE81FF",
+        "interfaces": "#F92672",
+        "palette": "#A6E22E",
+        "plugin:docker": "#E6DB74",
+        "plugin:github-stats": "#FD971F",
+        "plugin:music-player": "#AE81FF",
+        "plugin:weather": "#66D9EF",
+        "plugin:timezone": "#F92672",
+        "plugin:user-info": "#A6E22E",
+        "plugin:display-resolution": "#F8F8F2",
+        "plugin:theme-detection": "#FD5FF0",
+        "plugin:temperature": "#E6DB74",
+        "plugin:gauges": "#F92672"
+    },
+    "logo_color": "#AE81FF",
+    "modules": [
+        "os",
+        "cpu",
+        "local_ip",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

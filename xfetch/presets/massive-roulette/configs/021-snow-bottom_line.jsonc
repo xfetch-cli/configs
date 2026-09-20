@@ -1,0 +1,55 @@
+{
+    "theme": "snow",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#EF6BDE",
+        "kernel": "#CC7666",
+        "hostname": "#ABB74B",
+        "uptime": "#3FC551",
+        "packages": "#42A0B0",
+        "shell": "#695DCB",
+        "terminal": "#EF6BDE",
+        "wm": "#CC7666",
+        "cpu": "#ABB74B",
+        "gpu": "#3FC551",
+        "memory": "#42A0B0",
+        "swap": "#695DCB",
+        "disk": "#EF6BDE",
+        "battery": "#CC7666",
+        "user": "#ABB74B",
+        "datetime": "#3FC551",
+        "local_ip": "#42A0B0",
+        "interfaces": "#EF6BDE",
+        "palette": "#CC7666",
+        "plugin:docker": "#ABB74B",
+        "plugin:github-stats": "#3FC551",
+        "plugin:music-player": "#42A0B0",
+        "plugin:weather": "#695DCB",
+        "plugin:timezone": "#EF6BDE",
+        "plugin:user-info": "#CC7666",
+        "plugin:display-resolution": "#ABB74B",
+        "plugin:theme-detection": "#3FC551",
+        "plugin:temperature": "#42A0B0"
+    },
+    "logo_color": "#42A0B0",
+    "modules": [
+        "os",
+        "local_ip",
+        "swap",
+        "datetime"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "datetime": "{value}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 8
+}

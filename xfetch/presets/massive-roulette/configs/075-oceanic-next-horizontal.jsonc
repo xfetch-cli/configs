@@ -1,0 +1,108 @@
+{
+    "theme": "oceanic-next",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#99C794",
+        "kernel": "#FAC863",
+        "hostname": "#EC5F67",
+        "uptime": "#D8DEE9",
+        "packages": "#C0C5CE",
+        "shell": "#6699CC",
+        "terminal": "#5FB3B3",
+        "wm": "#99C794",
+        "cpu": "#FAC863",
+        "gpu": "#EC5F67",
+        "memory": "#D8DEE9",
+        "swap": "#C0C5CE",
+        "disk": "#6699CC",
+        "battery": "#5FB3B3",
+        "user": "#99C794",
+        "datetime": "#FAC863",
+        "local_ip": "#EC5F67",
+        "interfaces": "#C0C5CE",
+        "palette": "#6699CC",
+        "plugin:docker": "#EC5F67",
+        "plugin:github-stats": "#D8DEE9",
+        "plugin:music-player": "#C0C5CE",
+        "plugin:weather": "#6699CC",
+        "plugin:timezone": "#5FB3B3",
+        "plugin:user-info": "#99C794",
+        "plugin:display-resolution": "#FAC863",
+        "plugin:theme-detection": "#EC5F67",
+        "plugin:temperature": "#D8DEE9",
+        "plugin:gauges": "#D8DEE9"
+    },
+    "logo_color": "#EC5F67",
+    "modules": [
+        "os",
+        "datetime",
+        "kernel",
+        "memory",
+        "hostname",
+        "battery",
+        "wm",
+        "gpu",
+        "interfaces",
+        "shell",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{model}",
+        "os": "{distro}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 14,
+    "logo_gap": 10,
+    "disable_cache": true,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 16,
+                "metrics": [
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-7",
+        "timeout_secs": 3
+    }
+}

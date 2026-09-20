@@ -1,0 +1,91 @@
+{
+    "theme": "gruvbox-dark",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#83A598",
+        "kernel": "#EBDBB2",
+        "hostname": "#D79921",
+        "uptime": "#98971A",
+        "packages": "#458588",
+        "shell": "#B16286",
+        "terminal": "#689D6A",
+        "wm": "#FB4934",
+        "cpu": "#FE8019",
+        "gpu": "#83A598",
+        "memory": "#EBDBB2",
+        "swap": "#D79921",
+        "disk": "#98971A",
+        "battery": "#458588",
+        "user": "#B16286",
+        "datetime": "#689D6A",
+        "local_ip": "#FB4934",
+        "interfaces": "#83A598",
+        "palette": "#EBDBB2",
+        "plugin:docker": "#D79921",
+        "plugin:github-stats": "#98971A",
+        "plugin:music-player": "#458588",
+        "plugin:weather": "#B16286",
+        "plugin:timezone": "#689D6A",
+        "plugin:user-info": "#FB4934",
+        "plugin:display-resolution": "#FE8019",
+        "plugin:theme-detection": "#83A598",
+        "plugin:temperature": "#EBDBB2",
+        "plugin:gauges": "#EBDBB2"
+    },
+    "logo_color": "#98971A",
+    "modules": [
+        "os",
+        "packages",
+        "wm",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 8,
+                "metrics": [
+                    "memory",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 12
+}

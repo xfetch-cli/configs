@@ -1,0 +1,56 @@
+{
+    "theme": "pumpkin",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "line",
+    "show_colors": true,
+    "colors": {
+        "os": "#72B84C",
+        "kernel": "#C19431",
+        "hostname": "#8F7FE0",
+        "uptime": "#5982DC",
+        "packages": "#AF68D7",
+        "shell": "#9BAA4E",
+        "terminal": "#72B84C",
+        "wm": "#C19431",
+        "cpu": "#8F7FE0",
+        "gpu": "#5982DC",
+        "memory": "#AF68D7",
+        "swap": "#9BAA4E",
+        "disk": "#72B84C",
+        "battery": "#C19431",
+        "user": "#8F7FE0",
+        "datetime": "#5982DC",
+        "local_ip": "#AF68D7",
+        "interfaces": "#72B84C",
+        "palette": "#C19431",
+        "plugin:docker": "#8F7FE0",
+        "plugin:github-stats": "#5982DC",
+        "plugin:music-player": "#AF68D7",
+        "plugin:weather": "#9BAA4E",
+        "plugin:timezone": "#72B84C",
+        "plugin:user-info": "#C19431",
+        "plugin:display-resolution": "#8F7FE0",
+        "plugin:theme-detection": "#5982DC",
+        "plugin:temperature": "#AF68D7"
+    },
+    "logo_color": "#5982DC",
+    "modules": [
+        "os",
+        "disk",
+        "terminal"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "disk": "{used}/{total} ({fs})",
+        "os": "{value}"
+    },
+    "os_wsl_style": "full",
+    "logo_gap": 8,
+    "disable_cache": true
+}

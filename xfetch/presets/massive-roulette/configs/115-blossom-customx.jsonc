@@ -1,0 +1,106 @@
+{
+    "theme": "blossom",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "~ {title} {fill}~",
+        "bottom": "~{fill}~",
+        "left": "~",
+        "right": "~",
+        "fill": "~",
+        "group_title": "≈ {title} {fill}",
+        "divider_between": "groups"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "uptime",
+                "swap",
+                "cpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "user",
+                "terminal",
+                "memory",
+                "packages"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "kernel",
+                "shell",
+                "disk",
+                "plugin:music-player"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#789BE6",
+        "kernel": "#6164ED",
+        "hostname": "#936AFA",
+        "uptime": "#F4C45B",
+        "packages": "#CCCA4A",
+        "shell": "#B0D64F",
+        "terminal": "#789BE6",
+        "wm": "#6164ED",
+        "cpu": "#936AFA",
+        "gpu": "#F4C45B",
+        "memory": "#CCCA4A",
+        "swap": "#B0D64F",
+        "disk": "#789BE6",
+        "battery": "#6164ED",
+        "user": "#936AFA",
+        "datetime": "#F4C45B",
+        "local_ip": "#CCCA4A",
+        "interfaces": "#789BE6",
+        "palette": "#6164ED",
+        "plugin:docker": "#936AFA",
+        "plugin:github-stats": "#F4C45B",
+        "plugin:music-player": "#CCCA4A",
+        "plugin:weather": "#B0D64F",
+        "plugin:timezone": "#789BE6",
+        "plugin:user-info": "#6164ED",
+        "plugin:display-resolution": "#936AFA",
+        "plugin:theme-detection": "#F4C45B",
+        "plugin:temperature": "#CCCA4A"
+    },
+    "logo_color": "#936AFA",
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "cpu": "{brand}",
+        "memory": "{used} de {total}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 1500,
+        "fps": 30
+    },
+    "logo_gap": 14
+}

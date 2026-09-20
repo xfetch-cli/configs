@@ -1,0 +1,113 @@
+{
+    "theme": "shades-of-purple",
+    "ascii": "~/.config/xfetch/logos/nitrux.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#FAD000",
+        "kernel": "#B362FF",
+        "hostname": "#FFFFFF",
+        "uptime": "#FF9D00",
+        "packages": "#A599FF",
+        "shell": "#FF628C",
+        "terminal": "#9EFFFF",
+        "wm": "#FAD000",
+        "cpu": "#B362FF",
+        "gpu": "#FFFFFF",
+        "memory": "#FF9D00",
+        "swap": "#A599FF",
+        "disk": "#FF628C",
+        "battery": "#9EFFFF",
+        "user": "#FAD000",
+        "datetime": "#B362FF",
+        "local_ip": "#FFFFFF",
+        "interfaces": "#A599FF",
+        "palette": "#FF628C",
+        "plugin:docker": "#B362FF",
+        "plugin:github-stats": "#FFFFFF",
+        "plugin:music-player": "#FF9D00",
+        "plugin:weather": "#A599FF",
+        "plugin:timezone": "#FF628C",
+        "plugin:user-info": "#9EFFFF",
+        "plugin:display-resolution": "#FAD000",
+        "plugin:theme-detection": "#B362FF",
+        "plugin:temperature": "#FFFFFF",
+        "plugin:gauges": "#FF9D00"
+    },
+    "logo_color": "#FF628C",
+    "modules": [
+        "os",
+        "kernel",
+        "gpu",
+        "uptime",
+        "palette",
+        "datetime",
+        "plugin:user-info",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{model}",
+        "uptime": "{days}d {hours}h {mins}m",
+        "datetime": "{value}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 16,
+    "logo_padding": 1,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-above",
+        "timeout_secs": 3
+    }
+}

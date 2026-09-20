@@ -1,0 +1,58 @@
+{
+    "theme": "everforest-dark",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#7FBBB3",
+        "kernel": "#E69875",
+        "hostname": "#E67E80",
+        "uptime": "#83C092",
+        "packages": "#D3C6AA",
+        "shell": "#DBBC7F",
+        "terminal": "#D6997E",
+        "wm": "#A7C080",
+        "cpu": "#7FBBB3",
+        "gpu": "#E69875",
+        "memory": "#E67E80",
+        "swap": "#83C092",
+        "disk": "#D3C6AA",
+        "battery": "#DBBC7F",
+        "user": "#D6997E",
+        "datetime": "#A7C080",
+        "local_ip": "#7FBBB3",
+        "interfaces": "#E67E80",
+        "palette": "#83C092",
+        "plugin:docker": "#D6997E",
+        "plugin:github-stats": "#A7C080",
+        "plugin:music-player": "#7FBBB3",
+        "plugin:weather": "#E69875",
+        "plugin:timezone": "#E67E80",
+        "plugin:user-info": "#83C092",
+        "plugin:display-resolution": "#D3C6AA",
+        "plugin:theme-detection": "#DBBC7F",
+        "plugin:temperature": "#D6997E",
+        "plugin:langs": "#7FBBB3"
+    },
+    "logo_color": "#D6997E",
+    "modules": [
+        "os",
+        "kernel",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "repo": "xfetch-cli/xfetch",
+                "limit": 6
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10
+}

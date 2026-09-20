@@ -1,0 +1,107 @@
+{
+    "theme": "autumn",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "▁▂▃ {title} ▃▂▁{fill}",
+        "bottom": "▁{fill}▁",
+        "left": "▏",
+        "right": "▕",
+        "fill": "▂",
+        "group_title": "▂ {title} ▂{fill}",
+        "width": "full"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Specs",
+            "modules": [
+                "os",
+                "terminal",
+                "plugin:timezone"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "OS",
+            "modules": [
+                "swap",
+                "interfaces",
+                "local_ip",
+                "plugin:temperature"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Network",
+            "modules": [
+                "shell",
+                "uptime",
+                "cpu",
+                "plugin:music-player"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#DC924D",
+        "kernel": "#F8D968",
+        "hostname": "#58CEE8",
+        "uptime": "#7DB4E7",
+        "packages": "#3656C9",
+        "shell": "#D37763",
+        "terminal": "#DC924D",
+        "wm": "#F8D968",
+        "cpu": "#58CEE8",
+        "gpu": "#7DB4E7",
+        "memory": "#3656C9",
+        "swap": "#D37763",
+        "disk": "#DC924D",
+        "battery": "#F8D968",
+        "user": "#58CEE8",
+        "datetime": "#7DB4E7",
+        "local_ip": "#3656C9",
+        "interfaces": "#DC924D",
+        "palette": "#F8D968",
+        "plugin:docker": "#58CEE8",
+        "plugin:github-stats": "#7DB4E7",
+        "plugin:music-player": "#3656C9",
+        "plugin:weather": "#D37763",
+        "plugin:timezone": "#DC924D",
+        "plugin:user-info": "#F8D968",
+        "plugin:display-resolution": "#58CEE8",
+        "plugin:theme-detection": "#7DB4E7",
+        "plugin:temperature": "#3656C9"
+    },
+    "logo_color": "#3656C9",
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model} @ {freq}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 2000,
+        "fps": 30
+    },
+    "logo_gap": 14
+}

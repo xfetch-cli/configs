@@ -1,0 +1,98 @@
+{
+    "theme": "iceberg",
+    "ascii": "~/.config/xfetch/logos/rhel.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "⌜{title}⌝{fill}",
+        "bottom": "⌞{fill}⌟",
+        "left": "│",
+        "right": "│",
+        "fill": "─",
+        "group_title": "⌈ {title} ⌉{fill}",
+        "width": "full",
+        "full_margin": 4
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "os",
+                "hostname",
+                "datetime",
+                "cpu",
+                "shell"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "interfaces",
+                "user",
+                "uptime",
+                "memory"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "gpu",
+                "kernel",
+                "wm",
+                "swap"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#E27878",
+        "kernel": "#C6C8D1",
+        "hostname": "#84A0C6",
+        "uptime": "#89B8C2",
+        "packages": "#B4BE82",
+        "shell": "#E2A478",
+        "terminal": "#A093C7",
+        "wm": "#E27878",
+        "cpu": "#C6C8D1",
+        "gpu": "#84A0C6",
+        "memory": "#89B8C2",
+        "swap": "#B4BE82",
+        "disk": "#E2A478",
+        "battery": "#A093C7",
+        "user": "#E27878",
+        "datetime": "#C6C8D1",
+        "local_ip": "#84A0C6",
+        "interfaces": "#B4BE82",
+        "palette": "#E2A478",
+        "plugin:docker": "#84A0C6",
+        "plugin:github-stats": "#89B8C2",
+        "plugin:music-player": "#B4BE82",
+        "plugin:weather": "#E2A478",
+        "plugin:timezone": "#A093C7",
+        "plugin:user-info": "#E27878",
+        "plugin:display-resolution": "#C6C8D1",
+        "plugin:theme-detection": "#84A0C6",
+        "plugin:temperature": "#89B8C2"
+    },
+    "logo_color": "#E2A478",
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "os": "{distro} {version}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 12,
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 1100,
+        "fps": 30
+    },
+    "logo_gap": 12
+}

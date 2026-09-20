@@ -1,0 +1,77 @@
+{
+    "theme": "cinder",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#4273FA",
+        "kernel": "#D1552C",
+        "hostname": "#FAC535",
+        "uptime": "#F23C66",
+        "packages": "#3EBAE3",
+        "shell": "#3DEEC5",
+        "terminal": "#4273FA",
+        "wm": "#D1552C",
+        "cpu": "#FAC535",
+        "gpu": "#F23C66",
+        "memory": "#3EBAE3",
+        "swap": "#3DEEC5",
+        "disk": "#4273FA",
+        "battery": "#D1552C",
+        "user": "#FAC535",
+        "datetime": "#F23C66",
+        "local_ip": "#3EBAE3",
+        "interfaces": "#4273FA",
+        "palette": "#D1552C",
+        "plugin:docker": "#FAC535",
+        "plugin:github-stats": "#F23C66",
+        "plugin:music-player": "#3EBAE3",
+        "plugin:weather": "#3DEEC5",
+        "plugin:timezone": "#4273FA",
+        "plugin:user-info": "#D1552C",
+        "plugin:display-resolution": "#FAC535",
+        "plugin:theme-detection": "#F23C66",
+        "plugin:temperature": "#3EBAE3"
+    },
+    "logo_color": "#3EBAE3",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Overview",
+            "modules": [
+                "os",
+                "hostname"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "cpu",
+                "user"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "shell",
+                "plugin:user-info"
+            ]
+        }
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{cores} núcleos @ {freq}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "logo_padding": 0
+}

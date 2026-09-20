@@ -1,0 +1,92 @@
+{
+    "theme": "catppuccin-frappe",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#99D1DB",
+        "kernel": "#C6D0F5",
+        "hostname": "#8CAAEE",
+        "uptime": "#CA9EE6",
+        "packages": "#E78284",
+        "shell": "#EF9F76",
+        "terminal": "#E5C890",
+        "wm": "#A6D189",
+        "cpu": "#81C8BE",
+        "gpu": "#99D1DB",
+        "memory": "#C6D0F5",
+        "swap": "#8CAAEE",
+        "disk": "#CA9EE6",
+        "battery": "#E78284",
+        "user": "#EF9F76",
+        "datetime": "#E5C890",
+        "local_ip": "#A6D189",
+        "interfaces": "#99D1DB",
+        "palette": "#C6D0F5",
+        "plugin:docker": "#8CAAEE",
+        "plugin:github-stats": "#CA9EE6",
+        "plugin:music-player": "#E78284",
+        "plugin:weather": "#EF9F76",
+        "plugin:timezone": "#E5C890",
+        "plugin:user-info": "#A6D189",
+        "plugin:display-resolution": "#81C8BE",
+        "plugin:theme-detection": "#99D1DB",
+        "plugin:temperature": "#C6D0F5",
+        "plugin:gauges": "#C6D0F5"
+    },
+    "logo_color": "#CA9EE6",
+    "modules": [
+        "os",
+        "cpu",
+        "gpu",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 20,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

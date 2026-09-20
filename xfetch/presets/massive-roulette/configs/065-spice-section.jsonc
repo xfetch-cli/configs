@@ -1,0 +1,122 @@
+{
+    "theme": "spice",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#DDF370",
+        "kernel": "#54C6DD",
+        "hostname": "#D566C2",
+        "uptime": "#6F5AD9",
+        "packages": "#81F394",
+        "shell": "#EA826D",
+        "terminal": "#DDF370",
+        "wm": "#54C6DD",
+        "cpu": "#D566C2",
+        "gpu": "#6F5AD9",
+        "memory": "#81F394",
+        "swap": "#EA826D",
+        "disk": "#DDF370",
+        "battery": "#54C6DD",
+        "user": "#D566C2",
+        "datetime": "#6F5AD9",
+        "local_ip": "#81F394",
+        "interfaces": "#DDF370",
+        "palette": "#54C6DD",
+        "plugin:docker": "#D566C2",
+        "plugin:github-stats": "#6F5AD9",
+        "plugin:music-player": "#81F394",
+        "plugin:weather": "#EA826D",
+        "plugin:timezone": "#DDF370",
+        "plugin:user-info": "#54C6DD",
+        "plugin:display-resolution": "#D566C2",
+        "plugin:theme-detection": "#6F5AD9",
+        "plugin:temperature": "#81F394",
+        "plugin:gauges": "#81F394"
+    },
+    "logo_color": "#6F5AD9",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Specs",
+            "modules": [
+                "os",
+                "packages"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "OS",
+            "modules": [
+                "user",
+                "gpu",
+                "wm"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Network",
+            "modules": [
+                "uptime",
+                "local_ip",
+                "shell"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "formats": {
+        "gpu": "{value}",
+        "memory": "{percent}%",
+        "packages": "{value}",
+        "battery": "{percent}%"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "logo_padding": 1,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-7",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "theme": "basalt",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#E998D2",
+        "kernel": "#5EB1D2",
+        "hostname": "#AACC53",
+        "uptime": "#78D091",
+        "packages": "#785BC0",
+        "shell": "#E97E54",
+        "terminal": "#E998D2",
+        "wm": "#5EB1D2",
+        "cpu": "#AACC53",
+        "gpu": "#78D091",
+        "memory": "#785BC0",
+        "swap": "#E97E54",
+        "disk": "#E998D2",
+        "battery": "#5EB1D2",
+        "user": "#AACC53",
+        "datetime": "#78D091",
+        "local_ip": "#785BC0",
+        "interfaces": "#E998D2",
+        "palette": "#5EB1D2",
+        "plugin:docker": "#AACC53",
+        "plugin:github-stats": "#78D091",
+        "plugin:music-player": "#785BC0",
+        "plugin:weather": "#E97E54",
+        "plugin:timezone": "#E998D2",
+        "plugin:user-info": "#5EB1D2",
+        "plugin:display-resolution": "#AACC53",
+        "plugin:theme-detection": "#78D091",
+        "plugin:temperature": "#785BC0"
+    },
+    "logo_color": "#785BC0",
+    "modules": [
+        "os",
+        "packages",
+        "gpu",
+        "kernel",
+        "plugin:user-info",
+        "plugin:docker"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "gpu": "{name}",
+        "packages": "{value}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 10
+}

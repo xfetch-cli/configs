@@ -1,0 +1,58 @@
+{
+    "theme": "gruvbox-dark",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#83A598",
+        "kernel": "#EBDBB2",
+        "hostname": "#D79921",
+        "uptime": "#98971A",
+        "packages": "#458588",
+        "shell": "#B16286",
+        "terminal": "#689D6A",
+        "wm": "#FB4934",
+        "cpu": "#FE8019",
+        "gpu": "#83A598",
+        "memory": "#EBDBB2",
+        "swap": "#D79921",
+        "disk": "#98971A",
+        "battery": "#458588",
+        "user": "#B16286",
+        "datetime": "#689D6A",
+        "local_ip": "#FB4934",
+        "interfaces": "#83A598",
+        "palette": "#EBDBB2",
+        "plugin:docker": "#D79921",
+        "plugin:github-stats": "#98971A",
+        "plugin:music-player": "#458588",
+        "plugin:weather": "#B16286",
+        "plugin:timezone": "#689D6A",
+        "plugin:user-info": "#FB4934",
+        "plugin:display-resolution": "#FE8019",
+        "plugin:theme-detection": "#83A598",
+        "plugin:temperature": "#EBDBB2",
+        "plugin:langs": "#83A598"
+    },
+    "logo_color": "#98971A",
+    "modules": [
+        "os",
+        "shell",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "repo": "xscriptor-web/xscriptor.com",
+                "limit": 4
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10
+}

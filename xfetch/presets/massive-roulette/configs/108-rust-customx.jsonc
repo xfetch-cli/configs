@@ -1,0 +1,101 @@
+{
+    "theme": "rust",
+    "ascii": "~/.config/xfetch/logos/artix.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╭──✦ {title} ✦{fill}╮",
+        "bottom": "╰{fill}╯",
+        "left": "┃",
+        "right": "┃",
+        "fill": "─",
+        "group_title": "┄┄ {title} ┄{fill}",
+        "module_top": "┈{fill}",
+        "divider_between": "none"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Specs",
+            "modules": [
+                "os",
+                "terminal",
+                "uptime",
+                "shell"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "OS",
+            "modules": [
+                "swap",
+                "datetime",
+                "interfaces",
+                "disk"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Network",
+            "modules": [
+                "gpu",
+                "cpu",
+                "user",
+                "kernel"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#57DCDB",
+        "kernel": "#E65FA0",
+        "hostname": "#DB5959",
+        "uptime": "#ED63E8",
+        "packages": "#5CD299",
+        "shell": "#64F169",
+        "terminal": "#57DCDB",
+        "wm": "#E65FA0",
+        "cpu": "#DB5959",
+        "gpu": "#ED63E8",
+        "memory": "#5CD299",
+        "swap": "#64F169",
+        "disk": "#57DCDB",
+        "battery": "#E65FA0",
+        "user": "#DB5959",
+        "datetime": "#ED63E8",
+        "local_ip": "#5CD299",
+        "interfaces": "#57DCDB",
+        "palette": "#E65FA0",
+        "plugin:docker": "#DB5959",
+        "plugin:github-stats": "#ED63E8",
+        "plugin:music-player": "#5CD299",
+        "plugin:weather": "#64F169",
+        "plugin:timezone": "#57DCDB",
+        "plugin:user-info": "#E65FA0",
+        "plugin:display-resolution": "#DB5959",
+        "plugin:theme-detection": "#ED63E8",
+        "plugin:temperature": "#5CD299"
+    },
+    "logo_color": "#5CD299",
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "cpu": "{cores} núcleos @ {freq}",
+        "gpu": "{model}",
+        "disk": "{percent}% en {fs}",
+        "os": "{distro} · {arch}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 500,
+        "fps": 30
+    },
+    "logo_gap": 8
+}

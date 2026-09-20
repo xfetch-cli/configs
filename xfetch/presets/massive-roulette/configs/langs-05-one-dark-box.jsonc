@@ -1,0 +1,58 @@
+{
+    "theme": "one-dark",
+    "ascii": "~/.config/xfetch/logos/antix.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#D19A66",
+        "kernel": "#C678DD",
+        "hostname": "#61AFEF",
+        "uptime": "#E06C75",
+        "packages": "#ABB2BF",
+        "shell": "#BE5046",
+        "terminal": "#56B6C2",
+        "wm": "#E5C07B",
+        "cpu": "#98C379",
+        "gpu": "#D19A66",
+        "memory": "#C678DD",
+        "swap": "#61AFEF",
+        "disk": "#E06C75",
+        "battery": "#ABB2BF",
+        "user": "#BE5046",
+        "datetime": "#56B6C2",
+        "local_ip": "#E5C07B",
+        "interfaces": "#D19A66",
+        "palette": "#C678DD",
+        "plugin:docker": "#98C379",
+        "plugin:github-stats": "#D19A66",
+        "plugin:music-player": "#C678DD",
+        "plugin:weather": "#61AFEF",
+        "plugin:timezone": "#E06C75",
+        "plugin:user-info": "#ABB2BF",
+        "plugin:display-resolution": "#BE5046",
+        "plugin:theme-detection": "#56B6C2",
+        "plugin:temperature": "#E5C07B",
+        "plugin:langs": "#D19A66"
+    },
+    "logo_color": "#ABB2BF",
+    "modules": [
+        "os",
+        "cpu",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "owner": "xtop-cli",
+                "limit": 4
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 12
+}

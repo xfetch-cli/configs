@@ -1,0 +1,98 @@
+{
+    "theme": "lava",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "line",
+    "show_colors": true,
+    "colors": {
+        "os": "#E47ABE",
+        "kernel": "#F4748A",
+        "hostname": "#68FA9C",
+        "uptime": "#47A4CF",
+        "packages": "#6BF5DE",
+        "shell": "#ED8E63",
+        "terminal": "#E47ABE",
+        "wm": "#F4748A",
+        "cpu": "#68FA9C",
+        "gpu": "#47A4CF",
+        "memory": "#6BF5DE",
+        "swap": "#ED8E63",
+        "disk": "#E47ABE",
+        "battery": "#F4748A",
+        "user": "#68FA9C",
+        "datetime": "#47A4CF",
+        "local_ip": "#6BF5DE",
+        "interfaces": "#E47ABE",
+        "palette": "#F4748A",
+        "plugin:docker": "#6BF5DE",
+        "plugin:github-stats": "#ED8E63",
+        "plugin:music-player": "#E47ABE",
+        "plugin:weather": "#F4748A",
+        "plugin:timezone": "#68FA9C",
+        "plugin:user-info": "#47A4CF",
+        "plugin:display-resolution": "#6BF5DE",
+        "plugin:theme-detection": "#ED8E63",
+        "plugin:temperature": "#E47ABE",
+        "plugin:gauges": "#6BF5DE"
+    },
+    "logo_color": "#68FA9C",
+    "modules": [
+        "os",
+        "wm",
+        "kernel",
+        "hostname",
+        "disk",
+        "local_ip",
+        "interfaces",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "os": "{distro} {version}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "slashes",
+                "width": 12,
+                "metrics": [
+                    "memory",
+                    "swap"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

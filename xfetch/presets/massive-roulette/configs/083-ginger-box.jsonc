@@ -1,0 +1,127 @@
+{
+    "theme": "ginger",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#CDD368",
+        "kernel": "#61FA63",
+        "hostname": "#BF7CFA",
+        "uptime": "#D848D6",
+        "packages": "#5A51FA",
+        "shell": "#8ED154",
+        "terminal": "#CDD368",
+        "wm": "#61FA63",
+        "cpu": "#BF7CFA",
+        "gpu": "#D848D6",
+        "memory": "#5A51FA",
+        "swap": "#8ED154",
+        "disk": "#CDD368",
+        "battery": "#61FA63",
+        "user": "#BF7CFA",
+        "datetime": "#D848D6",
+        "local_ip": "#5A51FA",
+        "interfaces": "#CDD368",
+        "palette": "#61FA63",
+        "plugin:docker": "#BF7CFA",
+        "plugin:github-stats": "#D848D6",
+        "plugin:music-player": "#5A51FA",
+        "plugin:weather": "#8ED154",
+        "plugin:timezone": "#CDD368",
+        "plugin:user-info": "#61FA63",
+        "plugin:display-resolution": "#BF7CFA",
+        "plugin:theme-detection": "#D848D6",
+        "plugin:temperature": "#5A51FA",
+        "plugin:gauges": "#5A51FA"
+    },
+    "logo_color": "#CDD368",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Machine",
+            "modules": [
+                "os",
+                "uptime"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "swap",
+                "datetime"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "kernel",
+                "plugin:github-stats"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 16,
+                "metrics": [
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "formats": {
+        "uptime": "{value}",
+        "datetime": "{date}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 8,
+    "logo_gap": 12,
+    "logo_padding": 1,
+    "disable_ip_fetching": true,
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    }
+}

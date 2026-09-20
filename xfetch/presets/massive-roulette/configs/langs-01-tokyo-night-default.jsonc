@@ -1,0 +1,58 @@
+{
+    "theme": "tokyo-night",
+    "ascii": "~/.config/xfetch/logos/gentoo.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#E0AF68",
+        "kernel": "#C0CAF5",
+        "hostname": "#F7768E",
+        "uptime": "#7AA2F7",
+        "packages": "#7DCFFF",
+        "shell": "#BB9AF7",
+        "terminal": "#73DACA",
+        "wm": "#9ECE6A",
+        "cpu": "#FF9E64",
+        "gpu": "#E0AF68",
+        "memory": "#C0CAF5",
+        "swap": "#F7768E",
+        "disk": "#7AA2F7",
+        "battery": "#7DCFFF",
+        "user": "#BB9AF7",
+        "datetime": "#73DACA",
+        "local_ip": "#9ECE6A",
+        "interfaces": "#E0AF68",
+        "palette": "#C0CAF5",
+        "plugin:docker": "#7DCFFF",
+        "plugin:github-stats": "#BB9AF7",
+        "plugin:music-player": "#73DACA",
+        "plugin:weather": "#9ECE6A",
+        "plugin:timezone": "#FF9E64",
+        "plugin:user-info": "#E0AF68",
+        "plugin:display-resolution": "#C0CAF5",
+        "plugin:theme-detection": "#F7768E",
+        "plugin:temperature": "#7AA2F7",
+        "plugin:langs": "#E0AF68"
+    },
+    "logo_color": "#C0CAF5",
+    "modules": [
+        "os",
+        "kernel",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "repo": "xfetch-cli/xfetch",
+                "limit": 4
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 12
+}

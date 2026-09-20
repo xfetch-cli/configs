@@ -1,0 +1,57 @@
+{
+    "theme": "night-owl",
+    "ascii": "~/.config/xfetch/logos/bodhi.txt",
+    "layout": "line",
+    "show_colors": true,
+    "colors": {
+        "os": "#D6DEEB",
+        "kernel": "#82AAFF",
+        "hostname": "#ADDB67",
+        "uptime": "#ECC48E",
+        "packages": "#7FDBCA",
+        "shell": "#C792EA",
+        "terminal": "#F78C6C",
+        "wm": "#EF5350",
+        "cpu": "#D6DEEB",
+        "gpu": "#82AAFF",
+        "memory": "#ADDB67",
+        "swap": "#ECC48E",
+        "disk": "#7FDBCA",
+        "battery": "#C792EA",
+        "user": "#F78C6C",
+        "datetime": "#EF5350",
+        "local_ip": "#D6DEEB",
+        "interfaces": "#ADDB67",
+        "palette": "#ECC48E",
+        "plugin:docker": "#ADDB67",
+        "plugin:github-stats": "#ECC48E",
+        "plugin:music-player": "#7FDBCA",
+        "plugin:weather": "#C792EA",
+        "plugin:timezone": "#F78C6C",
+        "plugin:user-info": "#EF5350",
+        "plugin:display-resolution": "#D6DEEB",
+        "plugin:theme-detection": "#82AAFF",
+        "plugin:temperature": "#ADDB67"
+    },
+    "logo_color": "#F78C6C",
+    "modules": [
+        "os",
+        "packages",
+        "swap",
+        "gpu"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "gpu": "{name}",
+        "os": "{distro} {version}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

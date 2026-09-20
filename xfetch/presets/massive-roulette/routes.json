@@ -1,0 +1,598 @@
+[
+    {
+        "_name": "001-basalt-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/001-basalt-compact.jsonc"
+    },
+    {
+        "_name": "002-bluemoon-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/002-bluemoon-minimal.jsonc"
+    },
+    {
+        "_name": "003-papercolor-dark-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/003-papercolor-dark-tree.jsonc"
+    },
+    {
+        "_name": "004-night-owl-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/004-night-owl-line.jsonc"
+    },
+    {
+        "_name": "005-syrup-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/005-syrup-horizontal.jsonc"
+    },
+    {
+        "_name": "006-prairie-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/006-prairie-pacman.jsonc"
+    },
+    {
+        "_name": "007-shades-of-purple-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/007-shades-of-purple-bottom_line.jsonc"
+    },
+    {
+        "_name": "008-fern-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/008-fern-default.jsonc"
+    },
+    {
+        "_name": "009-espresso-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/009-espresso-section.jsonc"
+    },
+    {
+        "_name": "010-bazaar-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/010-bazaar-side-block.jsonc"
+    },
+    {
+        "_name": "011-material-ocean-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/011-material-ocean-bottom.jsonc"
+    },
+    {
+        "_name": "012-kaleidoscope-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/012-kaleidoscope-section-box.jsonc"
+    },
+    {
+        "_name": "013-material-darker-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/013-material-darker-box.jsonc"
+    },
+    {
+        "_name": "014-chiffon-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/014-chiffon-dots.jsonc"
+    },
+    {
+        "_name": "015-canary-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/015-canary-compact.jsonc"
+    },
+    {
+        "_name": "016-clover-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/016-clover-minimal.jsonc"
+    },
+    {
+        "_name": "017-ember-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/017-ember-tree.jsonc"
+    },
+    {
+        "_name": "018-horizon-bright-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/018-horizon-bright-line.jsonc"
+    },
+    {
+        "_name": "019-peony-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/019-peony-horizontal.jsonc"
+    },
+    {
+        "_name": "020-biscay-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/020-biscay-pacman.jsonc"
+    },
+    {
+        "_name": "021-snow-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/021-snow-bottom_line.jsonc"
+    },
+    {
+        "_name": "022-starlight-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/022-starlight-default.jsonc"
+    },
+    {
+        "_name": "023-zenburn-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/023-zenburn-section.jsonc"
+    },
+    {
+        "_name": "024-quartz-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/024-quartz-side-block.jsonc"
+    },
+    {
+        "_name": "025-tempest-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/025-tempest-bottom.jsonc"
+    },
+    {
+        "_name": "026-opal-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/026-opal-section-box.jsonc"
+    },
+    {
+        "_name": "027-rose-pine-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/027-rose-pine-box.jsonc"
+    },
+    {
+        "_name": "028-cobalt-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/028-cobalt-dots.jsonc"
+    },
+    {
+        "_name": "029-cyanide-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/029-cyanide-compact.jsonc"
+    },
+    {
+        "_name": "030-willow-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/030-willow-minimal.jsonc"
+    },
+    {
+        "_name": "031-equinox-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/031-equinox-tree.jsonc"
+    },
+    {
+        "_name": "032-vanilla-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/032-vanilla-line.jsonc"
+    },
+    {
+        "_name": "033-volcano-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/033-volcano-horizontal.jsonc"
+    },
+    {
+        "_name": "034-eden-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/034-eden-pacman.jsonc"
+    },
+    {
+        "_name": "035-cherry-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/035-cherry-bottom_line.jsonc"
+    },
+    {
+        "_name": "036-seafoam-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/036-seafoam-default.jsonc"
+    },
+    {
+        "_name": "037-material-palenight-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/037-material-palenight-section.jsonc"
+    },
+    {
+        "_name": "038-tangerine-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/038-tangerine-side-block.jsonc"
+    },
+    {
+        "_name": "039-dune-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/039-dune-bottom.jsonc"
+    },
+    {
+        "_name": "040-terra-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/040-terra-section-box.jsonc"
+    },
+    {
+        "_name": "041-midnight-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/041-midnight-box.jsonc"
+    },
+    {
+        "_name": "042-amethyst-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/042-amethyst-dots.jsonc"
+    },
+    {
+        "_name": "043-savanna-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/043-savanna-compact.jsonc"
+    },
+    {
+        "_name": "044-solarized-light-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/044-solarized-light-minimal.jsonc"
+    },
+    {
+        "_name": "045-cosmos-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/045-cosmos-tree.jsonc"
+    },
+    {
+        "_name": "046-pumpkin-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/046-pumpkin-line.jsonc"
+    },
+    {
+        "_name": "047-teal-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/047-teal-horizontal.jsonc"
+    },
+    {
+        "_name": "048-honey-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/048-honey-pacman.jsonc"
+    },
+    {
+        "_name": "049-tokyo-night-storm-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/049-tokyo-night-storm-bottom_line.jsonc"
+    },
+    {
+        "_name": "050-orchid-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/050-orchid-default.jsonc"
+    },
+    {
+        "_name": "051-tulip-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/051-tulip-section.jsonc"
+    },
+    {
+        "_name": "052-bronze-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/052-bronze-side-block.jsonc"
+    },
+    {
+        "_name": "053-dahlia-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/053-dahlia-bottom.jsonc"
+    },
+    {
+        "_name": "054-ash-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/054-ash-section-box.jsonc"
+    },
+    {
+        "_name": "055-midnight-sapphire-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/055-midnight-sapphire-box.jsonc"
+    },
+    {
+        "_name": "056-turquoise-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/056-turquoise-dots.jsonc"
+    },
+    {
+        "_name": "057-lotus-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/057-lotus-compact.jsonc"
+    },
+    {
+        "_name": "058-caramel-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/058-caramel-minimal.jsonc"
+    },
+    {
+        "_name": "059-dracula-soft-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/059-dracula-soft-tree.jsonc"
+    },
+    {
+        "_name": "060-aero-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/060-aero-line.jsonc"
+    },
+    {
+        "_name": "061-mint-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/061-mint-horizontal.jsonc"
+    },
+    {
+        "_name": "062-tokyo-night-moon-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/062-tokyo-night-moon-pacman.jsonc"
+    },
+    {
+        "_name": "063-jellybeans-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/063-jellybeans-bottom_line.jsonc"
+    },
+    {
+        "_name": "064-lapis-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/064-lapis-default.jsonc"
+    },
+    {
+        "_name": "065-spice-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/065-spice-section.jsonc"
+    },
+    {
+        "_name": "066-boreal-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/066-boreal-side-block.jsonc"
+    },
+    {
+        "_name": "067-dandelion-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/067-dandelion-bottom.jsonc"
+    },
+    {
+        "_name": "068-cinder-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/068-cinder-section-box.jsonc"
+    },
+    {
+        "_name": "069-mauve-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/069-mauve-box.jsonc"
+    },
+    {
+        "_name": "070-alabaster-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/070-alabaster-dots.jsonc"
+    },
+    {
+        "_name": "071-prism-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/071-prism-compact.jsonc"
+    },
+    {
+        "_name": "072-andromeda-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/072-andromeda-minimal.jsonc"
+    },
+    {
+        "_name": "073-crystal-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/073-crystal-tree.jsonc"
+    },
+    {
+        "_name": "074-lava-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/074-lava-line.jsonc"
+    },
+    {
+        "_name": "075-oceanic-next-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/075-oceanic-next-horizontal.jsonc"
+    },
+    {
+        "_name": "076-gruvbox-dark-hard-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/076-gruvbox-dark-hard-pacman.jsonc"
+    },
+    {
+        "_name": "077-ayu-dark-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/077-ayu-dark-bottom_line.jsonc"
+    },
+    {
+        "_name": "078-grape-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/078-grape-default.jsonc"
+    },
+    {
+        "_name": "079-falcon-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/079-falcon-section.jsonc"
+    },
+    {
+        "_name": "080-afterglow-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/080-afterglow-side-block.jsonc"
+    },
+    {
+        "_name": "081-spruce-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/081-spruce-bottom.jsonc"
+    },
+    {
+        "_name": "082-periwinkle-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/082-periwinkle-section-box.jsonc"
+    },
+    {
+        "_name": "083-ginger-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/083-ginger-box.jsonc"
+    },
+    {
+        "_name": "084-apricot-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/084-apricot-dots.jsonc"
+    },
+    {
+        "_name": "085-gruvbox-dark-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/085-gruvbox-dark-compact.jsonc"
+    },
+    {
+        "_name": "086-aurum-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/086-aurum-minimal.jsonc"
+    },
+    {
+        "_name": "087-comet-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/087-comet-tree.jsonc"
+    },
+    {
+        "_name": "088-parchment-line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/088-parchment-line.jsonc"
+    },
+    {
+        "_name": "089-everforest-dark-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/089-everforest-dark-horizontal.jsonc"
+    },
+    {
+        "_name": "090-lime-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/090-lime-pacman.jsonc"
+    },
+    {
+        "_name": "091-jasper-bottom_line",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/091-jasper-bottom_line.jsonc"
+    },
+    {
+        "_name": "092-glacier-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/092-glacier-default.jsonc"
+    },
+    {
+        "_name": "093-vermilion-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/093-vermilion-section.jsonc"
+    },
+    {
+        "_name": "094-arcade-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/094-arcade-side-block.jsonc"
+    },
+    {
+        "_name": "095-tokyo-night-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/095-tokyo-night-bottom.jsonc"
+    },
+    {
+        "_name": "096-horizon-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/096-horizon-section-box.jsonc"
+    },
+    {
+        "_name": "097-wine-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/097-wine-box.jsonc"
+    },
+    {
+        "_name": "098-iris-dots",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/098-iris-dots.jsonc"
+    },
+    {
+        "_name": "099-nord-aurora-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/099-nord-aurora-compact.jsonc"
+    },
+    {
+        "_name": "100-mahogany-minimal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/100-mahogany-minimal.jsonc"
+    },
+    {
+        "_name": "101-saffron-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/101-saffron-customx.jsonc"
+    },
+    {
+        "_name": "102-nimbus-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/102-nimbus-customx.jsonc"
+    },
+    {
+        "_name": "103-mesa-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/103-mesa-customx.jsonc"
+    },
+    {
+        "_name": "104-nord-frost-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/104-nord-frost-customx.jsonc"
+    },
+    {
+        "_name": "105-orion-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/105-orion-customx.jsonc"
+    },
+    {
+        "_name": "106-mustard-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/106-mustard-customx.jsonc"
+    },
+    {
+        "_name": "107-iceberg-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/107-iceberg-customx.jsonc"
+    },
+    {
+        "_name": "108-rust-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/108-rust-customx.jsonc"
+    },
+    {
+        "_name": "109-monokai-ristretto-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/109-monokai-ristretto-customx.jsonc"
+    },
+    {
+        "_name": "110-nebula-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/110-nebula-customx.jsonc"
+    },
+    {
+        "_name": "111-storm-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/111-storm-customx.jsonc"
+    },
+    {
+        "_name": "112-silver-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/112-silver-customx.jsonc"
+    },
+    {
+        "_name": "113-night-owl-light-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/113-night-owl-light-customx.jsonc"
+    },
+    {
+        "_name": "114-kanagawa-dragon-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/114-kanagawa-dragon-customx.jsonc"
+    },
+    {
+        "_name": "115-blossom-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/115-blossom-customx.jsonc"
+    },
+    {
+        "_name": "116-cascade-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/116-cascade-customx.jsonc"
+    },
+    {
+        "_name": "117-garnet-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/117-garnet-customx.jsonc"
+    },
+    {
+        "_name": "118-dusk-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/118-dusk-customx.jsonc"
+    },
+    {
+        "_name": "119-catppuccin-latte-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/119-catppuccin-latte-customx.jsonc"
+    },
+    {
+        "_name": "120-heather-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/120-heather-customx.jsonc"
+    },
+    {
+        "_name": "121-aether-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/121-aether-customx.jsonc"
+    },
+    {
+        "_name": "122-cyberpunk-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/122-cyberpunk-customx.jsonc"
+    },
+    {
+        "_name": "123-chai-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/123-chai-customx.jsonc"
+    },
+    {
+        "_name": "124-foliage-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/124-foliage-customx.jsonc"
+    },
+    {
+        "_name": "125-blush-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/125-blush-customx.jsonc"
+    },
+    {
+        "_name": "126-rose-pine-dawn-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/126-rose-pine-dawn-customx.jsonc"
+    },
+    {
+        "_name": "127-autumn-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/127-autumn-customx.jsonc"
+    },
+    {
+        "_name": "128-magma-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/128-magma-customx.jsonc"
+    },
+    {
+        "_name": "129-emerald-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/129-emerald-customx.jsonc"
+    },
+    {
+        "_name": "130-camo-customx",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/130-camo-customx.jsonc"
+    },
+    {
+        "_name": "gauges-01-dracula-soft-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-01-dracula-soft-default.jsonc"
+    },
+    {
+        "_name": "gauges-02-one-dark-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-02-one-dark-section.jsonc"
+    },
+    {
+        "_name": "gauges-03-tokyo-night-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-03-tokyo-night-tree.jsonc"
+    },
+    {
+        "_name": "gauges-04-gruvbox-dark-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-04-gruvbox-dark-compact.jsonc"
+    },
+    {
+        "_name": "gauges-05-catppuccin-frappe-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-05-catppuccin-frappe-box.jsonc"
+    },
+    {
+        "_name": "gauges-06-nord-aurora-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-06-nord-aurora-side-block.jsonc"
+    },
+    {
+        "_name": "gauges-07-solarized-dark-pacman",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-07-solarized-dark-pacman.jsonc"
+    },
+    {
+        "_name": "gauges-08-monokai-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-08-monokai-bottom.jsonc"
+    },
+    {
+        "_name": "gauges-09-kanagawa-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-09-kanagawa-horizontal.jsonc"
+    },
+    {
+        "_name": "gauges-10-material-palenight-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/gauges-10-material-palenight-section-box.jsonc"
+    },
+    {
+        "_name": "langs-01-tokyo-night-default",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-01-tokyo-night-default.jsonc"
+    },
+    {
+        "_name": "langs-02-nord-aurora-section",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-02-nord-aurora-section.jsonc"
+    },
+    {
+        "_name": "langs-03-gruvbox-dark-tree",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-03-gruvbox-dark-tree.jsonc"
+    },
+    {
+        "_name": "langs-04-catppuccin-macchiato-compact",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-04-catppuccin-macchiato-compact.jsonc"
+    },
+    {
+        "_name": "langs-05-one-dark-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-05-one-dark-box.jsonc"
+    },
+    {
+        "_name": "langs-06-kanagawa-side-block",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-06-kanagawa-side-block.jsonc"
+    },
+    {
+        "_name": "langs-07-everforest-dark-bottom",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-07-everforest-dark-bottom.jsonc"
+    },
+    {
+        "_name": "langs-08-rose-pine-horizontal",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-08-rose-pine-horizontal.jsonc"
+    },
+    {
+        "_name": "langs-09-solarized-dark-section-box",
+        "path": "~/.config/xfetch/fetchs/massive-roulette/configs/langs-09-solarized-dark-section-box.jsonc"
+    }
+]

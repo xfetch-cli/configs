@@ -1,0 +1,112 @@
+{
+    "theme": "night-owl-light",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╒══ {title} ══{fill}╕",
+        "bottom": "╘{fill}╛",
+        "left": "│",
+        "right": "│",
+        "fill": "═",
+        "group_title": "╞═ {title} ═{fill}",
+        "divider_between": "modules",
+        "width": 76
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Overview",
+            "modules": [
+                "os",
+                "user",
+                "memory",
+                "swap"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "cpu",
+                "kernel",
+                "plugin:timezone"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "datetime",
+                "packages",
+                "battery",
+                "plugin:docker"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#994CC3",
+        "kernel": "#4876D6",
+        "hostname": "#2AA298",
+        "uptime": "#403F53",
+        "packages": "#E0A33C",
+        "shell": "#D3423E",
+        "terminal": "#08916A",
+        "wm": "#994CC3",
+        "cpu": "#4876D6",
+        "gpu": "#2AA298",
+        "memory": "#403F53",
+        "swap": "#E0A33C",
+        "disk": "#D3423E",
+        "battery": "#08916A",
+        "user": "#994CC3",
+        "datetime": "#4876D6",
+        "local_ip": "#2AA298",
+        "interfaces": "#E0A33C",
+        "palette": "#D3423E",
+        "plugin:docker": "#403F53",
+        "plugin:github-stats": "#E0A33C",
+        "plugin:music-player": "#D3423E",
+        "plugin:weather": "#08916A",
+        "plugin:timezone": "#994CC3",
+        "plugin:user-info": "#4876D6",
+        "plugin:display-resolution": "#2AA298",
+        "plugin:theme-detection": "#403F53",
+        "plugin:temperature": "#E0A33C"
+    },
+    "logo_color": "#E0A33C",
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "cpu": "{model} @ {freq}",
+        "os": "{value}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 700,
+        "fps": 30
+    },
+    "logo_colors": [
+        "#994CC3",
+        "#4876D6",
+        "#2AA298"
+    ],
+    "logo_gap": 14
+}

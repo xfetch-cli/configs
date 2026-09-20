@@ -1,0 +1,105 @@
+{
+    "theme": "cobalt",
+    "ascii": "~/.config/xfetch/logos/alma.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#AB75E9",
+        "kernel": "#EFBE93",
+        "hostname": "#81FABA",
+        "uptime": "#C3F789",
+        "packages": "#F89ECE",
+        "shell": "#61ACEE",
+        "terminal": "#AB75E9",
+        "wm": "#EFBE93",
+        "cpu": "#81FABA",
+        "gpu": "#C3F789",
+        "memory": "#F89ECE",
+        "swap": "#61ACEE",
+        "disk": "#AB75E9",
+        "battery": "#EFBE93",
+        "user": "#81FABA",
+        "datetime": "#C3F789",
+        "local_ip": "#F89ECE",
+        "interfaces": "#AB75E9",
+        "palette": "#EFBE93",
+        "plugin:docker": "#81FABA",
+        "plugin:github-stats": "#C3F789",
+        "plugin:music-player": "#F89ECE",
+        "plugin:weather": "#61ACEE",
+        "plugin:timezone": "#AB75E9",
+        "plugin:user-info": "#EFBE93",
+        "plugin:display-resolution": "#81FABA",
+        "plugin:theme-detection": "#C3F789",
+        "plugin:temperature": "#F89ECE",
+        "plugin:gauges": "#F89ECE"
+    },
+    "logo_color": "#61ACEE",
+    "modules": [
+        "os",
+        "datetime",
+        "local_ip",
+        "interfaces",
+        "gpu",
+        "user",
+        "plugin:user-info",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 8,
+                "metrics": [
+                    "memory",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "logo_padding": 1,
+    "disable_cache": true,
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    }
+}

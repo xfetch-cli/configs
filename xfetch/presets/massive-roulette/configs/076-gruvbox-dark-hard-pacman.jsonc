@@ -1,0 +1,68 @@
+{
+    "theme": "gruvbox-dark-hard",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#8EC07C",
+        "kernel": "#FE8019",
+        "hostname": "#EBDBB2",
+        "uptime": "#B8BB26",
+        "packages": "#D3869B",
+        "shell": "#FB4934",
+        "terminal": "#7DAEA3",
+        "wm": "#FABD2F",
+        "cpu": "#83A598",
+        "gpu": "#8EC07C",
+        "memory": "#FE8019",
+        "swap": "#EBDBB2",
+        "disk": "#B8BB26",
+        "battery": "#D3869B",
+        "user": "#FB4934",
+        "datetime": "#7DAEA3",
+        "local_ip": "#FABD2F",
+        "interfaces": "#8EC07C",
+        "palette": "#FE8019",
+        "plugin:docker": "#FE8019",
+        "plugin:github-stats": "#EBDBB2",
+        "plugin:music-player": "#B8BB26",
+        "plugin:weather": "#D3869B",
+        "plugin:timezone": "#FB4934",
+        "plugin:user-info": "#7DAEA3",
+        "plugin:display-resolution": "#FABD2F",
+        "plugin:theme-detection": "#83A598",
+        "plugin:temperature": "#8EC07C"
+    },
+    "logo_color": "#FB4934",
+    "modules": [
+        "os",
+        "terminal",
+        "interfaces",
+        "cpu",
+        "plugin:display-resolution",
+        "plugin:music-player"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model} @ {freq}"
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 10,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "GAME OVER"
+}

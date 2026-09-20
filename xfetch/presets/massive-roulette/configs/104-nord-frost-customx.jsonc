@@ -1,0 +1,113 @@
+{
+    "theme": "nord-frost",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "+---- {title} ----{fill}+",
+        "bottom": "+{fill}+",
+        "left": "|",
+        "right": "|",
+        "fill": "-",
+        "group_title": "| {title} |",
+        "width": 70
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Machine",
+            "modules": [
+                "os",
+                "disk",
+                "hostname",
+                "memory",
+                "gpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "swap",
+                "terminal",
+                "datetime",
+                "user",
+                "plugin:timezone"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "uptime",
+                "local_ip",
+                "cpu",
+                "shell"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#81A1C1",
+        "kernel": "#EBCB8B",
+        "hostname": "#8FBCBB",
+        "uptime": "#5E81AC",
+        "packages": "#D08770",
+        "shell": "#88C0D0",
+        "terminal": "#A3BE8C",
+        "wm": "#E5E9F0",
+        "cpu": "#81A1C1",
+        "gpu": "#EBCB8B",
+        "memory": "#8FBCBB",
+        "swap": "#5E81AC",
+        "disk": "#D08770",
+        "battery": "#88C0D0",
+        "user": "#A3BE8C",
+        "datetime": "#E5E9F0",
+        "local_ip": "#81A1C1",
+        "interfaces": "#8FBCBB",
+        "palette": "#5E81AC",
+        "plugin:docker": "#A3BE8C",
+        "plugin:github-stats": "#E5E9F0",
+        "plugin:music-player": "#81A1C1",
+        "plugin:weather": "#EBCB8B",
+        "plugin:timezone": "#8FBCBB",
+        "plugin:user-info": "#5E81AC",
+        "plugin:display-resolution": "#D08770",
+        "plugin:theme-detection": "#88C0D0",
+        "plugin:temperature": "#A3BE8C"
+    },
+    "logo_color": "#A3BE8C",
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "gpu": "{model}",
+        "memory": "{used} de {total}",
+        "datetime": "{time}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "full",
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 1200,
+        "fps": 30
+    },
+    "logo_gap": 14,
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "wave",
+        "fps": 12,
+        "duration_ms": 1400,
+        "loop": false
+    }
+}

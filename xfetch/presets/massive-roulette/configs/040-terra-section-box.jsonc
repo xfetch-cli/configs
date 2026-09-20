@@ -1,0 +1,60 @@
+{
+    "theme": "terra",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#CC5268",
+        "kernel": "#FA4B34",
+        "hostname": "#64E7A8",
+        "uptime": "#51C0AC",
+        "packages": "#4DD3E5",
+        "shell": "#BB5285",
+        "terminal": "#CC5268",
+        "wm": "#FA4B34",
+        "cpu": "#64E7A8",
+        "gpu": "#51C0AC",
+        "memory": "#4DD3E5",
+        "swap": "#BB5285",
+        "disk": "#CC5268",
+        "battery": "#FA4B34",
+        "user": "#64E7A8",
+        "datetime": "#51C0AC",
+        "local_ip": "#4DD3E5",
+        "interfaces": "#CC5268",
+        "palette": "#FA4B34",
+        "plugin:docker": "#64E7A8",
+        "plugin:github-stats": "#51C0AC",
+        "plugin:music-player": "#4DD3E5",
+        "plugin:weather": "#BB5285",
+        "plugin:timezone": "#CC5268",
+        "plugin:user-info": "#FA4B34",
+        "plugin:display-resolution": "#64E7A8",
+        "plugin:theme-detection": "#51C0AC",
+        "plugin:temperature": "#4DD3E5"
+    },
+    "logo_color": "#FA4B34",
+    "modules": [
+        "os",
+        "wm",
+        "datetime",
+        "user",
+        "battery",
+        "palette",
+        "shell"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "os": "{distro} {version}",
+        "datetime": "{value}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "full",
+    "logo_gap": 14
+}

@@ -1,0 +1,78 @@
+{
+    "theme": "nord-aurora",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#5E81AC",
+        "kernel": "#B48EAD",
+        "hostname": "#BF616A",
+        "uptime": "#D8DEE9",
+        "packages": "#D08770",
+        "shell": "#88C0D0",
+        "terminal": "#EBCB8B",
+        "wm": "#81A1C1",
+        "cpu": "#A3BE8C",
+        "gpu": "#5E81AC",
+        "memory": "#B48EAD",
+        "swap": "#BF616A",
+        "disk": "#D8DEE9",
+        "battery": "#D08770",
+        "user": "#88C0D0",
+        "datetime": "#EBCB8B",
+        "local_ip": "#81A1C1",
+        "interfaces": "#5E81AC",
+        "palette": "#B48EAD",
+        "plugin:docker": "#D08770",
+        "plugin:github-stats": "#88C0D0",
+        "plugin:music-player": "#EBCB8B",
+        "plugin:weather": "#81A1C1",
+        "plugin:timezone": "#A3BE8C",
+        "plugin:user-info": "#5E81AC",
+        "plugin:display-resolution": "#B48EAD",
+        "plugin:theme-detection": "#BF616A",
+        "plugin:temperature": "#D8DEE9"
+    },
+    "logo_color": "#EBCB8B",
+    "modules": [
+        "os",
+        "local_ip",
+        "uptime",
+        "swap",
+        "datetime",
+        "plugin:music-player",
+        "plugin:timezone",
+        "palette"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "logo_colors": [
+        "#5E81AC",
+        "#B48EAD",
+        "#BF616A",
+        "#D8DEE9"
+    ],
+    "disable_ip_fetching": true
+}

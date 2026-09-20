@@ -1,0 +1,85 @@
+{
+    "theme": "cosmos",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#3930F7",
+        "kernel": "#E1A14E",
+        "hostname": "#C2C938",
+        "uptime": "#F85040",
+        "packages": "#3F7FD2",
+        "shell": "#29BFCD",
+        "terminal": "#3930F7",
+        "wm": "#E1A14E",
+        "cpu": "#C2C938",
+        "gpu": "#F85040",
+        "memory": "#3F7FD2",
+        "swap": "#29BFCD",
+        "disk": "#3930F7",
+        "battery": "#E1A14E",
+        "user": "#C2C938",
+        "datetime": "#F85040",
+        "local_ip": "#3F7FD2",
+        "interfaces": "#3930F7",
+        "palette": "#E1A14E",
+        "plugin:docker": "#C2C938",
+        "plugin:github-stats": "#F85040",
+        "plugin:music-player": "#3F7FD2",
+        "plugin:weather": "#29BFCD",
+        "plugin:timezone": "#3930F7",
+        "plugin:user-info": "#E1A14E",
+        "plugin:display-resolution": "#C2C938",
+        "plugin:theme-detection": "#F85040",
+        "plugin:temperature": "#3F7FD2"
+    },
+    "logo_color": "#3930F7",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Machine",
+            "modules": [
+                "os",
+                "swap",
+                "palette"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "interfaces",
+                "terminal",
+                "kernel"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "wm",
+                "memory"
+            ]
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "logo_colors": [
+        "#3930F7",
+        "#E1A14E",
+        "#C2C938",
+        "#F85040"
+    ],
+    "disable_cache": true
+}

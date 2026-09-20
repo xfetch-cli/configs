@@ -1,0 +1,67 @@
+{
+    "theme": "ember",
+    "ascii": "~/.config/xfetch/logos/rhel.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#E475FA",
+        "kernel": "#5EAFD7",
+        "hostname": "#DB9979",
+        "uptime": "#65F6B9",
+        "packages": "#E73982",
+        "shell": "#8EEF7A",
+        "terminal": "#E475FA",
+        "wm": "#5EAFD7",
+        "cpu": "#DB9979",
+        "gpu": "#65F6B9",
+        "memory": "#E73982",
+        "swap": "#8EEF7A",
+        "disk": "#E475FA",
+        "battery": "#5EAFD7",
+        "user": "#DB9979",
+        "datetime": "#65F6B9",
+        "local_ip": "#E73982",
+        "interfaces": "#E475FA",
+        "palette": "#5EAFD7",
+        "plugin:docker": "#DB9979",
+        "plugin:github-stats": "#65F6B9",
+        "plugin:music-player": "#E73982",
+        "plugin:weather": "#8EEF7A",
+        "plugin:timezone": "#E475FA",
+        "plugin:user-info": "#5EAFD7",
+        "plugin:display-resolution": "#DB9979",
+        "plugin:theme-detection": "#65F6B9",
+        "plugin:temperature": "#E73982"
+    },
+    "logo_color": "#E73982",
+    "modules": [
+        "os",
+        "terminal",
+        "battery",
+        "gpu",
+        "local_ip",
+        "wm",
+        "datetime",
+        "plugin:music-player"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "gpu": "{name}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "disable_ip_fetching": true
+}

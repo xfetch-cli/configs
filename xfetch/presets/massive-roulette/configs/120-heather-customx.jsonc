@@ -1,0 +1,147 @@
+{
+    "theme": "heather",
+    "ascii": "~/.config/xfetch/logos/rhel.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╭──────── {title} ────────{fill}╮",
+        "bottom": "╰{fill}╯",
+        "left": "│",
+        "right": "│",
+        "fill": "─",
+        "padding": 2,
+        "group_title": "├─ {title} {fill}",
+        "module_top": "│{fill}│",
+        "divider_between": "none"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Core",
+            "modules": [
+                "os",
+                "datetime",
+                "packages",
+                "shell",
+                "wm"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Devices",
+            "modules": [
+                "hostname",
+                "swap",
+                "gpu",
+                "local_ip",
+                "plugin:theme-detection"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "kernel",
+                "uptime",
+                "user"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "colors": {
+        "os": "#DA884A",
+        "kernel": "#E283B9",
+        "hostname": "#55ADF0",
+        "uptime": "#ADFA48",
+        "packages": "#49D586",
+        "shell": "#A46CEE",
+        "terminal": "#DA884A",
+        "wm": "#E283B9",
+        "cpu": "#55ADF0",
+        "gpu": "#ADFA48",
+        "memory": "#49D586",
+        "swap": "#A46CEE",
+        "disk": "#DA884A",
+        "battery": "#E283B9",
+        "user": "#55ADF0",
+        "datetime": "#ADFA48",
+        "local_ip": "#49D586",
+        "interfaces": "#DA884A",
+        "palette": "#E283B9",
+        "plugin:docker": "#55ADF0",
+        "plugin:github-stats": "#ADFA48",
+        "plugin:music-player": "#49D586",
+        "plugin:weather": "#A46CEE",
+        "plugin:timezone": "#DA884A",
+        "plugin:user-info": "#E283B9",
+        "plugin:display-resolution": "#55ADF0",
+        "plugin:theme-detection": "#ADFA48",
+        "plugin:temperature": "#49D586",
+        "plugin:gauges": "#49D586"
+    },
+    "logo_color": "#55ADF0",
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{value}",
+        "uptime": "{value}",
+        "battery": "{percent}%"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 1100,
+        "fps": 30
+    },
+    "logo_gap": 12,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-7",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "theme": "starlight",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#24BAC5",
+        "kernel": "#BECA1A",
+        "hostname": "#38E143",
+        "uptime": "#352BBE",
+        "packages": "#E14D43",
+        "shell": "#D03DC6",
+        "terminal": "#24BAC5",
+        "wm": "#BECA1A",
+        "cpu": "#38E143",
+        "gpu": "#352BBE",
+        "memory": "#E14D43",
+        "swap": "#D03DC6",
+        "disk": "#24BAC5",
+        "battery": "#BECA1A",
+        "user": "#38E143",
+        "datetime": "#352BBE",
+        "local_ip": "#E14D43",
+        "interfaces": "#24BAC5",
+        "palette": "#BECA1A",
+        "plugin:docker": "#38E143",
+        "plugin:github-stats": "#352BBE",
+        "plugin:music-player": "#E14D43",
+        "plugin:weather": "#D03DC6",
+        "plugin:timezone": "#24BAC5",
+        "plugin:user-info": "#BECA1A",
+        "plugin:display-resolution": "#38E143",
+        "plugin:theme-detection": "#352BBE",
+        "plugin:temperature": "#E14D43"
+    },
+    "logo_color": "#24BAC5",
+    "modules": [
+        "os",
+        "palette",
+        "memory",
+        "disk",
+        "battery",
+        "terminal",
+        "plugin:user-info"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "disk": "{value}",
+        "os": "{distro} · {arch}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 10
+}

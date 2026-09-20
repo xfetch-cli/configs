@@ -1,0 +1,55 @@
+{
+    "theme": "jellybeans",
+    "ascii": "~/.config/xfetch/logos/nitrux.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#CF6A4C",
+        "kernel": "#8197BF",
+        "hostname": "#8FBFDC",
+        "uptime": "#FAD07A",
+        "packages": "#99AD6A",
+        "shell": "#E8E8D3",
+        "terminal": "#C6B6EE",
+        "wm": "#CF6A4C",
+        "cpu": "#8197BF",
+        "gpu": "#8FBFDC",
+        "memory": "#FAD07A",
+        "swap": "#99AD6A",
+        "disk": "#E8E8D3",
+        "battery": "#C6B6EE",
+        "user": "#CF6A4C",
+        "datetime": "#8197BF",
+        "local_ip": "#8FBFDC",
+        "interfaces": "#99AD6A",
+        "palette": "#E8E8D3",
+        "plugin:docker": "#C6B6EE",
+        "plugin:github-stats": "#CF6A4C",
+        "plugin:music-player": "#8197BF",
+        "plugin:weather": "#8FBFDC",
+        "plugin:timezone": "#FAD07A",
+        "plugin:user-info": "#99AD6A",
+        "plugin:display-resolution": "#E8E8D3",
+        "plugin:theme-detection": "#C6B6EE",
+        "plugin:temperature": "#CF6A4C"
+    },
+    "logo_color": "#99AD6A",
+    "modules": [
+        "os",
+        "interfaces",
+        "shell",
+        "disk"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "disk": "{percent}% en {fs}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

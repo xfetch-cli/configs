@@ -1,0 +1,68 @@
+{
+    "theme": "chiffon",
+    "ascii": "~/.config/xfetch/logos/arch.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#D286FA",
+        "kernel": "#6A8AD5",
+        "hostname": "#5AF2C1",
+        "uptime": "#9FFA71",
+        "packages": "#D6BA78",
+        "shell": "#FA6E9B",
+        "terminal": "#D286FA",
+        "wm": "#6A8AD5",
+        "cpu": "#5AF2C1",
+        "gpu": "#9FFA71",
+        "memory": "#D6BA78",
+        "swap": "#FA6E9B",
+        "disk": "#D286FA",
+        "battery": "#6A8AD5",
+        "user": "#5AF2C1",
+        "datetime": "#9FFA71",
+        "local_ip": "#D6BA78",
+        "interfaces": "#D286FA",
+        "palette": "#6A8AD5",
+        "plugin:docker": "#D6BA78",
+        "plugin:github-stats": "#FA6E9B",
+        "plugin:music-player": "#D286FA",
+        "plugin:weather": "#6A8AD5",
+        "plugin:timezone": "#5AF2C1",
+        "plugin:user-info": "#9FFA71",
+        "plugin:display-resolution": "#D6BA78",
+        "plugin:theme-detection": "#FA6E9B",
+        "plugin:temperature": "#D286FA"
+    },
+    "logo_color": "#6A8AD5",
+    "modules": [
+        "os",
+        "memory",
+        "terminal",
+        "local_ip",
+        "gpu",
+        "plugin:timezone"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "gpu": "{name}",
+        "memory": "{used} de {total}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 8,
+    "logo_gap": 10,
+    "logo_padding": 1
+}

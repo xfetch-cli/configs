@@ -1,0 +1,79 @@
+{
+    "theme": "boreal",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "side-block",
+    "show_colors": true,
+    "colors": {
+        "os": "#B967E8",
+        "kernel": "#97DB70",
+        "hostname": "#E55E49",
+        "uptime": "#5AC8D9",
+        "packages": "#FA88CE",
+        "shell": "#59F495",
+        "terminal": "#B967E8",
+        "wm": "#97DB70",
+        "cpu": "#E55E49",
+        "gpu": "#5AC8D9",
+        "memory": "#FA88CE",
+        "swap": "#59F495",
+        "disk": "#B967E8",
+        "battery": "#97DB70",
+        "user": "#E55E49",
+        "datetime": "#5AC8D9",
+        "local_ip": "#FA88CE",
+        "interfaces": "#B967E8",
+        "palette": "#97DB70",
+        "plugin:docker": "#E55E49",
+        "plugin:github-stats": "#5AC8D9",
+        "plugin:music-player": "#FA88CE",
+        "plugin:weather": "#59F495",
+        "plugin:timezone": "#B967E8",
+        "plugin:user-info": "#97DB70",
+        "plugin:display-resolution": "#E55E49",
+        "plugin:theme-detection": "#5AC8D9",
+        "plugin:temperature": "#FA88CE"
+    },
+    "logo_color": "#FA88CE",
+    "modules": [
+        "os",
+        "battery",
+        "terminal",
+        "gpu",
+        "user",
+        "packages",
+        "interfaces",
+        "shell",
+        "kernel",
+        "plugin:temperature",
+        "plugin:github-stats"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "gpu": "{name}",
+        "os": "{value}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "off",
+    "logo_gap": 10,
+    "logo_padding": 1
+}

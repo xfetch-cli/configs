@@ -1,0 +1,51 @@
+{
+    "theme": "seafoam",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#C5C13C",
+        "kernel": "#40A93C",
+        "hostname": "#5A5DAF",
+        "uptime": "#D44449",
+        "packages": "#B84CBC",
+        "shell": "#63B0AE",
+        "terminal": "#C5C13C",
+        "wm": "#40A93C",
+        "cpu": "#5A5DAF",
+        "gpu": "#D44449",
+        "memory": "#B84CBC",
+        "swap": "#63B0AE",
+        "disk": "#C5C13C",
+        "battery": "#40A93C",
+        "user": "#5A5DAF",
+        "datetime": "#D44449",
+        "local_ip": "#B84CBC",
+        "interfaces": "#C5C13C",
+        "palette": "#40A93C",
+        "plugin:docker": "#5A5DAF",
+        "plugin:github-stats": "#D44449",
+        "plugin:music-player": "#B84CBC",
+        "plugin:weather": "#63B0AE",
+        "plugin:timezone": "#C5C13C",
+        "plugin:user-info": "#40A93C",
+        "plugin:display-resolution": "#5A5DAF",
+        "plugin:theme-detection": "#D44449",
+        "plugin:temperature": "#B84CBC"
+    },
+    "logo_color": "#B84CBC",
+    "modules": [
+        "os",
+        "user",
+        "terminal",
+        "battery"
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 16,
+    "logo_padding": 1
+}

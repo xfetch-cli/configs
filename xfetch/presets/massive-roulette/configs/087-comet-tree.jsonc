@@ -1,0 +1,78 @@
+{
+    "theme": "comet",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#1ACA3D",
+        "kernel": "#39ACCC",
+        "hostname": "#4F37C0",
+        "uptime": "#EC32C7",
+        "packages": "#CD4C28",
+        "shell": "#BBD24F",
+        "terminal": "#1ACA3D",
+        "wm": "#39ACCC",
+        "cpu": "#4F37C0",
+        "gpu": "#EC32C7",
+        "memory": "#CD4C28",
+        "swap": "#BBD24F",
+        "disk": "#1ACA3D",
+        "battery": "#39ACCC",
+        "user": "#4F37C0",
+        "datetime": "#EC32C7",
+        "local_ip": "#CD4C28",
+        "interfaces": "#1ACA3D",
+        "palette": "#39ACCC",
+        "plugin:docker": "#4F37C0",
+        "plugin:github-stats": "#EC32C7",
+        "plugin:music-player": "#CD4C28",
+        "plugin:weather": "#BBD24F",
+        "plugin:timezone": "#1ACA3D",
+        "plugin:user-info": "#39ACCC",
+        "plugin:display-resolution": "#4F37C0",
+        "plugin:theme-detection": "#EC32C7",
+        "plugin:temperature": "#CD4C28"
+    },
+    "logo_color": "#1ACA3D",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Machine",
+            "modules": [
+                "os",
+                "hostname",
+                "user"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "shell",
+                "uptime",
+                "plugin:docker"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "kernel",
+                "disk"
+            ]
+        }
+    ],
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "uptime": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

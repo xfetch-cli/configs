@@ -1,0 +1,119 @@
+{
+    "theme": "mauve",
+    "ascii": "~/.config/xfetch/logos/arch.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#C7644E",
+        "kernel": "#D5EB75",
+        "hostname": "#56B1C5",
+        "uptime": "#C92CAC",
+        "packages": "#7C65E3",
+        "shell": "#52CA68",
+        "terminal": "#C7644E",
+        "wm": "#D5EB75",
+        "cpu": "#56B1C5",
+        "gpu": "#C92CAC",
+        "memory": "#7C65E3",
+        "swap": "#52CA68",
+        "disk": "#C7644E",
+        "battery": "#D5EB75",
+        "user": "#56B1C5",
+        "datetime": "#C92CAC",
+        "local_ip": "#7C65E3",
+        "interfaces": "#C7644E",
+        "palette": "#D5EB75",
+        "plugin:docker": "#56B1C5",
+        "plugin:github-stats": "#C92CAC",
+        "plugin:music-player": "#7C65E3",
+        "plugin:weather": "#52CA68",
+        "plugin:timezone": "#C7644E",
+        "plugin:user-info": "#D5EB75",
+        "plugin:display-resolution": "#56B1C5",
+        "plugin:theme-detection": "#C92CAC",
+        "plugin:temperature": "#7C65E3",
+        "plugin:gauges": "#7C65E3"
+    },
+    "logo_color": "#56B1C5",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "battery",
+                "interfaces"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "palette",
+                "gpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "shell",
+                "hostname"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "battery": "{value}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 20,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

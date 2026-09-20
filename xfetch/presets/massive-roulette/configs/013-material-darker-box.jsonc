@@ -1,0 +1,117 @@
+{
+    "theme": "material-darker",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#C3E88D",
+        "kernel": "#FFCB6B",
+        "hostname": "#F78C6C",
+        "uptime": "#FF5370",
+        "packages": "#EEFFFF",
+        "shell": "#82AAFF",
+        "terminal": "#C792EA",
+        "wm": "#89DDFF",
+        "cpu": "#C3E88D",
+        "gpu": "#FFCB6B",
+        "memory": "#F78C6C",
+        "swap": "#FF5370",
+        "disk": "#EEFFFF",
+        "battery": "#82AAFF",
+        "user": "#C792EA",
+        "datetime": "#89DDFF",
+        "local_ip": "#C3E88D",
+        "interfaces": "#F78C6C",
+        "palette": "#FF5370",
+        "plugin:docker": "#F78C6C",
+        "plugin:github-stats": "#FF5370",
+        "plugin:music-player": "#EEFFFF",
+        "plugin:weather": "#82AAFF",
+        "plugin:timezone": "#C792EA",
+        "plugin:user-info": "#89DDFF",
+        "plugin:display-resolution": "#C3E88D",
+        "plugin:theme-detection": "#FFCB6B",
+        "plugin:temperature": "#F78C6C",
+        "plugin:gauges": "#F78C6C"
+    },
+    "logo_color": "#89DDFF",
+    "modules": [
+        "os",
+        "wm",
+        "local_ip",
+        "packages",
+        "plugin:timezone",
+        "plugin:user-info",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 20,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk"
+                ],
+                "include_tmpfs": true,
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro}",
+        "packages": "{count} ({manager})"
+    },
+    "os_wsl_style": "full",
+    "logo_gap": 8,
+    "logo_colors": [
+        "#C3E88D",
+        "#FFCB6B",
+        "#F78C6C",
+        "#FF5370"
+    ],
+    "disable_ip_fetching": true,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    }
+}

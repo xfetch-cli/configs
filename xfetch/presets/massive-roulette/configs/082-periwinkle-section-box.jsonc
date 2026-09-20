@@ -1,0 +1,83 @@
+{
+    "theme": "periwinkle",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#36AECB",
+        "kernel": "#5334C6",
+        "hostname": "#CB3AA9",
+        "uptime": "#C74D30",
+        "packages": "#9DC214",
+        "shell": "#5ADD79",
+        "terminal": "#36AECB",
+        "wm": "#5334C6",
+        "cpu": "#CB3AA9",
+        "gpu": "#C74D30",
+        "memory": "#9DC214",
+        "swap": "#5ADD79",
+        "disk": "#36AECB",
+        "battery": "#5334C6",
+        "user": "#CB3AA9",
+        "datetime": "#C74D30",
+        "local_ip": "#9DC214",
+        "interfaces": "#36AECB",
+        "palette": "#5334C6",
+        "plugin:docker": "#CB3AA9",
+        "plugin:github-stats": "#C74D30",
+        "plugin:music-player": "#9DC214",
+        "plugin:weather": "#5ADD79",
+        "plugin:timezone": "#36AECB",
+        "plugin:user-info": "#5334C6",
+        "plugin:display-resolution": "#CB3AA9",
+        "plugin:theme-detection": "#C74D30",
+        "plugin:temperature": "#9DC214"
+    },
+    "logo_color": "#36AECB",
+    "modules": [
+        {
+            "type": "group",
+            "title": "System",
+            "modules": [
+                "os",
+                "cpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "uptime",
+                "disk"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Network",
+            "modules": [
+                "hostname",
+                "plugin:github-stats"
+            ]
+        }
+    ],
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{value}",
+        "disk": "{value}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 10
+}

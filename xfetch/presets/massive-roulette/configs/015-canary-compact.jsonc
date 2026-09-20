@@ -1,0 +1,71 @@
+{
+    "theme": "canary",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#698BD3",
+        "kernel": "#F3BE4A",
+        "hostname": "#42D0C7",
+        "uptime": "#EB747C",
+        "packages": "#9E57FA",
+        "shell": "#BDEE7B",
+        "terminal": "#698BD3",
+        "wm": "#F3BE4A",
+        "cpu": "#42D0C7",
+        "gpu": "#EB747C",
+        "memory": "#9E57FA",
+        "swap": "#BDEE7B",
+        "disk": "#698BD3",
+        "battery": "#F3BE4A",
+        "user": "#42D0C7",
+        "datetime": "#EB747C",
+        "local_ip": "#9E57FA",
+        "interfaces": "#698BD3",
+        "palette": "#F3BE4A",
+        "plugin:docker": "#42D0C7",
+        "plugin:github-stats": "#EB747C",
+        "plugin:music-player": "#9E57FA",
+        "plugin:weather": "#BDEE7B",
+        "plugin:timezone": "#698BD3",
+        "plugin:user-info": "#F3BE4A",
+        "plugin:display-resolution": "#42D0C7",
+        "plugin:theme-detection": "#EB747C",
+        "plugin:temperature": "#9E57FA"
+    },
+    "logo_color": "#EB747C",
+    "modules": [
+        "os",
+        "swap",
+        "battery",
+        "plugin:music-player",
+        "plugin:github-stats"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "logo_colors": [
+        "#698BD3",
+        "#F3BE4A",
+        "#42D0C7"
+    ]
+}

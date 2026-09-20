@@ -1,0 +1,106 @@
+{
+    "theme": "storm",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "✧ {title} {fill}✧",
+        "bottom": "✧{fill}✧",
+        "left": " ",
+        "right": " ",
+        "fill": "·",
+        "group_title": "✧ {title} ✧",
+        "divider_between": "groups"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "user",
+                "kernel",
+                "battery"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "shell",
+                "uptime",
+                "terminal"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "packages",
+                "disk",
+                "wm",
+                "cpu"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#5019F7",
+        "kernel": "#3CBDE8",
+        "hostname": "#AAD724",
+        "uptime": "#CB1FA0",
+        "packages": "#C96240",
+        "shell": "#3BBA5B",
+        "terminal": "#5019F7",
+        "wm": "#3CBDE8",
+        "cpu": "#AAD724",
+        "gpu": "#CB1FA0",
+        "memory": "#C96240",
+        "swap": "#3BBA5B",
+        "disk": "#5019F7",
+        "battery": "#3CBDE8",
+        "user": "#AAD724",
+        "datetime": "#CB1FA0",
+        "local_ip": "#C96240",
+        "interfaces": "#5019F7",
+        "palette": "#3CBDE8",
+        "plugin:docker": "#AAD724",
+        "plugin:github-stats": "#CB1FA0",
+        "plugin:music-player": "#C96240",
+        "plugin:weather": "#3BBA5B",
+        "plugin:timezone": "#5019F7",
+        "plugin:user-info": "#3CBDE8",
+        "plugin:display-resolution": "#AAD724",
+        "plugin:theme-detection": "#CB1FA0",
+        "plugin:temperature": "#C96240"
+    },
+    "logo_color": "#CB1FA0",
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "cpu": "{model}",
+        "os": "{value}",
+        "uptime": "{hours}h {mins}m",
+        "packages": "{value}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 10,
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 2000,
+        "fps": 30
+    },
+    "logo_colors": [
+        "#5019F7",
+        "#3CBDE8",
+        "#AAD724"
+    ],
+    "logo_gap": 14
+}

@@ -1,0 +1,58 @@
+{
+    "theme": "x",
+    "ascii": "~/.config/xfetch/logos/artix.txt",
+    "layout": "section",
+    "os_wsl_style": "minimal",
+    "modules": [
+        "os",
+        "kernel",
+        "uptime",
+        "packages",
+        "wm",
+        "shell",
+        "cpu",
+        "gpu",
+        "memory",
+        "disk"
+    ],
+    "show_colors": true,
+    "colors": {
+        "os": "#7bd88f",
+        "kernel": "#fd9353",
+        "hostname": "#948ae3",
+        "uptime": "#fc618d",
+        "packages": "#7bd88f",
+        "shell": "#7bd88f",
+        "terminal": "#5ad4e6",
+        "wm": "#fd9353",
+        "cpu": "#fc618d",
+        "gpu": "#948ae3",
+        "memory": "#fce566",
+        "swap": "#fc618d",
+        "disk": "#5ad4e6",
+        "battery": "#7bd88f",
+        "user": "#948ae3",
+        "datetime": "#5ad4e6",
+        "local_ip": "#fd9353",
+        "palette": "#7bd88f",
+        "plugin:docker": "#5ad4e6",
+        "plugin:github-stats": "#fd9353",
+        "plugin:music-player": "#fce566",
+        "plugin:weather": "#5ad4e6",
+        "plugin:timezone": "#fd9353",
+        "plugin:user-info": "#948ae3",
+        "plugin:display-resolution": "#7bd88f",
+        "plugin:theme-detection": "#fd9353"
+    },
+    "logo_color": "#948ae3",
+    "config_providers": [
+        {
+            "extension": "config-roulette",
+            "args": {
+                "routes": "~/.config/xfetch/fetchs/massive-roulette/routes.json",
+                "strategy": "random"
+            },
+            "timeout_secs": 5
+        }
+    ]
+}

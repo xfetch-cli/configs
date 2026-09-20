@@ -1,0 +1,70 @@
+{
+    "theme": "peony",
+    "ascii": "~/.config/xfetch/logos/bedrock.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#802FFA",
+        "kernel": "#D6B841",
+        "hostname": "#EAFA57",
+        "uptime": "#A8F92F",
+        "packages": "#3C62FA",
+        "shell": "#6759E5",
+        "terminal": "#802FFA",
+        "wm": "#D6B841",
+        "cpu": "#EAFA57",
+        "gpu": "#A8F92F",
+        "memory": "#3C62FA",
+        "swap": "#6759E5",
+        "disk": "#802FFA",
+        "battery": "#D6B841",
+        "user": "#EAFA57",
+        "datetime": "#A8F92F",
+        "local_ip": "#3C62FA",
+        "interfaces": "#802FFA",
+        "palette": "#D6B841",
+        "plugin:docker": "#EAFA57",
+        "plugin:github-stats": "#A8F92F",
+        "plugin:music-player": "#3C62FA",
+        "plugin:weather": "#6759E5",
+        "plugin:timezone": "#802FFA",
+        "plugin:user-info": "#D6B841",
+        "plugin:display-resolution": "#EAFA57",
+        "plugin:theme-detection": "#A8F92F",
+        "plugin:temperature": "#3C62FA"
+    },
+    "logo_color": "#802FFA",
+    "modules": [
+        "os",
+        "interfaces",
+        "uptime",
+        "terminal",
+        "shell",
+        "swap",
+        "hostname",
+        "plugin:docker"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 16,
+    "logo_colors": [
+        "#802FFA",
+        "#D6B841",
+        "#EAFA57",
+        "#A8F92F",
+        "#3C62FA",
+        "#6759E5"
+    ]
+}

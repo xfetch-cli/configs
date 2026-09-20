@@ -1,0 +1,68 @@
+{
+    "theme": "jasper",
+    "ascii": "~/.config/xfetch/logos/rhel.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#51E28B",
+        "kernel": "#5CA6D8",
+        "hostname": "#CB3E93",
+        "uptime": "#B5FA4D",
+        "packages": "#FAAA76",
+        "shell": "#8F47FA",
+        "terminal": "#51E28B",
+        "wm": "#5CA6D8",
+        "cpu": "#CB3E93",
+        "gpu": "#B5FA4D",
+        "memory": "#FAAA76",
+        "swap": "#8F47FA",
+        "disk": "#51E28B",
+        "battery": "#5CA6D8",
+        "user": "#CB3E93",
+        "datetime": "#B5FA4D",
+        "local_ip": "#FAAA76",
+        "interfaces": "#51E28B",
+        "palette": "#5CA6D8",
+        "plugin:docker": "#CB3E93",
+        "plugin:github-stats": "#B5FA4D",
+        "plugin:music-player": "#FAAA76",
+        "plugin:weather": "#8F47FA",
+        "plugin:timezone": "#51E28B",
+        "plugin:user-info": "#5CA6D8",
+        "plugin:display-resolution": "#CB3E93",
+        "plugin:theme-detection": "#B5FA4D",
+        "plugin:temperature": "#FAAA76"
+    },
+    "logo_color": "#CB3E93",
+    "modules": [
+        "os",
+        "wm",
+        "packages",
+        "terminal",
+        "user",
+        "local_ip"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "os": "{distro} {version}",
+        "packages": "{count} ({manager})"
+    },
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 14,
+    "logo_colors": [
+        "#51E28B",
+        "#5CA6D8",
+        "#CB3E93",
+        "#B5FA4D",
+        "#FAAA76",
+        "#8F47FA"
+    ]
+}

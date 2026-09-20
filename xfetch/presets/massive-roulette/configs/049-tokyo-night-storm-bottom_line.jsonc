@@ -1,0 +1,58 @@
+{
+    "theme": "tokyo-night-storm",
+    "ascii": "~/.config/xfetch/logos/alma.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#41A6B5",
+        "kernel": "#7DCFFF",
+        "hostname": "#F7768E",
+        "uptime": "#E0AF68",
+        "packages": "#9ECE6A",
+        "shell": "#9D7CD8",
+        "terminal": "#7AA2F7",
+        "wm": "#C0CAF5",
+        "cpu": "#41A6B5",
+        "gpu": "#7DCFFF",
+        "memory": "#F7768E",
+        "swap": "#E0AF68",
+        "disk": "#9ECE6A",
+        "battery": "#9D7CD8",
+        "user": "#7AA2F7",
+        "datetime": "#C0CAF5",
+        "local_ip": "#41A6B5",
+        "interfaces": "#F7768E",
+        "palette": "#E0AF68",
+        "plugin:docker": "#7AA2F7",
+        "plugin:github-stats": "#C0CAF5",
+        "plugin:music-player": "#41A6B5",
+        "plugin:weather": "#7DCFFF",
+        "plugin:timezone": "#F7768E",
+        "plugin:user-info": "#E0AF68",
+        "plugin:display-resolution": "#9ECE6A",
+        "plugin:theme-detection": "#9D7CD8",
+        "plugin:temperature": "#7AA2F7"
+    },
+    "logo_color": "#7DCFFF",
+    "modules": [
+        "os",
+        "local_ip",
+        "cpu",
+        "uptime",
+        "shell",
+        "palette"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "cpu": "{value}",
+        "os": "{value}"
+    },
+    "os_wsl_style": "full",
+    "logo_gap": 16
+}

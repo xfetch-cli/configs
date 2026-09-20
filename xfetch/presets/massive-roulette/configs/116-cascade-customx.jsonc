@@ -1,0 +1,113 @@
+{
+    "theme": "cascade",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╔═╡ {title} ╞═{fill}╗",
+        "bottom": "╚{fill}╝",
+        "left": "║",
+        "right": "║",
+        "fill": "═",
+        "group_title": "╠═ {title} ═{fill}",
+        "module_top": "╟{fill}╢",
+        "module_bottom": "╟{fill}╢",
+        "width": "full"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Specs",
+            "modules": [
+                "os",
+                "uptime",
+                "datetime",
+                "disk",
+                "plugin:github-stats"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "OS",
+            "modules": [
+                "kernel",
+                "gpu",
+                "packages",
+                "memory",
+                "plugin:theme-detection"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Network",
+            "modules": [
+                "hostname",
+                "user",
+                "local_ip"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#BE8571",
+        "kernel": "#D5EC86",
+        "hostname": "#54E678",
+        "uptime": "#54A9C8",
+        "packages": "#9D87E7",
+        "shell": "#F95BD2",
+        "terminal": "#BE8571",
+        "wm": "#D5EC86",
+        "cpu": "#54E678",
+        "gpu": "#54A9C8",
+        "memory": "#9D87E7",
+        "swap": "#F95BD2",
+        "disk": "#BE8571",
+        "battery": "#D5EC86",
+        "user": "#54E678",
+        "datetime": "#54A9C8",
+        "local_ip": "#9D87E7",
+        "interfaces": "#BE8571",
+        "palette": "#D5EC86",
+        "plugin:docker": "#54E678",
+        "plugin:github-stats": "#54A9C8",
+        "plugin:music-player": "#9D87E7",
+        "plugin:weather": "#F95BD2",
+        "plugin:timezone": "#BE8571",
+        "plugin:user-info": "#D5EC86",
+        "plugin:display-resolution": "#54E678",
+        "plugin:theme-detection": "#54A9C8",
+        "plugin:temperature": "#9D87E7"
+    },
+    "logo_color": "#9D87E7",
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        },
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "gpu": "{value}",
+        "os": "{distro} {version}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "full",
+    "show_keys": true,
+    "key_width": 8,
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 1100,
+        "fps": 24
+    },
+    "logo_gap": 14
+}

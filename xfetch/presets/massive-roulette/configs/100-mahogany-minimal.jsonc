@@ -1,0 +1,97 @@
+{
+    "theme": "mahogany",
+    "ascii": "~/.config/xfetch/logos/garuda.txt",
+    "layout": "minimal",
+    "show_colors": true,
+    "colors": {
+        "os": "#D5822A",
+        "kernel": "#B0FA60",
+        "hostname": "#50FAA4",
+        "uptime": "#52A3FA",
+        "packages": "#7E32D3",
+        "shell": "#F03A96",
+        "terminal": "#D5822A",
+        "wm": "#B0FA60",
+        "cpu": "#50FAA4",
+        "gpu": "#52A3FA",
+        "memory": "#7E32D3",
+        "swap": "#F03A96",
+        "disk": "#D5822A",
+        "battery": "#B0FA60",
+        "user": "#50FAA4",
+        "datetime": "#52A3FA",
+        "local_ip": "#7E32D3",
+        "interfaces": "#D5822A",
+        "palette": "#B0FA60",
+        "plugin:docker": "#50FAA4",
+        "plugin:github-stats": "#52A3FA",
+        "plugin:music-player": "#7E32D3",
+        "plugin:weather": "#F03A96",
+        "plugin:timezone": "#D5822A",
+        "plugin:user-info": "#B0FA60",
+        "plugin:display-resolution": "#50FAA4",
+        "plugin:theme-detection": "#52A3FA",
+        "plugin:temperature": "#7E32D3",
+        "plugin:gauges": "#7E32D3"
+    },
+    "logo_color": "#B0FA60",
+    "modules": [
+        "os",
+        "interfaces",
+        "uptime",
+        "wm",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "os": "{distro} {version}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "logo_padding": 0,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 8,
+                "metrics": [
+                    "memory",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-7",
+        "timeout_secs": 3
+    }
+}

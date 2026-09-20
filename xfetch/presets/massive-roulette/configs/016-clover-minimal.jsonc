@@ -1,0 +1,109 @@
+{
+    "theme": "clover",
+    "ascii": "~/.config/xfetch/logos/arch.txt",
+    "layout": "minimal",
+    "show_colors": true,
+    "colors": {
+        "os": "#48EF90",
+        "kernel": "#659AC6",
+        "hostname": "#B187EC",
+        "uptime": "#FA62B9",
+        "packages": "#E6AA78",
+        "shell": "#C3F878",
+        "terminal": "#48EF90",
+        "wm": "#659AC6",
+        "cpu": "#B187EC",
+        "gpu": "#FA62B9",
+        "memory": "#E6AA78",
+        "swap": "#C3F878",
+        "disk": "#48EF90",
+        "battery": "#659AC6",
+        "user": "#B187EC",
+        "datetime": "#FA62B9",
+        "local_ip": "#E6AA78",
+        "interfaces": "#48EF90",
+        "palette": "#659AC6",
+        "plugin:docker": "#B187EC",
+        "plugin:github-stats": "#FA62B9",
+        "plugin:music-player": "#E6AA78",
+        "plugin:weather": "#C3F878",
+        "plugin:timezone": "#48EF90",
+        "plugin:user-info": "#659AC6",
+        "plugin:display-resolution": "#B187EC",
+        "plugin:theme-detection": "#FA62B9",
+        "plugin:temperature": "#E6AA78",
+        "plugin:gauges": "#E6AA78"
+    },
+    "logo_color": "#B187EC",
+    "modules": [
+        "os",
+        "wm",
+        "kernel",
+        "local_ip",
+        "swap",
+        "datetime",
+        "memory",
+        "gpu",
+        "uptime",
+        "packages",
+        "palette",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "formats": {
+        "gpu": "{model}",
+        "uptime": "{days}d {hours}h {mins}m"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 8,
+    "logo_colors": [
+        "#48EF90",
+        "#659AC6",
+        "#B187EC",
+        "#FA62B9",
+        "#E6AA78"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 12,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "theme": "espresso",
+    "ascii": "~/.config/xfetch/logos/bodhi.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#C97B6A",
+        "kernel": "#B98FD9",
+        "hostname": "#E6D7C3",
+        "uptime": "#D9A05F",
+        "packages": "#C2A36A",
+        "shell": "#8FA876",
+        "terminal": "#6FA8A0",
+        "wm": "#C97B6A",
+        "cpu": "#B98FD9",
+        "gpu": "#E6D7C3",
+        "memory": "#D9A05F",
+        "swap": "#C2A36A",
+        "disk": "#8FA876",
+        "battery": "#6FA8A0",
+        "user": "#C97B6A",
+        "datetime": "#B98FD9",
+        "local_ip": "#E6D7C3",
+        "interfaces": "#C2A36A",
+        "palette": "#8FA876",
+        "plugin:docker": "#E6D7C3",
+        "plugin:github-stats": "#D9A05F",
+        "plugin:music-player": "#C2A36A",
+        "plugin:weather": "#8FA876",
+        "plugin:timezone": "#6FA8A0",
+        "plugin:user-info": "#C97B6A",
+        "plugin:display-resolution": "#B98FD9",
+        "plugin:theme-detection": "#E6D7C3",
+        "plugin:temperature": "#D9A05F",
+        "plugin:gauges": "#D9A05F"
+    },
+    "logo_color": "#6FA8A0",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "palette",
+                "plugin:display-resolution"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "terminal",
+                "plugin:docker"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "wm",
+                "plugin:github-stats"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        },
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "full",
+    "logo_gap": 14,
+    "logo_colors": [
+        "#C97B6A",
+        "#B98FD9",
+        "#E6D7C3",
+        "#D9A05F",
+        "#C2A36A",
+        "#8FA876"
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

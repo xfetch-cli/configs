@@ -1,0 +1,66 @@
+{
+    "theme": "biscay",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#6FEC38",
+        "kernel": "#35F5BE",
+        "hostname": "#2655D8",
+        "uptime": "#861CB6",
+        "packages": "#CA3560",
+        "shell": "#E3AE1F",
+        "terminal": "#6FEC38",
+        "wm": "#35F5BE",
+        "cpu": "#2655D8",
+        "gpu": "#861CB6",
+        "memory": "#CA3560",
+        "swap": "#E3AE1F",
+        "disk": "#6FEC38",
+        "battery": "#35F5BE",
+        "user": "#2655D8",
+        "datetime": "#861CB6",
+        "local_ip": "#CA3560",
+        "interfaces": "#6FEC38",
+        "palette": "#35F5BE",
+        "plugin:docker": "#2655D8",
+        "plugin:github-stats": "#861CB6",
+        "plugin:music-player": "#CA3560",
+        "plugin:weather": "#E3AE1F",
+        "plugin:timezone": "#6FEC38",
+        "plugin:user-info": "#35F5BE",
+        "plugin:display-resolution": "#2655D8",
+        "plugin:theme-detection": "#861CB6",
+        "plugin:temperature": "#CA3560"
+    },
+    "logo_color": "#CA3560",
+    "modules": [
+        "os",
+        "memory",
+        "cpu",
+        "battery"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "cpu": "{model}",
+        "memory": "{used}/{total} ({percent}%)",
+        "os": "{distro} {version}"
+    },
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 8,
+    "logo_gap": 8,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "XFETCH"
+}

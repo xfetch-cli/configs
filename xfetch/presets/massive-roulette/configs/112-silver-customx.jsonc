@@ -1,0 +1,106 @@
+{
+    "theme": "silver",
+    "ascii": "~/.config/xfetch/logos/bedrock.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "▛▀▀ {title} ▀▀{fill}▜",
+        "bottom": "▙{fill}▟",
+        "left": "▌",
+        "right": "▐",
+        "fill": "▀",
+        "group_title": "▌ {title} ▐{fill}",
+        "module_top": "▄{fill}▄",
+        "width": "full"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Core",
+            "modules": [
+                "os",
+                "terminal",
+                "interfaces",
+                "cpu",
+                "shell"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Devices",
+            "modules": [
+                "packages",
+                "user",
+                "datetime",
+                "wm",
+                "plugin:display-resolution"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "gpu",
+                "uptime",
+                "battery"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#FAA460",
+        "kernel": "#D16BA0",
+        "hostname": "#953DFA",
+        "uptime": "#72BEFA",
+        "packages": "#53D391",
+        "shell": "#ADFA54",
+        "terminal": "#FAA460",
+        "wm": "#D16BA0",
+        "cpu": "#953DFA",
+        "gpu": "#72BEFA",
+        "memory": "#53D391",
+        "swap": "#ADFA54",
+        "disk": "#FAA460",
+        "battery": "#D16BA0",
+        "user": "#953DFA",
+        "datetime": "#72BEFA",
+        "local_ip": "#53D391",
+        "interfaces": "#FAA460",
+        "palette": "#D16BA0",
+        "plugin:docker": "#53D391",
+        "plugin:github-stats": "#ADFA54",
+        "plugin:music-player": "#FAA460",
+        "plugin:weather": "#D16BA0",
+        "plugin:timezone": "#953DFA",
+        "plugin:user-info": "#72BEFA",
+        "plugin:display-resolution": "#53D391",
+        "plugin:theme-detection": "#ADFA54",
+        "plugin:temperature": "#FAA460"
+    },
+    "logo_color": "#72BEFA",
+    "info_plugins": [
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model} @ {freq}",
+        "packages": "{count} ({manager})"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "full",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 500,
+        "fps": 30
+    },
+    "logo_gap": 8,
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "wave",
+        "fps": 12,
+        "duration_ms": 1800,
+        "loop": false
+    }
+}

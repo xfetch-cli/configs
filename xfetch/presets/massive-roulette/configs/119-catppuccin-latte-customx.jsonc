@@ -1,0 +1,155 @@
+{
+    "theme": "catppuccin-latte",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "◤ {title} ◥{fill}",
+        "bottom": "◣{fill}◢",
+        "left": "│",
+        "right": "│",
+        "fill": "▬",
+        "group_title": "◆ {title} ◆{fill}",
+        "width": "full"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "interfaces",
+                "wm",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "packages",
+                "uptime",
+                "kernel",
+                "terminal"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "user",
+                "datetime",
+                "gpu"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "colors": {
+        "os": "#D20F39",
+        "kernel": "#E64553",
+        "hostname": "#FE640B",
+        "uptime": "#DF8E1D",
+        "packages": "#40A02B",
+        "shell": "#179299",
+        "terminal": "#4C4F69",
+        "wm": "#1E66F5",
+        "cpu": "#7287FD",
+        "gpu": "#8839EF",
+        "memory": "#D20F39",
+        "swap": "#E64553",
+        "disk": "#FE640B",
+        "battery": "#DF8E1D",
+        "user": "#40A02B",
+        "datetime": "#179299",
+        "local_ip": "#4C4F69",
+        "interfaces": "#7287FD",
+        "palette": "#8839EF",
+        "plugin:docker": "#FE640B",
+        "plugin:github-stats": "#DF8E1D",
+        "plugin:music-player": "#40A02B",
+        "plugin:weather": "#179299",
+        "plugin:timezone": "#4C4F69",
+        "plugin:user-info": "#1E66F5",
+        "plugin:display-resolution": "#7287FD",
+        "plugin:theme-detection": "#8839EF",
+        "plugin:temperature": "#D20F39",
+        "plugin:gauges": "#D20F39"
+    },
+    "logo_color": "#8839EF",
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "memory": "{percent}%",
+        "os": "{value}",
+        "battery": "{value}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "off",
+    "effects": [
+        {
+            "plugin": "glitch",
+            "duration_ms": 600,
+            "fps": 30
+        },
+        {
+            "plugin": "decrypt",
+            "duration_ms": 1500,
+            "fps": 30
+        }
+    ],
+    "logo_colors": [
+        "#D20F39",
+        "#E64553",
+        "#FE640B",
+        "#DF8E1D"
+    ],
+    "logo_gap": 8,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

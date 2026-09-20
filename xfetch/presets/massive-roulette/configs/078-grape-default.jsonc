@@ -1,0 +1,60 @@
+{
+    "theme": "grape",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "default",
+    "show_colors": true,
+    "colors": {
+        "os": "#307AD3",
+        "kernel": "#7A2DC4",
+        "hostname": "#F51E83",
+        "uptime": "#EBA54F",
+        "packages": "#9DE954",
+        "shell": "#2FF096",
+        "terminal": "#307AD3",
+        "wm": "#7A2DC4",
+        "cpu": "#F51E83",
+        "gpu": "#EBA54F",
+        "memory": "#9DE954",
+        "swap": "#2FF096",
+        "disk": "#307AD3",
+        "battery": "#7A2DC4",
+        "user": "#F51E83",
+        "datetime": "#EBA54F",
+        "local_ip": "#9DE954",
+        "interfaces": "#307AD3",
+        "palette": "#7A2DC4",
+        "plugin:docker": "#F51E83",
+        "plugin:github-stats": "#EBA54F",
+        "plugin:music-player": "#9DE954",
+        "plugin:weather": "#2FF096",
+        "plugin:timezone": "#307AD3",
+        "plugin:user-info": "#7A2DC4",
+        "plugin:display-resolution": "#F51E83",
+        "plugin:theme-detection": "#EBA54F",
+        "plugin:temperature": "#9DE954"
+    },
+    "logo_color": "#307AD3",
+    "modules": [
+        "os",
+        "cpu",
+        "wm",
+        "packages"
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "os": "{distro} · {arch}",
+        "packages": "{managers}: {value}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "logo_gap": 12,
+    "logo_colors": [
+        "#307AD3",
+        "#7A2DC4",
+        "#F51E83"
+    ]
+}

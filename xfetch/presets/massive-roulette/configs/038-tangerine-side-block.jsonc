@@ -1,0 +1,65 @@
+{
+    "theme": "tangerine",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "side-block",
+    "show_colors": true,
+    "colors": {
+        "os": "#18F3EF",
+        "kernel": "#D437AF",
+        "hostname": "#15E145",
+        "uptime": "#F0BA25",
+        "packages": "#456EE0",
+        "shell": "#D64245",
+        "terminal": "#18F3EF",
+        "wm": "#D437AF",
+        "cpu": "#15E145",
+        "gpu": "#F0BA25",
+        "memory": "#456EE0",
+        "swap": "#D64245",
+        "disk": "#18F3EF",
+        "battery": "#D437AF",
+        "user": "#15E145",
+        "datetime": "#F0BA25",
+        "local_ip": "#456EE0",
+        "interfaces": "#18F3EF",
+        "palette": "#D437AF",
+        "plugin:docker": "#15E145",
+        "plugin:github-stats": "#F0BA25",
+        "plugin:music-player": "#456EE0",
+        "plugin:weather": "#D64245",
+        "plugin:timezone": "#18F3EF",
+        "plugin:user-info": "#D437AF",
+        "plugin:display-resolution": "#15E145",
+        "plugin:theme-detection": "#F0BA25",
+        "plugin:temperature": "#456EE0"
+    },
+    "logo_color": "#456EE0",
+    "modules": [
+        "os",
+        "disk",
+        "palette",
+        "kernel",
+        "swap",
+        "user",
+        "plugin:user-info"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "disk": "{used}/{total} ({fs})",
+        "os": "{distro} · {arch}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

@@ -1,0 +1,93 @@
+{
+    "theme": "zenburn",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#8CD0D3",
+        "kernel": "#F0DFAF",
+        "hostname": "#93E0E3",
+        "uptime": "#7F9F7F",
+        "packages": "#CC9393",
+        "shell": "#DFAF8F",
+        "terminal": "#DCDCCC",
+        "wm": "#8CD0D3",
+        "cpu": "#F0DFAF",
+        "gpu": "#93E0E3",
+        "memory": "#7F9F7F",
+        "swap": "#CC9393",
+        "disk": "#DFAF8F",
+        "battery": "#DCDCCC",
+        "user": "#8CD0D3",
+        "datetime": "#F0DFAF",
+        "local_ip": "#93E0E3",
+        "interfaces": "#CC9393",
+        "palette": "#DFAF8F",
+        "plugin:docker": "#F0DFAF",
+        "plugin:github-stats": "#93E0E3",
+        "plugin:music-player": "#7F9F7F",
+        "plugin:weather": "#CC9393",
+        "plugin:timezone": "#DFAF8F",
+        "plugin:user-info": "#DCDCCC",
+        "plugin:display-resolution": "#8CD0D3",
+        "plugin:theme-detection": "#F0DFAF",
+        "plugin:temperature": "#93E0E3"
+    },
+    "logo_color": "#7F9F7F",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Overview",
+            "modules": [
+                "os",
+                "memory",
+                "shell",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "kernel",
+                "gpu",
+                "interfaces",
+                "disk"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "datetime",
+                "uptime",
+                "hostname",
+                "plugin:user-info"
+            ]
+        }
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "disk": "{used}/{total} ({fs})",
+        "datetime": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 10,
+    "logo_padding": 1
+}

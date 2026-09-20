@@ -1,0 +1,75 @@
+{
+    "theme": "material-palenight",
+    "ascii": "~/.config/xfetch/logos/arch.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#FF5370",
+        "kernel": "#7FDBCA",
+        "hostname": "#82AAFF",
+        "uptime": "#F78C6C",
+        "packages": "#89DDFF",
+        "shell": "#A6ACCD",
+        "terminal": "#FFCB6B",
+        "wm": "#C792EA",
+        "cpu": "#FF5370",
+        "gpu": "#7FDBCA",
+        "memory": "#82AAFF",
+        "swap": "#F78C6C",
+        "disk": "#89DDFF",
+        "battery": "#A6ACCD",
+        "user": "#FFCB6B",
+        "datetime": "#C792EA",
+        "local_ip": "#FF5370",
+        "interfaces": "#82AAFF",
+        "palette": "#F78C6C",
+        "plugin:docker": "#82AAFF",
+        "plugin:github-stats": "#F78C6C",
+        "plugin:music-player": "#89DDFF",
+        "plugin:weather": "#A6ACCD",
+        "plugin:timezone": "#FFCB6B",
+        "plugin:user-info": "#C792EA",
+        "plugin:display-resolution": "#FF5370",
+        "plugin:theme-detection": "#7FDBCA",
+        "plugin:temperature": "#82AAFF"
+    },
+    "logo_color": "#C792EA",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Core",
+            "modules": [
+                "os",
+                "packages"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Devices",
+            "modules": [
+                "uptime",
+                "wm"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "battery",
+                "disk"
+            ]
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl"
+    },
+    "formats": {
+        "battery": "{percent}%"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "logo_gap": 10
+}

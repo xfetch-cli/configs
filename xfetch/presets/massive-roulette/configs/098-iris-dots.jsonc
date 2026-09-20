@@ -1,0 +1,61 @@
+{
+    "theme": "iris",
+    "ascii": "~/.config/xfetch/logos/garuda.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#8256B0",
+        "kernel": "#D264A1",
+        "hostname": "#F09649",
+        "uptime": "#94E042",
+        "packages": "#53DC90",
+        "shell": "#4A91CF",
+        "terminal": "#8256B0",
+        "wm": "#D264A1",
+        "cpu": "#F09649",
+        "gpu": "#94E042",
+        "memory": "#53DC90",
+        "swap": "#4A91CF",
+        "disk": "#8256B0",
+        "battery": "#D264A1",
+        "user": "#F09649",
+        "datetime": "#94E042",
+        "local_ip": "#53DC90",
+        "interfaces": "#8256B0",
+        "palette": "#D264A1",
+        "plugin:docker": "#F09649",
+        "plugin:github-stats": "#94E042",
+        "plugin:music-player": "#53DC90",
+        "plugin:weather": "#4A91CF",
+        "plugin:timezone": "#8256B0",
+        "plugin:user-info": "#D264A1",
+        "plugin:display-resolution": "#F09649",
+        "plugin:theme-detection": "#94E042",
+        "plugin:temperature": "#53DC90"
+    },
+    "logo_color": "#D264A1",
+    "modules": [
+        "os",
+        "disk",
+        "hostname",
+        "datetime",
+        "interfaces",
+        "swap"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "disk": "{used}/{total} ({fs})",
+        "datetime": "{date}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 16
+}

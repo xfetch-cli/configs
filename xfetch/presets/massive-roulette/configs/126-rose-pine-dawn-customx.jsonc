@@ -1,0 +1,145 @@
+{
+    "theme": "rose-pine-dawn",
+    "ascii": "~/.config/xfetch/logos/arcolinux.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "❰ {title} ❱{fill}",
+        "bottom": "❰{fill}❱",
+        "left": "│",
+        "right": "│",
+        "fill": "─",
+        "group_title": "❬ {title} ❭{fill}",
+        "width": 68
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "battery",
+                "kernel",
+                "interfaces"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "hostname",
+                "terminal",
+                "uptime",
+                "datetime",
+                "plugin:docker"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "cpu",
+                "wm",
+                "local_ip"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "colors": {
+        "os": "#286983",
+        "kernel": "#56949F",
+        "hostname": "#907AA9",
+        "uptime": "#D7827E",
+        "packages": "#EA9D34",
+        "shell": "#575279",
+        "terminal": "#B4637A",
+        "wm": "#286983",
+        "cpu": "#56949F",
+        "gpu": "#907AA9",
+        "memory": "#D7827E",
+        "swap": "#EA9D34",
+        "disk": "#575279",
+        "battery": "#B4637A",
+        "user": "#286983",
+        "datetime": "#56949F",
+        "local_ip": "#907AA9",
+        "interfaces": "#EA9D34",
+        "palette": "#575279",
+        "plugin:docker": "#907AA9",
+        "plugin:github-stats": "#D7827E",
+        "plugin:music-player": "#EA9D34",
+        "plugin:weather": "#575279",
+        "plugin:timezone": "#B4637A",
+        "plugin:user-info": "#286983",
+        "plugin:display-resolution": "#56949F",
+        "plugin:theme-detection": "#907AA9",
+        "plugin:temperature": "#D7827E",
+        "plugin:gauges": "#D7827E"
+    },
+    "logo_color": "#EA9D34",
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "slashes",
+                "width": 14,
+                "metrics": [
+                    "swap",
+                    "disk"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "cpu": "{brand}",
+        "os": "{distro} {version}",
+        "uptime": "{hours}h {mins}m"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "effects": {
+        "plugin": "glitch",
+        "duration_ms": 800,
+        "fps": 30
+    },
+    "logo_gap": 12,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "theme": "emerald",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "║ {title} ║{fill}",
+        "bottom": "║{fill}║",
+        "left": "║",
+        "right": "║",
+        "fill": "═",
+        "group_title": "╟ {title} ╢{fill}",
+        "module_top": "╟{fill}╢",
+        "module_bottom": "╟{fill}╢",
+        "width": "full",
+        "divider_between": "none"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "interfaces",
+                "terminal",
+                "local_ip",
+                "plugin:timezone"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "hostname",
+                "uptime",
+                "kernel",
+                "gpu",
+                "plugin:user-info"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "cpu",
+                "wm",
+                "shell"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#24B764",
+        "kernel": "#50C9BF",
+        "hostname": "#32C72B",
+        "uptime": "#BB3E85",
+        "packages": "#C628CD",
+        "shell": "#FA3142",
+        "terminal": "#24B764",
+        "wm": "#50C9BF",
+        "cpu": "#32C72B",
+        "gpu": "#BB3E85",
+        "memory": "#C628CD",
+        "swap": "#FA3142",
+        "disk": "#24B764",
+        "battery": "#50C9BF",
+        "user": "#32C72B",
+        "datetime": "#BB3E85",
+        "local_ip": "#C628CD",
+        "interfaces": "#24B764",
+        "palette": "#50C9BF",
+        "plugin:docker": "#32C72B",
+        "plugin:github-stats": "#BB3E85",
+        "plugin:music-player": "#C628CD",
+        "plugin:weather": "#FA3142",
+        "plugin:timezone": "#24B764",
+        "plugin:user-info": "#50C9BF",
+        "plugin:display-resolution": "#32C72B",
+        "plugin:theme-detection": "#BB3E85",
+        "plugin:temperature": "#C628CD"
+    },
+    "logo_color": "#C628CD",
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl"
+    },
+    "formats": {
+        "cpu": "{brand}",
+        "gpu": "{value}",
+        "uptime": "{value}"
+    },
+    "palette_style": "triangles",
+    "os_wsl_style": "minimal",
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 1200,
+        "fps": 30
+    },
+    "logo_gap": 14
+}

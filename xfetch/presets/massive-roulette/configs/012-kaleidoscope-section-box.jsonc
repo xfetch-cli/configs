@@ -1,0 +1,95 @@
+{
+    "theme": "kaleidoscope",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#8162E9",
+        "kernel": "#FA75D9",
+        "hostname": "#E8784F",
+        "uptime": "#CFE680",
+        "packages": "#59FA81",
+        "shell": "#8BDAF7",
+        "terminal": "#8162E9",
+        "wm": "#FA75D9",
+        "cpu": "#E8784F",
+        "gpu": "#CFE680",
+        "memory": "#59FA81",
+        "swap": "#8BDAF7",
+        "disk": "#8162E9",
+        "battery": "#FA75D9",
+        "user": "#E8784F",
+        "datetime": "#CFE680",
+        "local_ip": "#59FA81",
+        "interfaces": "#8162E9",
+        "palette": "#FA75D9",
+        "plugin:docker": "#E8784F",
+        "plugin:github-stats": "#CFE680",
+        "plugin:music-player": "#59FA81",
+        "plugin:weather": "#8BDAF7",
+        "plugin:timezone": "#8162E9",
+        "plugin:user-info": "#FA75D9",
+        "plugin:display-resolution": "#E8784F",
+        "plugin:theme-detection": "#CFE680",
+        "plugin:temperature": "#59FA81",
+        "plugin:gauges": "#59FA81"
+    },
+    "logo_color": "#59FA81",
+    "modules": [
+        "os",
+        "shell",
+        "wm",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up",
+        "plugin:gauges": ""
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 8,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 8,
+                "metrics": [
+                    "memory",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-above",
+        "timeout_secs": 3
+    }
+}

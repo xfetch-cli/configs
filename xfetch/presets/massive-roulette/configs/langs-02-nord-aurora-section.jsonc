@@ -1,0 +1,58 @@
+{
+    "theme": "nord-aurora",
+    "ascii": "~/.config/xfetch/logos/artix.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#5E81AC",
+        "kernel": "#B48EAD",
+        "hostname": "#BF616A",
+        "uptime": "#D8DEE9",
+        "packages": "#D08770",
+        "shell": "#88C0D0",
+        "terminal": "#EBCB8B",
+        "wm": "#81A1C1",
+        "cpu": "#A3BE8C",
+        "gpu": "#5E81AC",
+        "memory": "#B48EAD",
+        "swap": "#BF616A",
+        "disk": "#D8DEE9",
+        "battery": "#D08770",
+        "user": "#88C0D0",
+        "datetime": "#EBCB8B",
+        "local_ip": "#81A1C1",
+        "interfaces": "#5E81AC",
+        "palette": "#B48EAD",
+        "plugin:docker": "#D08770",
+        "plugin:github-stats": "#88C0D0",
+        "plugin:music-player": "#EBCB8B",
+        "plugin:weather": "#81A1C1",
+        "plugin:timezone": "#A3BE8C",
+        "plugin:user-info": "#5E81AC",
+        "plugin:display-resolution": "#B48EAD",
+        "plugin:theme-detection": "#BF616A",
+        "plugin:temperature": "#D8DEE9",
+        "plugin:langs": "#5E81AC"
+    },
+    "logo_color": "#EBCB8B",
+    "modules": [
+        "os",
+        "hostname",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "repo": "xscriptor-colors/hyprland",
+                "limit": 4
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 14
+}

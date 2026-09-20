@@ -1,0 +1,102 @@
+{
+    "theme": "midnight-sapphire",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#E0E6F0",
+        "kernel": "#7CE38B",
+        "hostname": "#9B7BFF",
+        "uptime": "#63D4FF",
+        "packages": "#F07A9E",
+        "shell": "#3F6FD8",
+        "terminal": "#F0D16A",
+        "wm": "#E0E6F0",
+        "cpu": "#7CE38B",
+        "gpu": "#9B7BFF",
+        "memory": "#63D4FF",
+        "swap": "#F07A9E",
+        "disk": "#3F6FD8",
+        "battery": "#F0D16A",
+        "user": "#E0E6F0",
+        "datetime": "#7CE38B",
+        "local_ip": "#9B7BFF",
+        "interfaces": "#F07A9E",
+        "palette": "#3F6FD8",
+        "plugin:docker": "#63D4FF",
+        "plugin:github-stats": "#F07A9E",
+        "plugin:music-player": "#3F6FD8",
+        "plugin:weather": "#F0D16A",
+        "plugin:timezone": "#E0E6F0",
+        "plugin:user-info": "#7CE38B",
+        "plugin:display-resolution": "#9B7BFF",
+        "plugin:theme-detection": "#63D4FF",
+        "plugin:temperature": "#F07A9E",
+        "plugin:gauges": "#63D4FF"
+    },
+    "logo_color": "#63D4FF",
+    "modules": [
+        "os",
+        "gpu",
+        "datetime",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{value}",
+        "disk": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 8,
+    "logo_padding": 2,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-7",
+        "timeout_secs": 3
+    }
+}

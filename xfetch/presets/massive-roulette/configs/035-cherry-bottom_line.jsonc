@@ -1,0 +1,74 @@
+{
+    "theme": "cherry",
+    "ascii": "~/.config/xfetch/logos/alpine.txt",
+    "layout": "bottom_line",
+    "show_colors": true,
+    "colors": {
+        "os": "#5283A9",
+        "kernel": "#9EDB4F",
+        "hostname": "#64CB91",
+        "uptime": "#9F79D0",
+        "packages": "#BE885E",
+        "shell": "#A25280",
+        "terminal": "#5283A9",
+        "wm": "#9EDB4F",
+        "cpu": "#64CB91",
+        "gpu": "#9F79D0",
+        "memory": "#BE885E",
+        "swap": "#A25280",
+        "disk": "#5283A9",
+        "battery": "#9EDB4F",
+        "user": "#64CB91",
+        "datetime": "#9F79D0",
+        "local_ip": "#BE885E",
+        "interfaces": "#5283A9",
+        "palette": "#9EDB4F",
+        "plugin:docker": "#64CB91",
+        "plugin:github-stats": "#9F79D0",
+        "plugin:music-player": "#BE885E",
+        "plugin:weather": "#A25280",
+        "plugin:timezone": "#5283A9",
+        "plugin:user-info": "#9EDB4F",
+        "plugin:display-resolution": "#64CB91",
+        "plugin:theme-detection": "#9F79D0",
+        "plugin:temperature": "#BE885E"
+    },
+    "logo_color": "#A25280",
+    "modules": [
+        "os",
+        "swap",
+        "gpu",
+        "hostname",
+        "disk",
+        "cpu",
+        "plugin:timezone",
+        "plugin:temperature"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "gpu": "{model}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 16,
+    "logo_padding": 1
+}

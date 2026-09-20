@@ -1,0 +1,75 @@
+{
+    "theme": "vanilla",
+    "ascii": "~/.config/xfetch/logos/arch.txt",
+    "layout": "line",
+    "show_colors": true,
+    "colors": {
+        "os": "#DD6431",
+        "kernel": "#FA7ACF",
+        "hostname": "#DB5A72",
+        "uptime": "#35FA77",
+        "packages": "#5AB9E1",
+        "shell": "#6BF4DB",
+        "terminal": "#DD6431",
+        "wm": "#FA7ACF",
+        "cpu": "#DB5A72",
+        "gpu": "#35FA77",
+        "memory": "#5AB9E1",
+        "swap": "#6BF4DB",
+        "disk": "#DD6431",
+        "battery": "#FA7ACF",
+        "user": "#DB5A72",
+        "datetime": "#35FA77",
+        "local_ip": "#5AB9E1",
+        "interfaces": "#DD6431",
+        "palette": "#FA7ACF",
+        "plugin:docker": "#5AB9E1",
+        "plugin:github-stats": "#6BF4DB",
+        "plugin:music-player": "#DD6431",
+        "plugin:weather": "#FA7ACF",
+        "plugin:timezone": "#DB5A72",
+        "plugin:user-info": "#35FA77",
+        "plugin:display-resolution": "#5AB9E1",
+        "plugin:theme-detection": "#6BF4DB",
+        "plugin:temperature": "#DD6431"
+    },
+    "logo_color": "#6BF4DB",
+    "modules": [
+        "os",
+        "gpu",
+        "cpu",
+        "datetime",
+        "memory",
+        "shell",
+        "plugin:docker",
+        "plugin:display-resolution"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "display-resolution",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "memory": "{used}/{total} ({percent}%)",
+        "datetime": "{date}"
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 10,
+    "logo_colors": [
+        "#DD6431",
+        "#FA7ACF",
+        "#DB5A72"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "theme": "papercolor-dark",
+    "ascii": "~/.config/xfetch/logos/archbang.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#5FAFAF",
+        "kernel": "#D0D0D0",
+        "hostname": "#D75F5F",
+        "uptime": "#87AF5F",
+        "packages": "#AF87AF",
+        "shell": "#87AFD7",
+        "terminal": "#D7AF5F",
+        "wm": "#5FAFAF",
+        "cpu": "#D0D0D0",
+        "gpu": "#D75F5F",
+        "memory": "#87AF5F",
+        "swap": "#AF87AF",
+        "disk": "#87AFD7",
+        "battery": "#D7AF5F",
+        "user": "#5FAFAF",
+        "datetime": "#D0D0D0",
+        "local_ip": "#D75F5F",
+        "interfaces": "#AF87AF",
+        "palette": "#87AFD7",
+        "plugin:docker": "#D7AF5F",
+        "plugin:github-stats": "#5FAFAF",
+        "plugin:music-player": "#D0D0D0",
+        "plugin:weather": "#D75F5F",
+        "plugin:timezone": "#87AF5F",
+        "plugin:user-info": "#AF87AF",
+        "plugin:display-resolution": "#87AFD7",
+        "plugin:theme-detection": "#D7AF5F",
+        "plugin:temperature": "#5FAFAF"
+    },
+    "logo_color": "#D7AF5F",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Overview",
+            "modules": [
+                "os",
+                "palette"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "kernel",
+                "datetime"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "terminal"
+            ]
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "datetime": "{time}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "off",
+    "logo_gap": 12,
+    "logo_colors": [
+        "#5FAFAF",
+        "#D0D0D0",
+        "#D75F5F",
+        "#87AF5F",
+        "#AF87AF",
+        "#87AFD7"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "theme": "blush",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "✚ {title} ✚{fill}✚",
+        "bottom": "✚{fill}✚",
+        "left": "│",
+        "right": "│",
+        "fill": "✚",
+        "group_title": "┼ {title} ┼{fill}",
+        "width": "full"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Machine",
+            "modules": [
+                "os",
+                "packages",
+                "local_ip",
+                "gpu"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "datetime",
+                "disk",
+                "interfaces",
+                "hostname"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "User",
+            "modules": [
+                "swap",
+                "battery",
+                "user",
+                "uptime"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#AC3EDF",
+        "kernel": "#E64BE9",
+        "hostname": "#FA3AC4",
+        "uptime": "#6ED23F",
+        "packages": "#54E752",
+        "shell": "#56FA84",
+        "terminal": "#AC3EDF",
+        "wm": "#E64BE9",
+        "cpu": "#FA3AC4",
+        "gpu": "#6ED23F",
+        "memory": "#54E752",
+        "swap": "#56FA84",
+        "disk": "#AC3EDF",
+        "battery": "#E64BE9",
+        "user": "#FA3AC4",
+        "datetime": "#6ED23F",
+        "local_ip": "#54E752",
+        "interfaces": "#AC3EDF",
+        "palette": "#E64BE9",
+        "plugin:docker": "#FA3AC4",
+        "plugin:github-stats": "#6ED23F",
+        "plugin:music-player": "#54E752",
+        "plugin:weather": "#56FA84",
+        "plugin:timezone": "#AC3EDF",
+        "plugin:user-info": "#E64BE9",
+        "plugin:display-resolution": "#FA3AC4",
+        "plugin:theme-detection": "#6ED23F",
+        "plugin:temperature": "#54E752"
+    },
+    "logo_color": "#6ED23F",
+    "icons": {},
+    "labels": {
+        "hostname": "",
+        "user": "",
+        "kernel": "krnl"
+    },
+    "formats": {
+        "gpu": "{model}",
+        "disk": "{value}",
+        "os": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "full",
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 2000,
+        "fps": 30
+    },
+    "logo_colors": [
+        "#AC3EDF",
+        "#E64BE9",
+        "#FA3AC4",
+        "#6ED23F",
+        "#54E752"
+    ],
+    "logo_gap": 12
+}

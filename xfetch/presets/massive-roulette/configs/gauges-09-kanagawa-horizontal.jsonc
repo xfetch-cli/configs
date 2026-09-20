@@ -1,0 +1,92 @@
+{
+    "theme": "kanagawa",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "horizontal",
+    "show_colors": true,
+    "colors": {
+        "os": "#E6C384",
+        "kernel": "#FF5D62",
+        "hostname": "#7E9CD8",
+        "uptime": "#7AA89F",
+        "packages": "#98BB6C",
+        "shell": "#957FB8",
+        "terminal": "#FFA066",
+        "wm": "#DCD7BA",
+        "cpu": "#E6C384",
+        "gpu": "#FF5D62",
+        "memory": "#7E9CD8",
+        "swap": "#7AA89F",
+        "disk": "#98BB6C",
+        "battery": "#957FB8",
+        "user": "#FFA066",
+        "datetime": "#DCD7BA",
+        "local_ip": "#E6C384",
+        "interfaces": "#7E9CD8",
+        "palette": "#7AA89F",
+        "plugin:docker": "#FFA066",
+        "plugin:github-stats": "#DCD7BA",
+        "plugin:music-player": "#E6C384",
+        "plugin:weather": "#FF5D62",
+        "plugin:timezone": "#7E9CD8",
+        "plugin:user-info": "#7AA89F",
+        "plugin:display-resolution": "#98BB6C",
+        "plugin:theme-detection": "#957FB8",
+        "plugin:temperature": "#FFA066",
+        "plugin:gauges": "#7E9CD8"
+    },
+    "logo_color": "#957FB8",
+    "modules": [
+        "os",
+        "kernel",
+        "datetime",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 16,
+                "metrics": [
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "show_keys": true,
+    "key_width": 10
+}

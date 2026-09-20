@@ -1,0 +1,82 @@
+{
+    "theme": "tokyo-night-moon",
+    "ascii": "~/.config/xfetch/logos/serpent.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#FFCB6B",
+        "kernel": "#C3E88D",
+        "hostname": "#C099FF",
+        "uptime": "#82AAFF",
+        "packages": "#8B95C9",
+        "shell": "#4FD6BE",
+        "terminal": "#86E1FC",
+        "wm": "#FF757F",
+        "cpu": "#FFCB6B",
+        "gpu": "#C3E88D",
+        "memory": "#C099FF",
+        "swap": "#82AAFF",
+        "disk": "#8B95C9",
+        "battery": "#4FD6BE",
+        "user": "#86E1FC",
+        "datetime": "#FF757F",
+        "local_ip": "#FFCB6B",
+        "interfaces": "#C099FF",
+        "palette": "#82AAFF",
+        "plugin:docker": "#86E1FC",
+        "plugin:github-stats": "#FF757F",
+        "plugin:music-player": "#FFCB6B",
+        "plugin:weather": "#C3E88D",
+        "plugin:timezone": "#C099FF",
+        "plugin:user-info": "#82AAFF",
+        "plugin:display-resolution": "#8B95C9",
+        "plugin:theme-detection": "#4FD6BE",
+        "plugin:temperature": "#86E1FC"
+    },
+    "logo_color": "#FFCB6B",
+    "modules": [
+        "os",
+        "datetime",
+        "palette",
+        "wm",
+        "swap",
+        "local_ip",
+        "interfaces",
+        "hostname",
+        "memory",
+        "plugin:music-player",
+        "plugin:theme-detection"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "os": "{value}",
+        "datetime": "{value}"
+    },
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 10,
+    "logo_padding": 1,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "GAME OVER",
+    "disable_cache": true
+}

@@ -1,0 +1,70 @@
+{
+    "theme": "midnight",
+    "ascii": "~/.config/xfetch/logos/garuda.txt",
+    "layout": "box",
+    "show_colors": true,
+    "colors": {
+        "os": "#AD5BEB",
+        "kernel": "#45BDC6",
+        "hostname": "#D9564C",
+        "uptime": "#66EF91",
+        "packages": "#CA2C98",
+        "shell": "#97DE60",
+        "terminal": "#AD5BEB",
+        "wm": "#45BDC6",
+        "cpu": "#D9564C",
+        "gpu": "#66EF91",
+        "memory": "#CA2C98",
+        "swap": "#97DE60",
+        "disk": "#AD5BEB",
+        "battery": "#45BDC6",
+        "user": "#D9564C",
+        "datetime": "#66EF91",
+        "local_ip": "#CA2C98",
+        "interfaces": "#AD5BEB",
+        "palette": "#45BDC6",
+        "plugin:docker": "#D9564C",
+        "plugin:github-stats": "#66EF91",
+        "plugin:music-player": "#CA2C98",
+        "plugin:weather": "#97DE60",
+        "plugin:timezone": "#AD5BEB",
+        "plugin:user-info": "#45BDC6",
+        "plugin:display-resolution": "#D9564C",
+        "plugin:theme-detection": "#66EF91",
+        "plugin:temperature": "#CA2C98"
+    },
+    "logo_color": "#66EF91",
+    "modules": [
+        "os",
+        "hostname",
+        "cpu",
+        "plugin:theme-detection",
+        "plugin:github-stats"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "cpu": "{brand}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 8,
+    "logo_gap": 8
+}

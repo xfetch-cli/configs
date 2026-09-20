@@ -1,0 +1,102 @@
+{
+    "theme": "apricot",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#C2887E",
+        "kernel": "#8879DD",
+        "hostname": "#E681D7",
+        "uptime": "#C6DA59",
+        "packages": "#74CDDC",
+        "shell": "#6FC47C",
+        "terminal": "#C2887E",
+        "wm": "#8879DD",
+        "cpu": "#E681D7",
+        "gpu": "#C6DA59",
+        "memory": "#74CDDC",
+        "swap": "#6FC47C",
+        "disk": "#C2887E",
+        "battery": "#8879DD",
+        "user": "#E681D7",
+        "datetime": "#C6DA59",
+        "local_ip": "#74CDDC",
+        "interfaces": "#C2887E",
+        "palette": "#8879DD",
+        "plugin:docker": "#E681D7",
+        "plugin:github-stats": "#C6DA59",
+        "plugin:music-player": "#74CDDC",
+        "plugin:weather": "#6FC47C",
+        "plugin:timezone": "#C2887E",
+        "plugin:user-info": "#8879DD",
+        "plugin:display-resolution": "#E681D7",
+        "plugin:theme-detection": "#C6DA59",
+        "plugin:temperature": "#74CDDC",
+        "plugin:gauges": "#74CDDC"
+    },
+    "logo_color": "#E681D7",
+    "modules": [
+        "os",
+        "wm",
+        "packages",
+        "datetime",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro}",
+        "packages": "{value}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "logo_padding": 0,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 8,
+                "metrics": [
+                    "memory",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

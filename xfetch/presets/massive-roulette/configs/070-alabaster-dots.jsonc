@@ -1,0 +1,62 @@
+{
+    "theme": "alabaster",
+    "ascii": "~/.config/xfetch/logos/artix.txt",
+    "layout": "dots",
+    "show_colors": true,
+    "colors": {
+        "os": "#BC674D",
+        "kernel": "#D09859",
+        "hostname": "#DCC761",
+        "uptime": "#52C1E3",
+        "packages": "#78A3D5",
+        "shell": "#6175D7",
+        "terminal": "#BC674D",
+        "wm": "#D09859",
+        "cpu": "#DCC761",
+        "gpu": "#52C1E3",
+        "memory": "#78A3D5",
+        "swap": "#6175D7",
+        "disk": "#BC674D",
+        "battery": "#D09859",
+        "user": "#DCC761",
+        "datetime": "#52C1E3",
+        "local_ip": "#78A3D5",
+        "interfaces": "#BC674D",
+        "palette": "#D09859",
+        "plugin:docker": "#DCC761",
+        "plugin:github-stats": "#52C1E3",
+        "plugin:music-player": "#78A3D5",
+        "plugin:weather": "#6175D7",
+        "plugin:timezone": "#BC674D",
+        "plugin:user-info": "#D09859",
+        "plugin:display-resolution": "#DCC761",
+        "plugin:theme-detection": "#52C1E3",
+        "plugin:temperature": "#78A3D5"
+    },
+    "logo_color": "#78A3D5",
+    "modules": [
+        "os",
+        "terminal",
+        "wm"
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "os": "{distro} · {arch}"
+    },
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 14,
+    "logo_gap": 16,
+    "logo_colors": [
+        "#BC674D",
+        "#D09859",
+        "#DCC761",
+        "#52C1E3"
+    ]
+}

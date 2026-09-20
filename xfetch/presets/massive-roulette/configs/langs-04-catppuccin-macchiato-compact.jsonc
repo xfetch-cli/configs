@@ -1,0 +1,58 @@
+{
+    "theme": "catppuccin-macchiato",
+    "ascii": "~/.config/xfetch/logos/bedrock.txt",
+    "layout": "compact",
+    "show_colors": true,
+    "colors": {
+        "os": "#C6A0F6",
+        "kernel": "#ED8796",
+        "hostname": "#F5A97F",
+        "uptime": "#EED49F",
+        "packages": "#A6DA95",
+        "shell": "#8BD5CA",
+        "terminal": "#91D7E3",
+        "wm": "#CAD3F5",
+        "cpu": "#8AADF4",
+        "gpu": "#C6A0F6",
+        "memory": "#ED8796",
+        "swap": "#F5A97F",
+        "disk": "#EED49F",
+        "battery": "#A6DA95",
+        "user": "#8BD5CA",
+        "datetime": "#91D7E3",
+        "local_ip": "#CAD3F5",
+        "interfaces": "#C6A0F6",
+        "palette": "#ED8796",
+        "plugin:docker": "#F5A97F",
+        "plugin:github-stats": "#EED49F",
+        "plugin:music-player": "#A6DA95",
+        "plugin:weather": "#8BD5CA",
+        "plugin:timezone": "#91D7E3",
+        "plugin:user-info": "#CAD3F5",
+        "plugin:display-resolution": "#8AADF4",
+        "plugin:theme-detection": "#C6A0F6",
+        "plugin:temperature": "#ED8796",
+        "plugin:langs": "#C6A0F6"
+    },
+    "logo_color": "#F5A97F",
+    "modules": [
+        "os",
+        "wm",
+        "plugin:langs"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "langs",
+            "args": {
+                "owner": "xfetch-cli",
+                "limit": 5
+            },
+            "timeout_secs": 20
+        }
+    ],
+    "labels": {
+        "plugin:langs": ""
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10
+}

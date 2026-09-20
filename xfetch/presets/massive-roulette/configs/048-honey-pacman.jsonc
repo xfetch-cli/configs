@@ -1,0 +1,63 @@
+{
+    "theme": "honey",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#20DEFA",
+        "kernel": "#5945C9",
+        "hostname": "#D25EC5",
+        "uptime": "#F36B56",
+        "packages": "#D0E751",
+        "shell": "#55D663",
+        "terminal": "#20DEFA",
+        "wm": "#5945C9",
+        "cpu": "#D25EC5",
+        "gpu": "#F36B56",
+        "memory": "#D0E751",
+        "swap": "#55D663",
+        "disk": "#20DEFA",
+        "battery": "#5945C9",
+        "user": "#D25EC5",
+        "datetime": "#F36B56",
+        "local_ip": "#D0E751",
+        "interfaces": "#20DEFA",
+        "palette": "#5945C9",
+        "plugin:docker": "#D25EC5",
+        "plugin:github-stats": "#F36B56",
+        "plugin:music-player": "#D0E751",
+        "plugin:weather": "#55D663",
+        "plugin:timezone": "#20DEFA",
+        "plugin:user-info": "#5945C9",
+        "plugin:display-resolution": "#D25EC5",
+        "plugin:theme-detection": "#F36B56",
+        "plugin:temperature": "#D0E751"
+    },
+    "logo_color": "#5945C9",
+    "modules": [
+        "os",
+        "disk",
+        "hostname",
+        "datetime",
+        "local_ip",
+        "palette",
+        "shell",
+        "packages"
+    ],
+    "icons": {},
+    "formats": {
+        "disk": "{used} / {total}",
+        "packages": "{count} ({manager})"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "minimal",
+    "logo_gap": 12,
+    "logo_padding": 2,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "GAME OVER"
+}

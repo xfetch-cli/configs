@@ -1,0 +1,80 @@
+{
+    "theme": "horizon",
+    "ascii": "~/.config/xfetch/logos/alpine.txt",
+    "layout": "section-box",
+    "show_colors": true,
+    "colors": {
+        "os": "#FAB795",
+        "kernel": "#29D398",
+        "hostname": "#E0E0E0",
+        "uptime": "#26BBD9",
+        "packages": "#FAC29A",
+        "shell": "#F09483",
+        "terminal": "#E95678",
+        "wm": "#FAB795",
+        "cpu": "#29D398",
+        "gpu": "#E0E0E0",
+        "memory": "#26BBD9",
+        "swap": "#FAC29A",
+        "disk": "#F09483",
+        "battery": "#E95678",
+        "user": "#FAB795",
+        "datetime": "#29D398",
+        "local_ip": "#E0E0E0",
+        "interfaces": "#FAC29A",
+        "palette": "#F09483",
+        "plugin:docker": "#29D398",
+        "plugin:github-stats": "#E0E0E0",
+        "plugin:music-player": "#26BBD9",
+        "plugin:weather": "#FAC29A",
+        "plugin:timezone": "#F09483",
+        "plugin:user-info": "#E95678",
+        "plugin:display-resolution": "#FAB795",
+        "plugin:theme-detection": "#29D398",
+        "plugin:temperature": "#E0E0E0"
+    },
+    "logo_color": "#FAC29A",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "os",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "disk",
+                "battery",
+                "hostname"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "cpu",
+                "datetime"
+            ]
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "os": "{distro} · {arch}",
+        "datetime": "{time}"
+    },
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 10,
+    "logo_gap": 10
+}

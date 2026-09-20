@@ -1,0 +1,98 @@
+{
+    "theme": "dune",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#436AF5",
+        "kernel": "#40E16E",
+        "hostname": "#FA5CCD",
+        "uptime": "#9BE659",
+        "packages": "#9B42E9",
+        "shell": "#EFD162",
+        "terminal": "#436AF5",
+        "wm": "#40E16E",
+        "cpu": "#FA5CCD",
+        "gpu": "#9BE659",
+        "memory": "#9B42E9",
+        "swap": "#EFD162",
+        "disk": "#436AF5",
+        "battery": "#40E16E",
+        "user": "#FA5CCD",
+        "datetime": "#9BE659",
+        "local_ip": "#9B42E9",
+        "interfaces": "#436AF5",
+        "palette": "#40E16E",
+        "plugin:docker": "#FA5CCD",
+        "plugin:github-stats": "#9BE659",
+        "plugin:music-player": "#9B42E9",
+        "plugin:weather": "#EFD162",
+        "plugin:timezone": "#436AF5",
+        "plugin:user-info": "#40E16E",
+        "plugin:display-resolution": "#FA5CCD",
+        "plugin:theme-detection": "#9BE659",
+        "plugin:temperature": "#9B42E9",
+        "plugin:gauges": "#9B42E9"
+    },
+    "logo_color": "#9BE659",
+    "modules": [
+        "os",
+        "datetime",
+        "user",
+        "terminal",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "palette_style": "squares",
+    "os_wsl_style": "full",
+    "logo_gap": 8,
+    "disable_cache": true,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-3",
+        "timeout_secs": 3
+    }
+}

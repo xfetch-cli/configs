@@ -1,0 +1,165 @@
+{
+    "theme": "nimbus",
+    "ascii": "~/.config/xfetch/logos/x.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "╭─ {title} {fill}╮",
+        "bottom": "╰{fill}╯",
+        "left": "│",
+        "right": "│",
+        "fill": "─",
+        "group_title": "├─ {title} {fill}",
+        "divider": "{fill}",
+        "divider_between": "groups"
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "kernel",
+                "packages",
+                "user",
+                "plugin:github-stats"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "gpu",
+                "battery",
+                "shell",
+                "plugin:docker"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "wm",
+                "local_ip",
+                "plugin:music-player"
+            ]
+        },
+        "plugin:gauges"
+    ],
+    "colors": {
+        "os": "#4EC782",
+        "kernel": "#7633CE",
+        "hostname": "#478DC3",
+        "uptime": "#76AA32",
+        "packages": "#EA40A1",
+        "shell": "#D38346",
+        "terminal": "#4EC782",
+        "wm": "#7633CE",
+        "cpu": "#478DC3",
+        "gpu": "#76AA32",
+        "memory": "#EA40A1",
+        "swap": "#D38346",
+        "disk": "#4EC782",
+        "battery": "#7633CE",
+        "user": "#478DC3",
+        "datetime": "#76AA32",
+        "local_ip": "#EA40A1",
+        "interfaces": "#4EC782",
+        "palette": "#7633CE",
+        "plugin:docker": "#478DC3",
+        "plugin:github-stats": "#76AA32",
+        "plugin:music-player": "#EA40A1",
+        "plugin:weather": "#D38346",
+        "plugin:timezone": "#4EC782",
+        "plugin:user-info": "#7633CE",
+        "plugin:display-resolution": "#478DC3",
+        "plugin:theme-detection": "#76AA32",
+        "plugin:temperature": "#EA40A1",
+        "plugin:gauges": "#EA40A1"
+    },
+    "logo_color": "#4EC782",
+    "info_plugins": [
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        },
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "slashes",
+                "width": 14,
+                "metrics": [
+                    "swap",
+                    "disk"
+                ],
+                "glyphs": "jp"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "時",
+        "packages": "包",
+        "shell": "殻",
+        "terminal": "端",
+        "wm": "窓",
+        "cpu": "芯",
+        "gpu": "顕",
+        "memory": "存",
+        "swap": "換",
+        "disk": "盤",
+        "battery": "電",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "網",
+        "interfaces": "網",
+        "palette": "色"
+    },
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "gpu": "{model}",
+        "packages": "{count} ({manager})"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "off",
+    "show_keys": true,
+    "key_width": 12,
+    "effects": [
+        {
+            "plugin": "glitch",
+            "duration_ms": 600,
+            "fps": 30
+        },
+        {
+            "plugin": "decrypt",
+            "duration_ms": 1000,
+            "fps": 30
+        }
+    ],
+    "logo_gap": 12,
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-above",
+        "timeout_secs": 3
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "theme": "bronze",
+    "ascii": "~/.config/xfetch/logos/archbang.txt",
+    "layout": "side-block",
+    "show_colors": true,
+    "colors": {
+        "os": "#3611BF",
+        "kernel": "#A218DE",
+        "hostname": "#1950E8",
+        "uptime": "#BAE617",
+        "packages": "#E0AF25",
+        "shell": "#4ED115",
+        "terminal": "#3611BF",
+        "wm": "#A218DE",
+        "cpu": "#1950E8",
+        "gpu": "#BAE617",
+        "memory": "#E0AF25",
+        "swap": "#4ED115",
+        "disk": "#3611BF",
+        "battery": "#A218DE",
+        "user": "#1950E8",
+        "datetime": "#BAE617",
+        "local_ip": "#E0AF25",
+        "interfaces": "#3611BF",
+        "palette": "#A218DE",
+        "plugin:docker": "#1950E8",
+        "plugin:github-stats": "#BAE617",
+        "plugin:music-player": "#E0AF25",
+        "plugin:weather": "#4ED115",
+        "plugin:timezone": "#3611BF",
+        "plugin:user-info": "#A218DE",
+        "plugin:display-resolution": "#1950E8",
+        "plugin:theme-detection": "#BAE617",
+        "plugin:temperature": "#E0AF25"
+    },
+    "logo_color": "#E0AF25",
+    "modules": [
+        "os",
+        "local_ip",
+        "memory",
+        "disk",
+        "kernel",
+        "plugin:docker"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "",
+        "gpu": ""
+    },
+    "formats": {
+        "memory": "{used}/{total} ({percent}%)",
+        "os": "{distro}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 8
+}

@@ -1,0 +1,61 @@
+{
+    "theme": "aurum",
+    "ascii": "~/.config/xfetch/logos/raspberrypi.txt",
+    "layout": "minimal",
+    "show_colors": true,
+    "colors": {
+        "os": "#A3C44E",
+        "kernel": "#AC43CC",
+        "hostname": "#5669BB",
+        "uptime": "#6C4CBF",
+        "packages": "#C4A629",
+        "shell": "#64D341",
+        "terminal": "#A3C44E",
+        "wm": "#AC43CC",
+        "cpu": "#5669BB",
+        "gpu": "#6C4CBF",
+        "memory": "#C4A629",
+        "swap": "#64D341",
+        "disk": "#A3C44E",
+        "battery": "#AC43CC",
+        "user": "#5669BB",
+        "datetime": "#6C4CBF",
+        "local_ip": "#C4A629",
+        "interfaces": "#A3C44E",
+        "palette": "#AC43CC",
+        "plugin:docker": "#C4A629",
+        "plugin:github-stats": "#64D341",
+        "plugin:music-player": "#A3C44E",
+        "plugin:weather": "#AC43CC",
+        "plugin:timezone": "#5669BB",
+        "plugin:user-info": "#6C4CBF",
+        "plugin:display-resolution": "#C4A629",
+        "plugin:theme-detection": "#64D341",
+        "plugin:temperature": "#A3C44E"
+    },
+    "logo_color": "#6C4CBF",
+    "modules": [
+        "os",
+        "terminal",
+        "gpu",
+        "uptime",
+        "datetime",
+        "hostname",
+        "swap",
+        "memory"
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "gpu": "{model}",
+        "datetime": "{time}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "logo_padding": 0
+}

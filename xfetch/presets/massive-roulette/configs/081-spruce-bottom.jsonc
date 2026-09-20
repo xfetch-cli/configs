@@ -1,0 +1,100 @@
+{
+    "theme": "spruce",
+    "ascii": "~/.config/xfetch/logos/blackarch.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#1BB5D4",
+        "kernel": "#BDDA2D",
+        "hostname": "#DB37C0",
+        "uptime": "#DE5B41",
+        "packages": "#27D444",
+        "shell": "#4321EE",
+        "terminal": "#1BB5D4",
+        "wm": "#BDDA2D",
+        "cpu": "#DB37C0",
+        "gpu": "#DE5B41",
+        "memory": "#27D444",
+        "swap": "#4321EE",
+        "disk": "#1BB5D4",
+        "battery": "#BDDA2D",
+        "user": "#DB37C0",
+        "datetime": "#DE5B41",
+        "local_ip": "#27D444",
+        "interfaces": "#1BB5D4",
+        "palette": "#BDDA2D",
+        "plugin:docker": "#DB37C0",
+        "plugin:github-stats": "#DE5B41",
+        "plugin:music-player": "#27D444",
+        "plugin:weather": "#4321EE",
+        "plugin:timezone": "#1BB5D4",
+        "plugin:user-info": "#BDDA2D",
+        "plugin:display-resolution": "#DB37C0",
+        "plugin:theme-detection": "#DE5B41",
+        "plugin:temperature": "#27D444",
+        "plugin:gauges": "#27D444"
+    },
+    "logo_color": "#DB37C0",
+    "modules": [
+        "os",
+        "uptime",
+        "user",
+        "kernel",
+        "datetime",
+        "plugin:gauges"
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "uptime": "{days}d {hours}h {mins}m",
+        "datetime": "{date}"
+    },
+    "os_wsl_style": "off",
+    "logo_gap": 14,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    }
+}

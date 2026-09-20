@@ -1,0 +1,70 @@
+{
+    "theme": "dahlia",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#C32782",
+        "kernel": "#25E119",
+        "hostname": "#41C7B9",
+        "uptime": "#4EBF7D",
+        "packages": "#C43A48",
+        "shell": "#C04AC7",
+        "terminal": "#C32782",
+        "wm": "#25E119",
+        "cpu": "#41C7B9",
+        "gpu": "#4EBF7D",
+        "memory": "#C43A48",
+        "swap": "#C04AC7",
+        "disk": "#C32782",
+        "battery": "#25E119",
+        "user": "#41C7B9",
+        "datetime": "#4EBF7D",
+        "local_ip": "#C43A48",
+        "interfaces": "#C32782",
+        "palette": "#25E119",
+        "plugin:docker": "#C43A48",
+        "plugin:github-stats": "#C04AC7",
+        "plugin:music-player": "#C32782",
+        "plugin:weather": "#25E119",
+        "plugin:timezone": "#41C7B9",
+        "plugin:user-info": "#4EBF7D",
+        "plugin:display-resolution": "#C43A48",
+        "plugin:theme-detection": "#C04AC7",
+        "plugin:temperature": "#C32782"
+    },
+    "logo_color": "#4EBF7D",
+    "modules": [
+        "os",
+        "wm",
+        "gpu",
+        "shell",
+        "plugin:temperature",
+        "plugin:music-player"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "temperature",
+            "timeout_secs": 4,
+            "args": {
+                "unit": "celsius"
+            }
+        },
+        {
+            "plugin": "music-player",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "memory": "RAM",
+        "swap": "SWAP",
+        "disk": "DISCO",
+        "packages": "PKGS"
+    },
+    "formats": {
+        "os": "{distro}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 12
+}

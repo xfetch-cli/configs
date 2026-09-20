@@ -1,0 +1,108 @@
+{
+    "theme": "monokai-ristretto",
+    "ascii": "~/.config/xfetch/logos/bodhi.txt",
+    "layout": "custom-x",
+    "show_colors": true,
+    "custom_x": {
+        "top": "═╡ {title} ╞═{fill}═",
+        "bottom": "═{fill}═",
+        "left": "║",
+        "right": "║",
+        "fill": "═",
+        "group_title": "─┤ {title} ├─{fill}",
+        "width": 84
+    },
+    "modules": [
+        {
+            "type": "group",
+            "title": "Máquina",
+            "modules": [
+                "os",
+                "memory",
+                "hostname",
+                "kernel"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Entorno",
+            "modules": [
+                "interfaces",
+                "cpu",
+                "uptime",
+                "plugin:theme-detection"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Usuario",
+            "modules": [
+                "disk",
+                "user",
+                "swap",
+                "plugin:github-stats"
+            ]
+        }
+    ],
+    "colors": {
+        "os": "#F3C05F",
+        "kernel": "#F8A25A",
+        "hostname": "#F8F8F2",
+        "uptime": "#ADFF00",
+        "packages": "#FF7AA8",
+        "shell": "#85DACC",
+        "terminal": "#A8A9EB",
+        "wm": "#F3C05F",
+        "cpu": "#F8A25A",
+        "gpu": "#F8F8F2",
+        "memory": "#ADFF00",
+        "swap": "#FF7AA8",
+        "disk": "#85DACC",
+        "battery": "#A8A9EB",
+        "user": "#F3C05F",
+        "datetime": "#F8A25A",
+        "local_ip": "#F8F8F2",
+        "interfaces": "#FF7AA8",
+        "palette": "#85DACC",
+        "plugin:docker": "#F8F8F2",
+        "plugin:github-stats": "#ADFF00",
+        "plugin:music-player": "#FF7AA8",
+        "plugin:weather": "#85DACC",
+        "plugin:timezone": "#A8A9EB",
+        "plugin:user-info": "#F3C05F",
+        "plugin:display-resolution": "#F8A25A",
+        "plugin:theme-detection": "#F8F8F2",
+        "plugin:temperature": "#ADFF00"
+    },
+    "logo_color": "#ADFF00",
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model}",
+        "disk": "{used} / {total}",
+        "os": "{value}",
+        "uptime": "{value}"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 8,
+    "effects": {
+        "plugin": "decrypt",
+        "duration_ms": 1200,
+        "fps": 30
+    },
+    "logo_gap": 12
+}

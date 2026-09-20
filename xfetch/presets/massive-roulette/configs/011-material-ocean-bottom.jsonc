@@ -1,0 +1,69 @@
+{
+    "theme": "material-ocean",
+    "ascii": "~/.config/xfetch/logos/alpine.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#F78C6C",
+        "kernel": "#FF5370",
+        "hostname": "#EEFFFF",
+        "uptime": "#82AAFF",
+        "packages": "#C792EA",
+        "shell": "#89DDFF",
+        "terminal": "#C3E88D",
+        "wm": "#FFCB6B",
+        "cpu": "#F78C6C",
+        "gpu": "#FF5370",
+        "memory": "#EEFFFF",
+        "swap": "#82AAFF",
+        "disk": "#C792EA",
+        "battery": "#89DDFF",
+        "user": "#C3E88D",
+        "datetime": "#FFCB6B",
+        "local_ip": "#F78C6C",
+        "interfaces": "#EEFFFF",
+        "palette": "#82AAFF",
+        "plugin:docker": "#EEFFFF",
+        "plugin:github-stats": "#82AAFF",
+        "plugin:music-player": "#C792EA",
+        "plugin:weather": "#89DDFF",
+        "plugin:timezone": "#C3E88D",
+        "plugin:user-info": "#FFCB6B",
+        "plugin:display-resolution": "#F78C6C",
+        "plugin:theme-detection": "#FF5370",
+        "plugin:temperature": "#EEFFFF"
+    },
+    "logo_color": "#FFCB6B",
+    "modules": [
+        "os",
+        "user",
+        "wm",
+        "gpu",
+        "cpu",
+        "plugin:theme-detection",
+        "plugin:timezone",
+        "plugin:docker"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "cpu": "{model}",
+        "os": "{distro}"
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 16,
+    "logo_padding": 0
+}

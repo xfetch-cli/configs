@@ -1,0 +1,120 @@
+{
+    "theme": "crystal",
+    "ascii": "~/.config/xfetch/logos/mx-linux.txt",
+    "layout": "tree",
+    "show_colors": true,
+    "colors": {
+        "os": "#E4392D",
+        "kernel": "#EA39DE",
+        "hostname": "#EEFA4E",
+        "uptime": "#2BD2DE",
+        "packages": "#2316DB",
+        "shell": "#23FA31",
+        "terminal": "#E4392D",
+        "wm": "#EA39DE",
+        "cpu": "#EEFA4E",
+        "gpu": "#2BD2DE",
+        "memory": "#2316DB",
+        "swap": "#23FA31",
+        "disk": "#E4392D",
+        "battery": "#EA39DE",
+        "user": "#EEFA4E",
+        "datetime": "#2BD2DE",
+        "local_ip": "#2316DB",
+        "interfaces": "#E4392D",
+        "palette": "#EA39DE",
+        "plugin:docker": "#2316DB",
+        "plugin:github-stats": "#23FA31",
+        "plugin:music-player": "#E4392D",
+        "plugin:weather": "#EA39DE",
+        "plugin:timezone": "#EEFA4E",
+        "plugin:user-info": "#2BD2DE",
+        "plugin:display-resolution": "#2316DB",
+        "plugin:theme-detection": "#23FA31",
+        "plugin:temperature": "#E4392D",
+        "plugin:gauges": "#2316DB"
+    },
+    "logo_color": "#EEFA4E",
+    "modules": [
+        "os",
+        "palette",
+        "hostname",
+        "packages",
+        "plugin:docker",
+        "plugin:timezone",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "docker",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "timezone",
+            "timeout_secs": 4
+        },
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "cpu": "",
+        "gpu": "",
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "os": "{distro} · {arch}",
+        "packages": "{value}"
+    },
+    "palette_style": "lines",
+    "os_wsl_style": "minimal",
+    "show_keys": true,
+    "key_width": 12,
+    "logo_gap": 8,
+    "logo_colors": [
+        "#E4392D",
+        "#EA39DE",
+        "#EEFA4E",
+        "#2BD2DE",
+        "#2316DB",
+        "#23FA31"
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner-static",
+        "timeout_secs": 3
+    }
+}

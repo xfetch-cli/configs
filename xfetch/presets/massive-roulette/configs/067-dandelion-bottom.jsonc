@@ -1,0 +1,79 @@
+{
+    "theme": "dandelion",
+    "ascii": "~/.config/xfetch/logos/antix.txt",
+    "layout": "bottom",
+    "show_colors": true,
+    "colors": {
+        "os": "#4CD4DE",
+        "kernel": "#4CA7DC",
+        "hostname": "#3E72DB",
+        "uptime": "#F7756B",
+        "packages": "#FA965C",
+        "shell": "#EEBB54",
+        "terminal": "#4CD4DE",
+        "wm": "#4CA7DC",
+        "cpu": "#3E72DB",
+        "gpu": "#F7756B",
+        "memory": "#FA965C",
+        "swap": "#EEBB54",
+        "disk": "#4CD4DE",
+        "battery": "#4CA7DC",
+        "user": "#3E72DB",
+        "datetime": "#F7756B",
+        "local_ip": "#FA965C",
+        "interfaces": "#4CD4DE",
+        "palette": "#4CA7DC",
+        "plugin:docker": "#3E72DB",
+        "plugin:github-stats": "#F7756B",
+        "plugin:music-player": "#FA965C",
+        "plugin:weather": "#EEBB54",
+        "plugin:timezone": "#4CD4DE",
+        "plugin:user-info": "#4CA7DC",
+        "plugin:display-resolution": "#3E72DB",
+        "plugin:theme-detection": "#F7756B",
+        "plugin:temperature": "#FA965C"
+    },
+    "logo_color": "#3E72DB",
+    "modules": [
+        "os",
+        "disk",
+        "local_ip",
+        "plugin:github-stats",
+        "plugin:theme-detection"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "github-stats",
+            "timeout_secs": 4,
+            "args": {
+                "username": "xscriptor"
+            }
+        },
+        {
+            "plugin": "theme-detection",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "cpu": "CPU",
+        "gpu": "GPU",
+        "memory": "MEM",
+        "shell": "sh",
+        "wm": "WM"
+    },
+    "formats": {
+        "disk": "{used} / {total}",
+        "os": "{distro}"
+    },
+    "os_wsl_style": "full",
+    "logo_gap": 14,
+    "disable_cache": true,
+    "logo_animation": {
+        "plugin": "animate-logo",
+        "style": "rainbow",
+        "fps": 12,
+        "duration_ms": 2200,
+        "loop": false
+    }
+}

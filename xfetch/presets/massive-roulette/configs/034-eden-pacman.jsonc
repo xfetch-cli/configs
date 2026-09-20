@@ -1,0 +1,71 @@
+{
+    "theme": "eden",
+    "ascii": "~/.config/xfetch/logos/antix.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#E16246",
+        "kernel": "#5C43C9",
+        "hostname": "#15CE37",
+        "uptime": "#1FBEE1",
+        "packages": "#BF40A8",
+        "shell": "#CAEC34",
+        "terminal": "#E16246",
+        "wm": "#5C43C9",
+        "cpu": "#15CE37",
+        "gpu": "#1FBEE1",
+        "memory": "#BF40A8",
+        "swap": "#CAEC34",
+        "disk": "#E16246",
+        "battery": "#5C43C9",
+        "user": "#15CE37",
+        "datetime": "#1FBEE1",
+        "local_ip": "#BF40A8",
+        "interfaces": "#E16246",
+        "palette": "#5C43C9",
+        "plugin:docker": "#15CE37",
+        "plugin:github-stats": "#1FBEE1",
+        "plugin:music-player": "#BF40A8",
+        "plugin:weather": "#CAEC34",
+        "plugin:timezone": "#E16246",
+        "plugin:user-info": "#5C43C9",
+        "plugin:display-resolution": "#15CE37",
+        "plugin:theme-detection": "#1FBEE1",
+        "plugin:temperature": "#BF40A8"
+    },
+    "logo_color": "#1FBEE1",
+    "modules": [
+        "os",
+        "memory",
+        "uptime",
+        "user",
+        "packages",
+        "plugin:user-info"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "user-info",
+            "timeout_secs": 4
+        }
+    ],
+    "icons": {},
+    "formats": {
+        "memory": "{used}/{total} ({percent}%)"
+    },
+    "palette_style": "circles",
+    "os_wsl_style": "minimal",
+    "logo_gap": 14,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "GAME OVER",
+    "logo_colors": [
+        "#E16246",
+        "#5C43C9",
+        "#15CE37",
+        "#1FBEE1"
+    ]
+}

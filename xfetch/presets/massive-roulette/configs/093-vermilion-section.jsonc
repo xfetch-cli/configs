@@ -1,0 +1,73 @@
+{
+    "theme": "vermilion",
+    "ascii": "~/.config/xfetch/logos/cachyos.txt",
+    "layout": "section",
+    "show_colors": true,
+    "colors": {
+        "os": "#5F77FA",
+        "kernel": "#BE45D1",
+        "hostname": "#D35563",
+        "uptime": "#E5D26C",
+        "packages": "#7DE86C",
+        "shell": "#76EEE0",
+        "terminal": "#5F77FA",
+        "wm": "#BE45D1",
+        "cpu": "#D35563",
+        "gpu": "#E5D26C",
+        "memory": "#7DE86C",
+        "swap": "#76EEE0",
+        "disk": "#5F77FA",
+        "battery": "#BE45D1",
+        "user": "#D35563",
+        "datetime": "#E5D26C",
+        "local_ip": "#7DE86C",
+        "interfaces": "#5F77FA",
+        "palette": "#BE45D1",
+        "plugin:docker": "#D35563",
+        "plugin:github-stats": "#E5D26C",
+        "plugin:music-player": "#7DE86C",
+        "plugin:weather": "#76EEE0",
+        "plugin:timezone": "#5F77FA",
+        "plugin:user-info": "#BE45D1",
+        "plugin:display-resolution": "#D35563",
+        "plugin:theme-detection": "#E5D26C",
+        "plugin:temperature": "#7DE86C"
+    },
+    "logo_color": "#BE45D1",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Equipo",
+            "modules": [
+                "os",
+                "memory"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Sistema",
+            "modules": [
+                "disk"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Red",
+            "modules": [
+                "uptime"
+            ]
+        }
+    ],
+    "icons": {},
+    "labels": {
+        "os": "distro",
+        "kernel": "kernel",
+        "terminal": "term",
+        "uptime": "up"
+    },
+    "formats": {
+        "disk": "{percent}% en {fs}"
+    },
+    "os_wsl_style": "full",
+    "logo_gap": 14
+}

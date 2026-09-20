@@ -1,0 +1,99 @@
+{
+    "theme": "solarized-dark",
+    "ascii": "~/.config/xfetch/logos/nixos.txt",
+    "layout": "pacman",
+    "show_colors": true,
+    "colors": {
+        "os": "#B58900",
+        "kernel": "#CB4B16",
+        "hostname": "#DC322F",
+        "uptime": "#D33682",
+        "packages": "#6C71C4",
+        "shell": "#839496",
+        "terminal": "#268BD2",
+        "wm": "#2AA198",
+        "cpu": "#859900",
+        "gpu": "#B58900",
+        "memory": "#CB4B16",
+        "swap": "#DC322F",
+        "disk": "#D33682",
+        "battery": "#6C71C4",
+        "user": "#839496",
+        "datetime": "#268BD2",
+        "local_ip": "#2AA198",
+        "interfaces": "#B58900",
+        "palette": "#CB4B16",
+        "plugin:docker": "#DC322F",
+        "plugin:github-stats": "#D33682",
+        "plugin:music-player": "#6C71C4",
+        "plugin:weather": "#839496",
+        "plugin:timezone": "#268BD2",
+        "plugin:user-info": "#2AA198",
+        "plugin:display-resolution": "#859900",
+        "plugin:theme-detection": "#B58900",
+        "plugin:temperature": "#CB4B16",
+        "plugin:gauges": "#CB4B16"
+    },
+    "logo_color": "#CB4B16",
+    "modules": [
+        "os",
+        "uptime",
+        "user",
+        "plugin:gauges"
+    ],
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "hash",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "glyphs": "cjk"
+            },
+            "timeout_secs": 3
+        }
+    ],
+    "icons": {
+        "os": "系",
+        "kernel": "核",
+        "hostname": "名",
+        "uptime": "时",
+        "packages": "包",
+        "shell": "壳",
+        "terminal": "端",
+        "wm": "窗",
+        "cpu": "芯",
+        "gpu": "显",
+        "memory": "存",
+        "swap": "换",
+        "disk": "盘",
+        "battery": "电",
+        "user": "用",
+        "datetime": "日",
+        "local_ip": "网",
+        "interfaces": "卡",
+        "palette": "色"
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3
+    },
+    "os_wsl_style": "minimal",
+    "logo_gap": 10,
+    "header_icons": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer_text": "GAUGES"
+}

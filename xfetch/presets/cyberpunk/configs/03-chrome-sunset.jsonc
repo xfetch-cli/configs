@@ -1,0 +1,80 @@
+{
+    "layout": "compact",
+    "os_wsl_style": "minimal",
+    "modules": [
+        "hostname",
+        "cpu",
+        "gpu",
+        "plugin:gauges",
+        "os",
+        "kernel",
+        "packages",
+        "shell",
+        "wm",
+        "terminal",
+        "local_ip",
+        "user",
+        "uptime",
+        "datetime",
+        "palette"
+    ],
+    "show_colors": true,
+    "icons": {
+        "hostname": "",
+        "cpu": "",
+        "gpu": "󰍹",
+        "memory": "",
+        "swap": "󰓡",
+        "disk": "󰋊",
+        "battery": "",
+        "os": "",
+        "kernel": "",
+        "packages": "",
+        "shell": "",
+        "wm": "",
+        "terminal": "",
+        "local_ip": "󰩟",
+        "user": "",
+        "uptime": "󰔛",
+        "datetime": "",
+        "palette": "",
+        "hardware": "",
+        "software": "",
+        "session": "",
+        "plugin:gauges": ""
+    },
+    "labels": {
+        "plugin:gauges": ""
+    },
+    "formats": {
+        "cpu": "{model} ({cores}) @ {freq}",
+        "gpu": "{vendor} {model}"
+    },
+    "palette_style": "lines",
+    "logo_gap": 10,
+    "show_keys": false,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 14,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "include_tmpfs": false,
+                "glyphs": "nerd"
+            },
+            "timeout_secs": 5
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3,
+        "frames_path": "~/.config/xfetch/fetchs/cyberpunk/banners/03-chrome-sunset.txt"
+    }
+}

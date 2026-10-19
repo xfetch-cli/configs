@@ -1,0 +1,115 @@
+{
+    "layout": "custom-x",
+    "os_wsl_style": "minimal",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "hostname",
+                "cpu",
+                "gpu",
+                "plugin:gauges"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "os",
+                "kernel",
+                "packages",
+                "shell",
+                "wm",
+                "terminal",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "user",
+                "uptime",
+                "datetime"
+            ]
+        },
+        "palette"
+    ],
+    "show_colors": true,
+    "icons": {
+        "hostname": "",
+        "cpu": "",
+        "gpu": "󰍹",
+        "memory": "",
+        "swap": "󰓡",
+        "disk": "󰋊",
+        "battery": "",
+        "os": "",
+        "kernel": "",
+        "packages": "",
+        "shell": "",
+        "wm": "",
+        "terminal": "",
+        "local_ip": "󰩟",
+        "user": "",
+        "uptime": "󰔛",
+        "datetime": "",
+        "palette": "",
+        "hardware": "",
+        "software": "",
+        "session": "",
+        "plugin:gauges": ""
+    },
+    "labels": {
+        "plugin:gauges": "",
+        "hostname": "host",
+        "local_ip": "ip",
+        "packages": "pkgs",
+        "datetime": "time"
+    },
+    "formats": {
+        "cpu": "{model} ({cores}) @ {freq}",
+        "gpu": "{vendor} {model}"
+    },
+    "palette_style": "squares",
+    "logo_gap": 10,
+    "show_keys": true,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 10,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "include_tmpfs": false,
+                "glyphs": "nerd"
+            },
+            "timeout_secs": 5
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3,
+        "frames_path": "~/.config/xfetch/fetchs/cyberpunk/banners/10-amber-relic.txt"
+    },
+    "key_width": 10,
+    "custom_x": {
+        "top": "╔══ XFETCH ══{fill}╗",
+        "bottom": "╚{fill}╝",
+        "left": "║",
+        "right": "║",
+        "fill": "═",
+        "padding": 1,
+        "width": "auto",
+        "group_title": "╭─ {title} ─{fill}╮",
+        "divider": "├{fill}┤",
+        "divider_between": "groups"
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "_name": "01-neon-tokyo",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/01-neon-tokyo.jsonc"
+    },
+    {
+        "_name": "02-acid-terminal",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/02-acid-terminal.jsonc"
+    },
+    {
+        "_name": "03-chrome-sunset",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/03-chrome-sunset.jsonc"
+    },
+    {
+        "_name": "04-ghost-protocol",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/04-ghost-protocol.jsonc"
+    },
+    {
+        "_name": "05-blood-machine",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/05-blood-machine.jsonc"
+    },
+    {
+        "_name": "06-violet-grid",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/06-violet-grid.jsonc"
+    },
+    {
+        "_name": "07-toxic-rain",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/07-toxic-rain.jsonc"
+    },
+    {
+        "_name": "08-magenta-overdrive",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/08-magenta-overdrive.jsonc"
+    },
+    {
+        "_name": "09-blue-shadow",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/09-blue-shadow.jsonc"
+    },
+    {
+        "_name": "10-amber-relic",
+        "path": "~/.config/xfetch/fetchs/cyberpunk/configs/10-amber-relic.jsonc"
+    }
+]

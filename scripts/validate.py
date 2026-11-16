@@ -89,6 +89,32 @@ def strip_trailing_commas(text: str) -> str:
     return re.sub(r",(\s*[}\]])", r"\1", text)
 
 
+PERSONAL_PATH_RE = re.compile(
+    r"^(?:/home/[^/]+|/Users/[^/]+|[A-Za-z]:\\Users\\[^\\]+)(?:[/\\]|$)"
+)
+
+
+def iter_strings(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, dict):
+        for item in value.values():
+            yield from iter_strings(item)
+    elif isinstance(value, list):
+        for item in value:
+            yield from iter_strings(item)
+
+
+def check_personal_paths(path: Path, data) -> list[str]:
+    issues: list[str] = []
+    for value in iter_strings(data):
+        if PERSONAL_PATH_RE.match(value):
+            issues.append(
+                f"{path}: personal absolute path '{value}'; use ~/.config/... instead"
+            )
+    return issues
+
+
 def main() -> int:
     roots = [Path(p) for p in sys.argv[1:]] or [Path(".")]
     files: list[Path] = []
@@ -116,6 +142,12 @@ def main() -> int:
             ok = False
             for issue in glyph_issues:
                 print(f"INVALID GLYPH {issue}")
+        data = json.loads(strip_trailing_commas(strip_jsonc(raw)))
+        path_issues = check_personal_paths(f, data)
+        if path_issues:
+            ok = False
+            for issue in path_issues:
+                print(f"INVALID PATH {issue}")
     if ok:
         print(f"OK: {len(files)} JSON/JSONC files valid (no broken glyphs, no emoji).")
     return 0 if ok else 1

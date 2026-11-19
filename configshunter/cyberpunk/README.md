@@ -63,10 +63,19 @@ xfetch extension install theme-sync
 ```
 
 The theme-sync target generates one `~/.config/xfetch/themes/<slug>.jsonc` per
-palette, updates `"theme"` in `config.jsonc` and keeps the `x` fallback. If you
-are not using equisdots, install a theme instead (for example
-`xfetch theme install chalk`) or copy your own theme files into
-`~/.config/xfetch/themes`.
+palette, updates `"theme"` in `config.jsonc` and keeps the `x` fallback.
+
+If you are not using equisdots, install a remote theme and adjust the provider
+chain, because this preset expects the equisdots palette engine:
+
+```bash
+xfetch theme install dracula
+xfetch config set theme dracula
+```
+
+Then remove or adjust `config-roulette`/`theme-sync` in `config_providers` if
+you do not have a palette source. Otherwise, copy your own
+`themes/<slug>.jsonc` files into `~/.config/xfetch/themes`.
 
 ## Requirements
 

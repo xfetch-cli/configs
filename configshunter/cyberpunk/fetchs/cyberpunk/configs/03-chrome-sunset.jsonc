@@ -1,0 +1,92 @@
+{
+    "layout": "compact",
+    "os_wsl_style": "minimal",
+    "modules": [
+        "hostname",
+        "cpu",
+        "gpu",
+        "plugin:gauges",
+        "os",
+        "kernel",
+        "packages",
+        "shell",
+        "wm",
+        "terminal",
+        "local_ip",
+        "user",
+        "uptime",
+        "datetime",
+        "palette",
+        "plugin:banner-text"
+    ],
+    "show_colors": true,
+    "icons": {
+        "hostname": "",
+        "cpu": "",
+        "gpu": "󰍹",
+        "memory": "",
+        "swap": "󰓡",
+        "disk": "󰋊",
+        "battery": "",
+        "os": "",
+        "kernel": "",
+        "packages": "",
+        "shell": "",
+        "wm": "",
+        "terminal": "",
+        "local_ip": "󰩟",
+        "user": "",
+        "uptime": "󰔛",
+        "datetime": "",
+        "palette": "",
+        "hardware": "",
+        "software": "",
+        "session": "",
+        "plugin:gauges": "",
+        "plugin:banner-text": ""
+    },
+    "labels": {
+        "plugin:gauges": "",
+        "plugin:banner-text": ""
+    },
+    "formats": {
+        "cpu": "{model} ({cores}) @ {freq}",
+        "gpu": "{vendor} {model}"
+    },
+    "palette_style": "lines",
+    "logo_gap": 10,
+    "show_keys": false,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "blocks",
+                "width": 14,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "include_tmpfs": false,
+                "glyphs": "nerd"
+            },
+            "timeout_secs": 5
+        },
+        {
+            "plugin": "banner-text",
+            "args": {
+                "path": "~/.config/xfetch/fetchs/cyberpunk/banners/03-chrome-sunset.txt"
+            },
+            "timeout_secs": 2
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3,
+        "frames_path": "~/.config/xfetch/fetchs/cyberpunk/banners/03-chrome-sunset.txt"
+    },
+    "logo_path": "~/.config/xfetch/fetchs/cyberpunk/images/03-chrome-sunset.jpg",
+    "logo_kitty": true
+}

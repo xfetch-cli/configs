@@ -5,6 +5,12 @@ per-folder changelog:
 
 - [`plugins/CHANGELOG.md`](plugins/CHANGELOG.md) — example configuration changes
 
+## 2026-11-19
+
+- Added `configshunter/cyberpunk`, a complete preset for the `confighunter`
+  command: main roulette config, 16 variants, banners, themes, logos and 16
+  image logos stored as base64 `.b64` assets without image extensions.
+
 ## 2026-11-16
 
 - `plugins/roulette-animation-example/xfetch/routes-anim.json` now uses

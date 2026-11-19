@@ -1,0 +1,117 @@
+{
+    "layout": "pacman",
+    "os_wsl_style": "minimal",
+    "modules": [
+        {
+            "type": "group",
+            "title": "Hardware",
+            "modules": [
+                "hostname",
+                "cpu",
+                "gpu",
+                "plugin:gauges"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Software",
+            "modules": [
+                "os",
+                "kernel",
+                "packages",
+                "shell",
+                "wm",
+                "terminal",
+                "local_ip"
+            ]
+        },
+        {
+            "type": "group",
+            "title": "Session",
+            "modules": [
+                "user",
+                "uptime",
+                "datetime"
+            ]
+        },
+        "palette",
+        "plugin:banner-text"
+    ],
+    "show_colors": true,
+    "icons": {
+        "hostname": "",
+        "cpu": "",
+        "gpu": "󰍹",
+        "memory": "",
+        "swap": "󰓡",
+        "disk": "󰋊",
+        "battery": "",
+        "os": "",
+        "kernel": "",
+        "packages": "",
+        "shell": "",
+        "wm": "",
+        "terminal": "",
+        "local_ip": "󰩟",
+        "user": "",
+        "uptime": "󰔛",
+        "datetime": "",
+        "palette": "",
+        "hardware": "",
+        "software": "",
+        "session": "",
+        "plugin:gauges": "",
+        "plugin:banner-text": ""
+    },
+    "labels": {
+        "plugin:gauges": "",
+        "plugin:banner-text": ""
+    },
+    "formats": {
+        "cpu": "{model} ({cores}) @ {freq}",
+        "gpu": "{vendor} {model}"
+    },
+    "palette_style": "triangles",
+    "logo_gap": 10,
+    "show_keys": false,
+    "info_plugins": [
+        {
+            "plugin": "gauges",
+            "args": {
+                "style": "auto",
+                "width": 16,
+                "metrics": [
+                    "memory",
+                    "swap",
+                    "disk",
+                    "battery"
+                ],
+                "include_tmpfs": false,
+                "glyphs": "nerd"
+            },
+            "timeout_secs": 5
+        },
+        {
+            "plugin": "banner-text",
+            "args": {
+                "path": "~/.config/xfetch/fetchs/cyberpunk/banners/08-magenta-overdrive.txt"
+            },
+            "timeout_secs": 2
+        }
+    ],
+    "logo_animation": {
+        "plugin": "banner",
+        "style": "banner",
+        "timeout_secs": 3,
+        "frames_path": "~/.config/xfetch/fetchs/cyberpunk/banners/08-magenta-overdrive.txt"
+    },
+    "header_icons": [
+        "ᗧ",
+        "●",
+        "●",
+        "●"
+    ],
+    "footer_text": "XFETCH",
+    "logo_path": "~/.config/xfetch/fetchs/cyberpunk/images/08-magenta-overdrive.jpg",
+    "logo_kitty": true
+}

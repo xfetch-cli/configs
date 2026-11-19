@@ -1,0 +1,1315 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-19T00:00:00Z",
+  "presets": [
+    {
+      "name": "cyberpunk",
+      "version": "1.0.0",
+      "description": "Complete cyberpunk preset: 16 roulette variants, themes, logos and base64 image logos.",
+      "path": "cyberpunk",
+      "readme": "README.md",
+      "xfetch_min": "1.0.4",
+      "requires": {
+        "plugins": [
+          "banner",
+          "banner-text",
+          "display-resolution",
+          "gauges"
+        ],
+        "extensions": [
+          "config-roulette",
+          "theme-sync"
+        ],
+        "fonts": [
+          "Nerd Font (Hack recommended)",
+          "Noto Sans CJK JP"
+        ],
+        "tools": [
+          "python3"
+        ]
+      },
+      "files": [
+        {
+          "source": "config.jsonc",
+          "target": "config.jsonc",
+          "sha256": "293fe8732c42eeac53dd61d1940fd9d1ffd56a6a95ff7c2e5edb000c0cc5203a",
+          "size": 3235
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/01-neon-tokyo.txt",
+          "target": "fetchs/cyberpunk/banners/01-neon-tokyo.txt",
+          "sha256": "f46a7cce7b7c02e40e4b05f60a3d3a916e425e9377e680249c1504e97a0cc9bd",
+          "size": 43
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/02-acid-terminal.txt",
+          "target": "fetchs/cyberpunk/banners/02-acid-terminal.txt",
+          "sha256": "cdaa5221a488b95104135d929261901edbc4c90af5b63d16453f4737f9242878",
+          "size": 40
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/03-chrome-sunset.txt",
+          "target": "fetchs/cyberpunk/banners/03-chrome-sunset.txt",
+          "sha256": "71d18eb1c9992d8519d56298108c62dc448d37e7655467ffd7e5989f2fb90c7e",
+          "size": 34
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/04-ghost-protocol.txt",
+          "target": "fetchs/cyberpunk/banners/04-ghost-protocol.txt",
+          "sha256": "dbe78ad52a176057ce9851a85e2552be33379efc5b3c7ea8800766eeeae56bec",
+          "size": 25
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/05-blood-machine.txt",
+          "target": "fetchs/cyberpunk/banners/05-blood-machine.txt",
+          "sha256": "e0acc95ca09e010d5878a135af111c2db5712d4e1f73d468ab3a391776132088",
+          "size": 13
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/06-violet-grid.txt",
+          "target": "fetchs/cyberpunk/banners/06-violet-grid.txt",
+          "sha256": "9ff91f9a5e5a44de027d43aadaba86bbfd561ef71a7b979ab8692e1cf3f37551",
+          "size": 16
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/07-toxic-rain.txt",
+          "target": "fetchs/cyberpunk/banners/07-toxic-rain.txt",
+          "sha256": "5b209b0c4d19f16fb3ceb72276749ad766a91526b01ff2a1161b1ea159834c01",
+          "size": 22
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/08-magenta-overdrive.txt",
+          "target": "fetchs/cyberpunk/banners/08-magenta-overdrive.txt",
+          "sha256": "5407eaa519aee8e8bce8391ce567f11f744e9950f1a5e36f14cc0681800de0be",
+          "size": 22
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/09-blue-shadow.txt",
+          "target": "fetchs/cyberpunk/banners/09-blue-shadow.txt",
+          "sha256": "17c24e7316ae0357505cf5fa839ec0d77ba4b95479e0d32c7e84d5a4b4d9e322",
+          "size": 22
+        },
+        {
+          "source": "fetchs/cyberpunk/banners/10-amber-relic.txt",
+          "target": "fetchs/cyberpunk/banners/10-amber-relic.txt",
+          "sha256": "2d0349008d643ccb7abd62cc66d863ed749876f0a122510a56219078b38284c1",
+          "size": 13
+        },
+        {
+          "source": "fetchs/cyberpunk/config.jsonc",
+          "target": "fetchs/cyberpunk/config.jsonc",
+          "sha256": "142c0a5f7c75b4e0d81942e1ceb8e02b64f6b6dcaaf758e3f8bdf820f8ace925",
+          "size": 2579
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/01-neon-tokyo.jsonc",
+          "target": "fetchs/cyberpunk/configs/01-neon-tokyo.jsonc",
+          "sha256": "e238ebc000af21c5c11f9d05018220855587745c84db8021b0be8ffcc910233e",
+          "size": 2715
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/02-acid-terminal.jsonc",
+          "target": "fetchs/cyberpunk/configs/02-acid-terminal.jsonc",
+          "sha256": "207db29719091241157d298bd33a423f9ef8de81baae8b9ec32d765c5da59278",
+          "size": 2863
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/03-chrome-sunset.jsonc",
+          "target": "fetchs/cyberpunk/configs/03-chrome-sunset.jsonc",
+          "sha256": "25e8848c486638f21a16eac5dcc2659730c9162a39af6f43bdeaae28666e0419",
+          "size": 2250
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/04-ghost-protocol.jsonc",
+          "target": "fetchs/cyberpunk/configs/04-ghost-protocol.jsonc",
+          "sha256": "78e3c4be9c7198bd60d3e30415e9fa03a02f4a027ad5d624026b677cbe4eb1a8",
+          "size": 2851
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/05-blood-machine.jsonc",
+          "target": "fetchs/cyberpunk/configs/05-blood-machine.jsonc",
+          "sha256": "73569b7dac2e2e0232369044aebe7b56349d4c6ffd9df024c66d5e88acb912da",
+          "size": 2723
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/06-violet-grid.jsonc",
+          "target": "fetchs/cyberpunk/configs/06-violet-grid.jsonc",
+          "sha256": "4d34c1f165376a34122eec1f5f1a1566d1fbb5eb8b64aa1ebfa0c9e99eb2adfa",
+          "size": 2714
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/07-toxic-rain.jsonc",
+          "target": "fetchs/cyberpunk/configs/07-toxic-rain.jsonc",
+          "sha256": "082daa725ff287c968eda7f0bbbba7a031670d1dfcfc30ca87171032a78f0ff4",
+          "size": 2308
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/08-magenta-overdrive.jsonc",
+          "target": "fetchs/cyberpunk/configs/08-magenta-overdrive.jsonc",
+          "sha256": "43a08beb4974323649f274566d5502396092bea16139dbd9bd0eb21eaed104ca",
+          "size": 2854
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/09-blue-shadow.jsonc",
+          "target": "fetchs/cyberpunk/configs/09-blue-shadow.jsonc",
+          "sha256": "6c445679ce115683288bdcffe6a07c14158a60e908fe661dbcb75b4d9c123f85",
+          "size": 2377
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/10-amber-relic.jsonc",
+          "target": "fetchs/cyberpunk/configs/10-amber-relic.jsonc",
+          "sha256": "3165c2b2246cdcaaebd754ead2189ab80ebe2a043c5f47a0505d83ba5384d4fc",
+          "size": 3203
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/11-waterfall-wide.jsonc",
+          "target": "fetchs/cyberpunk/configs/11-waterfall-wide.jsonc",
+          "sha256": "b4850f7f10dff3e7f5c1fd6b74be3307c958ecdbf274de2ecfcd06e505988f19",
+          "size": 2949
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/12-oni-samurai.jsonc",
+          "target": "fetchs/cyberpunk/configs/12-oni-samurai.jsonc",
+          "sha256": "6957a703a99f77f7facc6b2008c40e42d1cf9f86ad2cc3cf101e5e69ded8463f",
+          "size": 2936
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/13-glitch-roses.jsonc",
+          "target": "fetchs/cyberpunk/configs/13-glitch-roses.jsonc",
+          "sha256": "87dfe6ff3e76ede7cc1ce9983039c83ae25b2048d4d1696ca33c88e371e1ab46",
+          "size": 2463
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/14-red-samurai.jsonc",
+          "target": "fetchs/cyberpunk/configs/14-red-samurai.jsonc",
+          "sha256": "b91bbcbb5b069d17af1bbd1825ff7bde78dbfb2f270c53c58daa79908e3c2b4f",
+          "size": 2515
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/15-sunset-tree.jsonc",
+          "target": "fetchs/cyberpunk/configs/15-sunset-tree.jsonc",
+          "sha256": "0a7ea34fa7bda72b0106a77abdd7aad53577ea361d74e18ecc8d0df15e76c97c",
+          "size": 3083
+        },
+        {
+          "source": "fetchs/cyberpunk/configs/16-ink-branches.jsonc",
+          "target": "fetchs/cyberpunk/configs/16-ink-branches.jsonc",
+          "sha256": "97e86af49ad91a5fffc951194cafe3e83533712049f4d14f39ba5f8b1c53254f",
+          "size": 2939
+        },
+        {
+          "source": "fetchs/cyberpunk/images/01-neon-tokyo.b64",
+          "target": "fetchs/cyberpunk/images/01-neon-tokyo.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "25016083d853174a40590c83f933e6f72493698970ceb909a2b0d931214907b6",
+          "size": 119042
+        },
+        {
+          "source": "fetchs/cyberpunk/images/02-acid-terminal.b64",
+          "target": "fetchs/cyberpunk/images/02-acid-terminal.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "cff6fb480f8625deca3e77572f559b92b0aa04549b11a4596e0015801a704020",
+          "size": 85839
+        },
+        {
+          "source": "fetchs/cyberpunk/images/03-chrome-sunset.b64",
+          "target": "fetchs/cyberpunk/images/03-chrome-sunset.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "63a32cbe8708188906323a085f0a120e9751577a6420d82ed1e44f3206c7eecb",
+          "size": 190186
+        },
+        {
+          "source": "fetchs/cyberpunk/images/04-ghost-protocol.b64",
+          "target": "fetchs/cyberpunk/images/04-ghost-protocol.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "13463aa213070e8f309bd971e1c55799dcff28b72e0aaaaaa290050392500979",
+          "size": 53631
+        },
+        {
+          "source": "fetchs/cyberpunk/images/05-blood-machine.b64",
+          "target": "fetchs/cyberpunk/images/05-blood-machine.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "bf9f2c669c1f2a7e5acbc07cc7b5178b2f281570470d3f1848e9a42fd09d7582",
+          "size": 100885
+        },
+        {
+          "source": "fetchs/cyberpunk/images/06-violet-grid.b64",
+          "target": "fetchs/cyberpunk/images/06-violet-grid.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "26a6507dbc003ce4e81e6a60cfaadd9199b7dcfd5df980176acaab1ac4b0ee3e",
+          "size": 213216
+        },
+        {
+          "source": "fetchs/cyberpunk/images/07-toxic-rain.b64",
+          "target": "fetchs/cyberpunk/images/07-toxic-rain.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "b4988dbba96bfa0fe0da1a8b0ff3ba8a3e3fb2d5632e2eed436132ad11e6b622",
+          "size": 105921
+        },
+        {
+          "source": "fetchs/cyberpunk/images/08-magenta-overdrive.b64",
+          "target": "fetchs/cyberpunk/images/08-magenta-overdrive.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "9fd826451b7fbfb7dbae55bb5ac3f83204fd037aa7e14b3ffffd4bb61930086b",
+          "size": 121345
+        },
+        {
+          "source": "fetchs/cyberpunk/images/09-blue-shadow.b64",
+          "target": "fetchs/cyberpunk/images/09-blue-shadow.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "eecc19e5e5a5b7526ca9f02c76102e18095e88f09bb70957feaf9d939d6f1fa4",
+          "size": 174796
+        },
+        {
+          "source": "fetchs/cyberpunk/images/10-amber-relic.b64",
+          "target": "fetchs/cyberpunk/images/10-amber-relic.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "90ac98428a6a133b819e161cffa3d749ba23084918d5af282e1ce124c6856894",
+          "size": 80637
+        },
+        {
+          "source": "fetchs/cyberpunk/images/11-waterfall-wide.b64",
+          "target": "fetchs/cyberpunk/images/11-waterfall-wide.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "cfdd482962fedc496cd15b91cea4496c1dfb7905ba5d4d13504fee367846234d",
+          "size": 461526
+        },
+        {
+          "source": "fetchs/cyberpunk/images/12-oni-samurai.b64",
+          "target": "fetchs/cyberpunk/images/12-oni-samurai.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "4a93880b9998487c30ea42fa725f4eed333814f4e8a3b4bff2ce335079cd110f",
+          "size": 139397
+        },
+        {
+          "source": "fetchs/cyberpunk/images/13-glitch-roses.b64",
+          "target": "fetchs/cyberpunk/images/13-glitch-roses.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "8e5652ca5eb4b43a490a8b1199f78d83c2e55b21d70e10b961fa489c2a3d4529",
+          "size": 144102
+        },
+        {
+          "source": "fetchs/cyberpunk/images/14-red-samurai.b64",
+          "target": "fetchs/cyberpunk/images/14-red-samurai.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "ef837dbe88d6dc9d96091c6f2751b2ae24276375943f35ceff997aa5db24fe58",
+          "size": 188531
+        },
+        {
+          "source": "fetchs/cyberpunk/images/15-sunset-tree.b64",
+          "target": "fetchs/cyberpunk/images/15-sunset-tree.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "6b1bc35c239131bf7606aa3fe5c7808422cbecf6c72e1e5d9f14e8628848341b",
+          "size": 356747
+        },
+        {
+          "source": "fetchs/cyberpunk/images/16-ink-branches.b64",
+          "target": "fetchs/cyberpunk/images/16-ink-branches.jpg",
+          "encoding": "base64",
+          "type": "image",
+          "sha256": "ab22d16dd4857d9568af66e4c072b998230e327858cbb4e528ef20e3d2c8b432",
+          "size": 625353
+        },
+        {
+          "source": "fetchs/cyberpunk/routes.json",
+          "target": "fetchs/cyberpunk/routes.json",
+          "sha256": "4e9bd8ea10185f18ea09d5705899be4d6a0714905c7dddd8b7dcdb883c350b9b",
+          "size": 2103
+        },
+        {
+          "source": "logos/equis.txt",
+          "target": "logos/equis.txt",
+          "sha256": "7858093b5100c5e14d3dbbf45e6f053998934278da5608e610e27af08b3af744",
+          "size": 2771
+        },
+        {
+          "source": "logos/x.txt",
+          "target": "logos/x.txt",
+          "sha256": "5e1f3e242c97f2431b2c6b2cafdce97d54fb4f03efec7fe4512bd9cfcb45039e",
+          "size": 592
+        },
+        {
+          "source": "themes/3024.jsonc",
+          "target": "themes/3024.jsonc",
+          "sha256": "bd02ab594cb1b5f0b79636196a4dcec8b064fd10c864144e1cc789ffd66b33ca",
+          "size": 964
+        },
+        {
+          "source": "themes/apathy.jsonc",
+          "target": "themes/apathy.jsonc",
+          "sha256": "6bd3e47b6e5bff2ce669c77b83abcceef4b36f9d659427b93421ee49f5ec87bc",
+          "size": 966
+        },
+        {
+          "source": "themes/apprentice.jsonc",
+          "target": "themes/apprentice.jsonc",
+          "sha256": "99c5fdcadf3f46015f2a0f4e2217c618460179329620ed2b5450ecb7c4899fd9",
+          "size": 970
+        },
+        {
+          "source": "themes/ashes.jsonc",
+          "target": "themes/ashes.jsonc",
+          "sha256": "7737d9db67064958cffd6c155f06e57a90fef0121645ac38e9cc155216ab0014",
+          "size": 965
+        },
+        {
+          "source": "themes/atelier-cave-light.jsonc",
+          "target": "themes/atelier-cave-light.jsonc",
+          "sha256": "16e265a4b19cf557a36fbea4265bd86733e1983b31f97d7ca0fc85e90103c989",
+          "size": 978
+        },
+        {
+          "source": "themes/atelier-cave.jsonc",
+          "target": "themes/atelier-cave.jsonc",
+          "sha256": "e2c73998f65c468176ddee228f924cb750acdbfe766c82f0751d588f5f5921a2",
+          "size": 972
+        },
+        {
+          "source": "themes/atelier-dune-light.jsonc",
+          "target": "themes/atelier-dune-light.jsonc",
+          "sha256": "58b8116c46a2d5e056e59a773d3f7c3b2350f04d23ed2e08f18094e779f75ac6",
+          "size": 978
+        },
+        {
+          "source": "themes/atelier-dune.jsonc",
+          "target": "themes/atelier-dune.jsonc",
+          "sha256": "671034ebf739f8387df58c84a9a60c4967b107615a7e58c285d53fffc2da34af",
+          "size": 972
+        },
+        {
+          "source": "themes/atelier-heath-light.jsonc",
+          "target": "themes/atelier-heath-light.jsonc",
+          "sha256": "f6b0793d9841e51c1875fff96e338ecf4017eeadee9cb19ee6daf303dfc3743a",
+          "size": 979
+        },
+        {
+          "source": "themes/atelier-heath.jsonc",
+          "target": "themes/atelier-heath.jsonc",
+          "sha256": "795c80c49447c14b21070ac97868b11f0d1c8aebeaf852a18bc4dd711ebb770a",
+          "size": 973
+        },
+        {
+          "source": "themes/atelier-lakeside-light.jsonc",
+          "target": "themes/atelier-lakeside-light.jsonc",
+          "sha256": "ebeeb2f5ce05defbd9e70957a12871951d7a685bba87e94ec03509df0371c25e",
+          "size": 982
+        },
+        {
+          "source": "themes/atelier-lakeside.jsonc",
+          "target": "themes/atelier-lakeside.jsonc",
+          "sha256": "f37d0cbff3940350e829e6dc48a44a80a28ad2b4236d12852370a6fe1ce1d140",
+          "size": 976
+        },
+        {
+          "source": "themes/atelier-seaside-light.jsonc",
+          "target": "themes/atelier-seaside-light.jsonc",
+          "sha256": "21b68691868986fc0679d8d9ccc8bbac174fce393570dc58c7fb483a3cda3f7a",
+          "size": 981
+        },
+        {
+          "source": "themes/atelier-seaside.jsonc",
+          "target": "themes/atelier-seaside.jsonc",
+          "sha256": "fa03212b8fd3d2b20691d790fc225227d153c2ed3e9c8f2561ffe3abe3d40a58",
+          "size": 975
+        },
+        {
+          "source": "themes/atelier-sulphurpool-light.jsonc",
+          "target": "themes/atelier-sulphurpool-light.jsonc",
+          "sha256": "a7ad0edc4420053c6852ca595292e5e4209ca316de39454f5bf2357f0315664e",
+          "size": 985
+        },
+        {
+          "source": "themes/atelier-sulphurpool.jsonc",
+          "target": "themes/atelier-sulphurpool.jsonc",
+          "sha256": "503eb79e36fea07d6852410bcbf3930b2a3910de4a08706f4e0641890c4667e5",
+          "size": 979
+        },
+        {
+          "source": "themes/berlin.jsonc",
+          "target": "themes/berlin.jsonc",
+          "sha256": "3442fb0da8d235b7524b9c256d5f19464e9d2c8c27f79b95630750c77551e599",
+          "size": 966
+        },
+        {
+          "source": "themes/bespin.jsonc",
+          "target": "themes/bespin.jsonc",
+          "sha256": "fdff1db0eb9acdb434f220db32d80e61f9108e095fed2eea7bbe029f085b1320",
+          "size": 966
+        },
+        {
+          "source": "themes/bogota.jsonc",
+          "target": "themes/bogota.jsonc",
+          "sha256": "c6098b1748c8e54a8d49010a3dc23b926e9e1b6fd9daa20bcefa9b92c3edfd27",
+          "size": 966
+        },
+        {
+          "source": "themes/brewer.jsonc",
+          "target": "themes/brewer.jsonc",
+          "sha256": "c7543f9a211bf0cced7c5cc8d0ba311828e20d9e3576d661746496681b8544ec",
+          "size": 966
+        },
+        {
+          "source": "themes/bright.jsonc",
+          "target": "themes/bright.jsonc",
+          "sha256": "9add54f8dad2fd0ba5bbf312bca1d703d63f80d70db9fc21aac51b50d33c479b",
+          "size": 966
+        },
+        {
+          "source": "themes/brushtrees-dark.jsonc",
+          "target": "themes/brushtrees-dark.jsonc",
+          "sha256": "c820de73ae1f3493ea697da7ad8bab498c94f0b8601bcf5d5c81b6c0b0048d84",
+          "size": 975
+        },
+        {
+          "source": "themes/brushtrees.jsonc",
+          "target": "themes/brushtrees.jsonc",
+          "sha256": "b9e626f4933bb4e8787319f5ecfa3054939097c48738ae346416ee207a5d680c",
+          "size": 970
+        },
+        {
+          "source": "themes/catppuccin-frappe.jsonc",
+          "target": "themes/catppuccin-frappe.jsonc",
+          "sha256": "cbee67aaf20ffb7e35aa8ef5c58b107accea28d85544bacc9e118dbf751da2e6",
+          "size": 977
+        },
+        {
+          "source": "themes/catppuccin-latte.jsonc",
+          "target": "themes/catppuccin-latte.jsonc",
+          "sha256": "60de0adf9596ba01715be0f6a62a393483ec3bbaae8bda2803f167fcbf41efdd",
+          "size": 976
+        },
+        {
+          "source": "themes/catppuccin-macchiato.jsonc",
+          "target": "themes/catppuccin-macchiato.jsonc",
+          "sha256": "d89f0081d2678d90d50baa0b433d52a310653bf027ef25cd6e1025afcf49daee",
+          "size": 980
+        },
+        {
+          "source": "themes/catppuccin-mocha.jsonc",
+          "target": "themes/catppuccin-mocha.jsonc",
+          "sha256": "0b473998dbf1e168731ffbb606378132f4d534998c603ea62188b622f37d76e2",
+          "size": 976
+        },
+        {
+          "source": "themes/chalk.jsonc",
+          "target": "themes/chalk.jsonc",
+          "sha256": "f98d7a2c1595061953f6628a78d956e7b942c896d1b62f811f5c3062eb235305",
+          "size": 965
+        },
+        {
+          "source": "themes/codeschool.jsonc",
+          "target": "themes/codeschool.jsonc",
+          "sha256": "63ee054bb1c6a422df04068733057090c47f472ae2e40352dc0533566eed79da",
+          "size": 970
+        },
+        {
+          "source": "themes/cupcake.jsonc",
+          "target": "themes/cupcake.jsonc",
+          "sha256": "90a49fe768b035418e7a60d38a40e3e1894a4a008a2606cd74e20e03c6e32405",
+          "size": 967
+        },
+        {
+          "source": "themes/cyberpunk-arasaka-alt.jsonc",
+          "target": "themes/cyberpunk-arasaka-alt.jsonc",
+          "sha256": "6a2d061964a14ad2912e90a15e5adb9698d4819ec05f4beb6cd4ddc9ffafa5d3",
+          "size": 981
+        },
+        {
+          "source": "themes/cyberpunk-arasaka-mono-alt.jsonc",
+          "target": "themes/cyberpunk-arasaka-mono-alt.jsonc",
+          "sha256": "20ec27698f60802552293b89a78840d519757a3e8c748704dccc04267bbac411",
+          "size": 986
+        },
+        {
+          "source": "themes/cyberpunk-arasaka-mono.jsonc",
+          "target": "themes/cyberpunk-arasaka-mono.jsonc",
+          "sha256": "5f5d9eab4acb99dcaa8715c1070920ceede47fa797d0efdf70201f20cc6a303a",
+          "size": 982
+        },
+        {
+          "source": "themes/cyberpunk-arasaka.jsonc",
+          "target": "themes/cyberpunk-arasaka.jsonc",
+          "sha256": "33a2a6f232665a3283c1b8d1e4f76c87e7f8a4db49f9b5f818b1c05f1cf696c9",
+          "size": 977
+        },
+        {
+          "source": "themes/cyberpunk-militech-alt.jsonc",
+          "target": "themes/cyberpunk-militech-alt.jsonc",
+          "sha256": "2cb9b5f3890705f46692d1ee9c3c4800b0f6409e99f9e80a10c73c1f6a834377",
+          "size": 982
+        },
+        {
+          "source": "themes/cyberpunk-militech-mono-alt.jsonc",
+          "target": "themes/cyberpunk-militech-mono-alt.jsonc",
+          "sha256": "10fd925ad831776cbd77d1b4288e89fd8bc5f5b6ce81ef7a278b823c85bd8f48",
+          "size": 987
+        },
+        {
+          "source": "themes/cyberpunk-militech-mono.jsonc",
+          "target": "themes/cyberpunk-militech-mono.jsonc",
+          "sha256": "51a3c943d6f7685dc8e4082a6549f6a13bf0e3d10eac6b3774b56279cf9838e7",
+          "size": 983
+        },
+        {
+          "source": "themes/cyberpunk-militech.jsonc",
+          "target": "themes/cyberpunk-militech.jsonc",
+          "sha256": "1d3f3a50750bc3a39b7c5af717fd472c65fd1840a129ca7db4081f56012fd735",
+          "size": 978
+        },
+        {
+          "source": "themes/cyberpunk-netrunner-alt.jsonc",
+          "target": "themes/cyberpunk-netrunner-alt.jsonc",
+          "sha256": "1b50643b15c060b6b950da558137e3e225c27592f5bb06b5f626684e47b0110a",
+          "size": 983
+        },
+        {
+          "source": "themes/cyberpunk-netrunner-mono-alt.jsonc",
+          "target": "themes/cyberpunk-netrunner-mono-alt.jsonc",
+          "sha256": "7d2172077de568a535100b463808422c716e5d907434311d7fc5b50f622664b4",
+          "size": 988
+        },
+        {
+          "source": "themes/cyberpunk-netrunner-mono.jsonc",
+          "target": "themes/cyberpunk-netrunner-mono.jsonc",
+          "sha256": "afb69857db679750ce6158478884877fd393c9e94f6ab0b0e065b9b9e2b3d49a",
+          "size": 984
+        },
+        {
+          "source": "themes/cyberpunk-netrunner.jsonc",
+          "target": "themes/cyberpunk-netrunner.jsonc",
+          "sha256": "475901ca48cf802b59459a502ba77e1022fc51301afe86f035d46c02bd6c405b",
+          "size": 979
+        },
+        {
+          "source": "themes/cyberpunk-night-city-alt.jsonc",
+          "target": "themes/cyberpunk-night-city-alt.jsonc",
+          "sha256": "6d6740e52b4c9799914741183b43417a31ce15889b7f8b2baf970f7012d2f824",
+          "size": 984
+        },
+        {
+          "source": "themes/cyberpunk-night-city-mono-alt.jsonc",
+          "target": "themes/cyberpunk-night-city-mono-alt.jsonc",
+          "sha256": "60fe7b316d80a3f094f09ace533cd47ba2c037db75bafb3496d2663980ed01d9",
+          "size": 989
+        },
+        {
+          "source": "themes/cyberpunk-night-city-mono.jsonc",
+          "target": "themes/cyberpunk-night-city-mono.jsonc",
+          "sha256": "8731ab17b2b4f65a4329b3f82514a524e910bb19cbefba2eda8ebd6d9ac7d09d",
+          "size": 985
+        },
+        {
+          "source": "themes/cyberpunk-night-city.jsonc",
+          "target": "themes/cyberpunk-night-city.jsonc",
+          "sha256": "ff76ab74e36a371ad48fe11fd71c213c484d7cb7ff9ec30c438339a8ea6debb8",
+          "size": 980
+        },
+        {
+          "source": "themes/cyberpunk-samurai.jsonc",
+          "target": "themes/cyberpunk-samurai.jsonc",
+          "sha256": "4f6311528825a7e5e6ff85d5b72bf89f8c46f0a76cdded41f741519150a56f09",
+          "size": 977
+        },
+        {
+          "source": "themes/cyberpunk-x.jsonc",
+          "target": "themes/cyberpunk-x.jsonc",
+          "sha256": "96e090065bdf943cf27bc1de00491d8dcb1be088a9e37a6bb29a5fd1aff4db17",
+          "size": 971
+        },
+        {
+          "source": "themes/danqing-light.jsonc",
+          "target": "themes/danqing-light.jsonc",
+          "sha256": "698be37c2d89b01fe9290518e76b80a411015e9d4ece4f258d4b38a791210348",
+          "size": 973
+        },
+        {
+          "source": "themes/danqing.jsonc",
+          "target": "themes/danqing.jsonc",
+          "sha256": "8be6439aa4b4fc0608b9e1b99a00ad6e93bd682c13d1b8e6214aa9889b39cc78",
+          "size": 967
+        },
+        {
+          "source": "themes/darcula.jsonc",
+          "target": "themes/darcula.jsonc",
+          "sha256": "bad2aa7c70d54b3744dae13463ba3a89fb69dae66a838261b279c18e8973ec84",
+          "size": 967
+        },
+        {
+          "source": "themes/darkmoss.jsonc",
+          "target": "themes/darkmoss.jsonc",
+          "sha256": "3a9fbd4fa59886bd86e28345300a8fc9e482f03a372bb9fcb636550f2f5517bb",
+          "size": 968
+        },
+        {
+          "source": "themes/decaf.jsonc",
+          "target": "themes/decaf.jsonc",
+          "sha256": "152f53642cbe1b51d4f2677d45f2ad05f2bcf1ad9177fed5db3863eb1f89ba86",
+          "size": 965
+        },
+        {
+          "source": "themes/default-dark.jsonc",
+          "target": "themes/default-dark.jsonc",
+          "sha256": "1c828c53575be7d509d4fc2d8a7fb9f32b7e0bdfa39ccbe8561f25fb462b68b2",
+          "size": 972
+        },
+        {
+          "source": "themes/dracula.jsonc",
+          "target": "themes/dracula.jsonc",
+          "sha256": "56f2d5f6256023994af706986f2be96c5edf693e2f71e88a38a8f0b073ba7027",
+          "size": 967
+        },
+        {
+          "source": "themes/edge-dark.jsonc",
+          "target": "themes/edge-dark.jsonc",
+          "sha256": "b8730aea9b118e8a1460f890ba1d98cb3dbdd8edee246373152e98b5de9de01a",
+          "size": 969
+        },
+        {
+          "source": "themes/edge-light.jsonc",
+          "target": "themes/edge-light.jsonc",
+          "sha256": "f0de14d29861a809ad94809ecc9c07fbe3f84e17da2711845b1b796f5f1c104f",
+          "size": 970
+        },
+        {
+          "source": "themes/eighties.jsonc",
+          "target": "themes/eighties.jsonc",
+          "sha256": "750afcbeb9bc1fc70722073eeeff29469cba82d68ebe4ec7c4a8081fedfcdf2f",
+          "size": 968
+        },
+        {
+          "source": "themes/embers.jsonc",
+          "target": "themes/embers.jsonc",
+          "sha256": "a873bc4e2181afca0c89280a640a31b3819b6a51fa3036cbec93ca595e52dc25",
+          "size": 966
+        },
+        {
+          "source": "themes/equilibrium-dark.jsonc",
+          "target": "themes/equilibrium-dark.jsonc",
+          "sha256": "76140f024e152d8bedb0dec12e13a9f2a220590070c9985776dfbd3f88a67e55",
+          "size": 976
+        },
+        {
+          "source": "themes/equilibrium-light.jsonc",
+          "target": "themes/equilibrium-light.jsonc",
+          "sha256": "1c11c7ee52334e36a765403f9edd269f3cfe2350f9c8d5ec59be501d84564d36",
+          "size": 977
+        },
+        {
+          "source": "themes/espresso.jsonc",
+          "target": "themes/espresso.jsonc",
+          "sha256": "5b1dec33c9c625d395bb527166a93ffa9d01d8e71b45027c5390da594e0b8a31",
+          "size": 968
+        },
+        {
+          "source": "themes/everforest-dark-hard.jsonc",
+          "target": "themes/everforest-dark-hard.jsonc",
+          "sha256": "6c12baf7742c65d74bb2dd67d68052e629fa6790e22d313436d39071e41e5a03",
+          "size": 980
+        },
+        {
+          "source": "themes/everforest-dark-medium.jsonc",
+          "target": "themes/everforest-dark-medium.jsonc",
+          "sha256": "413bcf5ffed62869cf99b991343d8ac613bb9e0e3ba734572cd827a4ac7d6b17",
+          "size": 982
+        },
+        {
+          "source": "themes/everforest-dark-soft.jsonc",
+          "target": "themes/everforest-dark-soft.jsonc",
+          "sha256": "5d88cf9f3fdc460b7db34ce525c083e4996c9bd1247eedacb42530ed0efc3e8b",
+          "size": 980
+        },
+        {
+          "source": "themes/everforest-light-hard.jsonc",
+          "target": "themes/everforest-light-hard.jsonc",
+          "sha256": "ea1e4abc542442179a2de4f38e5c65ee07b9733908240db1e04ac5a81cb455d9",
+          "size": 981
+        },
+        {
+          "source": "themes/everforest-light-medium.jsonc",
+          "target": "themes/everforest-light-medium.jsonc",
+          "sha256": "bc96dc3db3df2c39c910dc6e4c13dc8996ad5dc769ef5fddbeec5a0157a298db",
+          "size": 983
+        },
+        {
+          "source": "themes/everforest-light-soft.jsonc",
+          "target": "themes/everforest-light-soft.jsonc",
+          "sha256": "2a21c7cab864c36205daca7e1d13236e35f7d95c7b16dcf854bd08de4ec9fae5",
+          "size": 981
+        },
+        {
+          "source": "themes/flat.jsonc",
+          "target": "themes/flat.jsonc",
+          "sha256": "94ee8b6ece603075fc47f82eb1b080f65734ffd115fbc03628532bece313f562",
+          "size": 964
+        },
+        {
+          "source": "themes/framer.jsonc",
+          "target": "themes/framer.jsonc",
+          "sha256": "1b6c8dbd9aef4030fdf17842ce61fd92501db77a361671e725810be0b09109b1",
+          "size": 966
+        },
+        {
+          "source": "themes/gigavolt.jsonc",
+          "target": "themes/gigavolt.jsonc",
+          "sha256": "71f1ac411838563c3ea4f11ef12e746f65166760be80a6328d6185bfeaec6404",
+          "size": 968
+        },
+        {
+          "source": "themes/github-dark-dimmed.jsonc",
+          "target": "themes/github-dark-dimmed.jsonc",
+          "sha256": "5c68d42f5b8cd5b07107832b8b5cd68f619f625b418c79a6eeb1ead9276d0382",
+          "size": 978
+        },
+        {
+          "source": "themes/github-dark.jsonc",
+          "target": "themes/github-dark.jsonc",
+          "sha256": "532a593d1fe3b80b6c36c24ec7fdfdfe28700b7e6451a793eaa0d22d13708dd3",
+          "size": 971
+        },
+        {
+          "source": "themes/github.jsonc",
+          "target": "themes/github.jsonc",
+          "sha256": "e03ba68a8b50ee7f28e62a0370f950d5c999471a7dadc168221f6ad39424a1bc",
+          "size": 966
+        },
+        {
+          "source": "themes/gruvbox-dark-hard.jsonc",
+          "target": "themes/gruvbox-dark-hard.jsonc",
+          "sha256": "2ad4ccddad3b0a7f86ee11bc170b40af5165dbee254d2e5982a8e2ecf4e446cb",
+          "size": 977
+        },
+        {
+          "source": "themes/gruvbox-dark-medium.jsonc",
+          "target": "themes/gruvbox-dark-medium.jsonc",
+          "sha256": "5d3d732bbe84356c3b9063d7f2427ef3545c5b87130233c6caf1ee663213dcd4",
+          "size": 979
+        },
+        {
+          "source": "themes/gruvbox-dark-pale.jsonc",
+          "target": "themes/gruvbox-dark-pale.jsonc",
+          "sha256": "d38c93df7b252c761fb75641934bb14c469692741eddcfeefd5597d85e466215",
+          "size": 977
+        },
+        {
+          "source": "themes/gruvbox-dark-soft.jsonc",
+          "target": "themes/gruvbox-dark-soft.jsonc",
+          "sha256": "7536c1c37e2eb269c49fcd76bb13dd4b077945956da30b857af0879e458d6445",
+          "size": 977
+        },
+        {
+          "source": "themes/gruvbox-dark.jsonc",
+          "target": "themes/gruvbox-dark.jsonc",
+          "sha256": "8e1a2a05286cd9eb096c62f9e7e258ca9b8ee74bdfe76e015e6db138d2e59b50",
+          "size": 972
+        },
+        {
+          "source": "themes/gruvbox-light-hard.jsonc",
+          "target": "themes/gruvbox-light-hard.jsonc",
+          "sha256": "a2bfe3247215005d14d90527005fabbd194dc4566bf1cfa096d8aca3d4958c63",
+          "size": 978
+        },
+        {
+          "source": "themes/gruvbox-light-medium.jsonc",
+          "target": "themes/gruvbox-light-medium.jsonc",
+          "sha256": "87f161aefc939e2e0987e09fae71cc14b518f66cbe23ff7ad7a1382dee25d46f",
+          "size": 980
+        },
+        {
+          "source": "themes/gruvbox-light-soft.jsonc",
+          "target": "themes/gruvbox-light-soft.jsonc",
+          "sha256": "09b96f15918e358f74c490424f8e41e2dcb116933c03c4c877809fc9281f9e65",
+          "size": 978
+        },
+        {
+          "source": "themes/gruvbox-light.jsonc",
+          "target": "themes/gruvbox-light.jsonc",
+          "sha256": "c0bd9f6a4a3c2c3d7b01b9e65a636ee768a5c905ad77955e12f02639aa3b913d",
+          "size": 973
+        },
+        {
+          "source": "themes/gruvbox-material-dark-hard.jsonc",
+          "target": "themes/gruvbox-material-dark-hard.jsonc",
+          "sha256": "1a75505c08c4f1ffe34f96c3c38f8178087eb1f8b327323409e8ce4ad5c6ca7d",
+          "size": 986
+        },
+        {
+          "source": "themes/gruvbox-material-dark-medium.jsonc",
+          "target": "themes/gruvbox-material-dark-medium.jsonc",
+          "sha256": "894f5f66437221b6c68f14ade2fd43f42aa265f6087ab83e5d76fc0273679cd3",
+          "size": 988
+        },
+        {
+          "source": "themes/gruvbox-material-dark-soft.jsonc",
+          "target": "themes/gruvbox-material-dark-soft.jsonc",
+          "sha256": "bbc9f8053f55bf5d7223b4b251bda60faa15c7d754288d38ecb1135ec88cd60c",
+          "size": 986
+        },
+        {
+          "source": "themes/gruvbox-material-light-hard.jsonc",
+          "target": "themes/gruvbox-material-light-hard.jsonc",
+          "sha256": "0ee7eb0f25aaa025dbb5ba9431a7686d98e57a57bd58260ce7b789872c2fca55",
+          "size": 987
+        },
+        {
+          "source": "themes/gruvbox-material-light-medium.jsonc",
+          "target": "themes/gruvbox-material-light-medium.jsonc",
+          "sha256": "6790ed694f64734ae0a53ca2be658170691b0fb461e5c1a38d76d10740ca8f83",
+          "size": 989
+        },
+        {
+          "source": "themes/harmonic16-light.jsonc",
+          "target": "themes/harmonic16-light.jsonc",
+          "sha256": "e5611d47480fba78536a4bda5de2af6a2210cc474c9afad592aed8284e2a410f",
+          "size": 976
+        },
+        {
+          "source": "themes/helsinki.jsonc",
+          "target": "themes/helsinki.jsonc",
+          "sha256": "d8ad2a4e826b851e8f5bc2f1b7c0836b99ab4546299e7966c30ceffd27abd6f0",
+          "size": 968
+        },
+        {
+          "source": "themes/horizon-dark.jsonc",
+          "target": "themes/horizon-dark.jsonc",
+          "sha256": "30cefe784a04aaa39a33ed195571320993ff6cb44287aaf935a1dfc55821ca27",
+          "size": 972
+        },
+        {
+          "source": "themes/horizon-light.jsonc",
+          "target": "themes/horizon-light.jsonc",
+          "sha256": "1bf9e82b69689fac790c9014b22499bc7ae405dcb1371ff1f6893b205db59bf1",
+          "size": 973
+        },
+        {
+          "source": "themes/horizon-terminal-dark.jsonc",
+          "target": "themes/horizon-terminal-dark.jsonc",
+          "sha256": "258106fc11bcaccae75b8316da6b5f0c95127aa52c7e563e4bad1879d0d64034",
+          "size": 981
+        },
+        {
+          "source": "themes/horizon-terminal-light.jsonc",
+          "target": "themes/horizon-terminal-light.jsonc",
+          "sha256": "889c786377b266e60c8347e2df08bda9580e42776cce61a2341df0abfbc3e2ee",
+          "size": 982
+        },
+        {
+          "source": "themes/humanoid-dark.jsonc",
+          "target": "themes/humanoid-dark.jsonc",
+          "sha256": "967e48a560725aff6332d9aff5ec6b62d752dd5341ec8a8772db5c2cc229169d",
+          "size": 973
+        },
+        {
+          "source": "themes/humanoid-light.jsonc",
+          "target": "themes/humanoid-light.jsonc",
+          "sha256": "177529798408cc1f40f01c82a916d48a460ce92dfc47ede3734051fa353098af",
+          "size": 974
+        },
+        {
+          "source": "themes/irblack.jsonc",
+          "target": "themes/irblack.jsonc",
+          "sha256": "7ee3c39af386f8e077a07f4ad6b1652b75d32dfc8833bb58ffbc2c3333e97809",
+          "size": 967
+        },
+        {
+          "source": "themes/kanagawa-dragon.jsonc",
+          "target": "themes/kanagawa-dragon.jsonc",
+          "sha256": "de43ea4b567275c15783746b207f152a75efd7adf5b23ad6ed14b7c4fa05cf8a",
+          "size": 975
+        },
+        {
+          "source": "themes/kanagawa.jsonc",
+          "target": "themes/kanagawa.jsonc",
+          "sha256": "6bb9f68ef7e4cac5d76bf1b4b947ae80968ac605d6247ebf0cf7d19dbd2beb5c",
+          "size": 968
+        },
+        {
+          "source": "themes/lahabana.jsonc",
+          "target": "themes/lahabana.jsonc",
+          "sha256": "aea91629d8053145658ff109e4c39cdec1d21f5e0beb6b80011bb85c0e50a2cd",
+          "size": 968
+        },
+        {
+          "source": "themes/london.jsonc",
+          "target": "themes/london.jsonc",
+          "sha256": "d5ea0c92fccd56b60557470e4a57e09e03a33added079522b5789c5d906daf8e",
+          "size": 966
+        },
+        {
+          "source": "themes/madrid.jsonc",
+          "target": "themes/madrid.jsonc",
+          "sha256": "8fb2224f3536e70f851929b75ded92fb42e0d67f15f0412694064a3b1cc5cabd",
+          "size": 966
+        },
+        {
+          "source": "themes/material-darker.jsonc",
+          "target": "themes/material-darker.jsonc",
+          "sha256": "80dba5a1dc06a1a0e35800248d63c2e2003955217dbf330109d72ff7bc95fbdb",
+          "size": 975
+        },
+        {
+          "source": "themes/material-lighter.jsonc",
+          "target": "themes/material-lighter.jsonc",
+          "sha256": "341345271036646a391902fad14e9795c9f94c65fc3d706b35b282bbd8a7f71f",
+          "size": 976
+        },
+        {
+          "source": "themes/material-palenight.jsonc",
+          "target": "themes/material-palenight.jsonc",
+          "sha256": "d6fcf24338a41d9752433558bcbbcf8a9338db27c131cffe6cb2e80eb7b8915c",
+          "size": 978
+        },
+        {
+          "source": "themes/material-vivid.jsonc",
+          "target": "themes/material-vivid.jsonc",
+          "sha256": "6a72e01f8544d1f6793bebf64911c2bff2dcb115cddc083f0621116b38bebd05",
+          "size": 974
+        },
+        {
+          "source": "themes/material.jsonc",
+          "target": "themes/material.jsonc",
+          "sha256": "441800cf8da6c7de222ceaac915bc3ca748f3419e34d419d3e4a520c50fde6ea",
+          "size": 968
+        },
+        {
+          "source": "themes/miami.jsonc",
+          "target": "themes/miami.jsonc",
+          "sha256": "9f4cada24b270d8b6365c9fb58035c63214f2772d58e20ea09fb0a7a7cc5cc62",
+          "size": 965
+        },
+        {
+          "source": "themes/mono-blue.jsonc",
+          "target": "themes/mono-blue.jsonc",
+          "sha256": "0f6b3874fc64bb4fe27b284c02442058931fcbd8452958cb9571496b8ad23f34",
+          "size": 969
+        },
+        {
+          "source": "themes/mono-gold.jsonc",
+          "target": "themes/mono-gold.jsonc",
+          "sha256": "bd0b6e41f633e8c17fec97c0122a3d75760e539c1042c682cb5674ce08b4c25f",
+          "size": 969
+        },
+        {
+          "source": "themes/mono-green.jsonc",
+          "target": "themes/mono-green.jsonc",
+          "sha256": "187eeaf5da9c10562c2d6b7658fdf94ec612329898fa09a05c805894921d97b4",
+          "size": 970
+        },
+        {
+          "source": "themes/mono-pink.jsonc",
+          "target": "themes/mono-pink.jsonc",
+          "sha256": "00ac3e7568ae9fa698075e8781e21eeb138a45ddeefe135fe597c4a5cce24f8e",
+          "size": 969
+        },
+        {
+          "source": "themes/mono-red.jsonc",
+          "target": "themes/mono-red.jsonc",
+          "sha256": "38c57afa94442f9af53bede671a1ebe74ea3d741d4e47b70254eb4fcbdf700fc",
+          "size": 968
+        },
+        {
+          "source": "themes/mono-yellow.jsonc",
+          "target": "themes/mono-yellow.jsonc",
+          "sha256": "cd9f5847e5089fc231cb8da899ac217411308091df1920fdc0b53290877b26e8",
+          "size": 971
+        },
+        {
+          "source": "themes/monokai.jsonc",
+          "target": "themes/monokai.jsonc",
+          "sha256": "b6e274b19c9c6a08c32bcc6fee41f0d9a69d458a8da02efc0a28ac2c406db78f",
+          "size": 967
+        },
+        {
+          "source": "themes/nord.jsonc",
+          "target": "themes/nord.jsonc",
+          "sha256": "3af49245d09d1d9d985d451cfbb8bc9f016d1885c205303d6aa52f7122c08995",
+          "size": 964
+        },
+        {
+          "source": "themes/ocean.jsonc",
+          "target": "themes/ocean.jsonc",
+          "sha256": "9add33488a72fd5db40d11c78d1cf97bd568aa0b5981917e21d9e65c2c5dc182",
+          "size": 965
+        },
+        {
+          "source": "themes/oceanicnext.jsonc",
+          "target": "themes/oceanicnext.jsonc",
+          "sha256": "195412051a02d3bf54fe4ec9ed00bb6222313abcdbb558b69dbf7d5b826fa0a6",
+          "size": 971
+        },
+        {
+          "source": "themes/one-light.jsonc",
+          "target": "themes/one-light.jsonc",
+          "sha256": "4eeb14b8271149bdb65ccf3e722dc7b06c3dd413753a97b806ddfa2fdd2805c0",
+          "size": 969
+        },
+        {
+          "source": "themes/onedark.jsonc",
+          "target": "themes/onedark.jsonc",
+          "sha256": "1ec1e4d7befa76a8ee4c18217919124288f326add49832c1377fec037a1cd482",
+          "size": 967
+        },
+        {
+          "source": "themes/oslo.jsonc",
+          "target": "themes/oslo.jsonc",
+          "sha256": "fcfccdee70fa27fa8b68a38bb95d407f16b77a015ff01517d0809120da7391cf",
+          "size": 964
+        },
+        {
+          "source": "themes/paris.jsonc",
+          "target": "themes/paris.jsonc",
+          "sha256": "6cae08367837cb13ac63bf07f2c122b3e7b183d7bd22522d4720681becad0e6e",
+          "size": 965
+        },
+        {
+          "source": "themes/pinky.jsonc",
+          "target": "themes/pinky.jsonc",
+          "sha256": "02e52d90be3f1fe8f2c63f31675399f5784ffaecbdb7ca444c52b549e540d5b3",
+          "size": 965
+        },
+        {
+          "source": "themes/praha.jsonc",
+          "target": "themes/praha.jsonc",
+          "sha256": "04ed9f223b54b00711fd71e650b95ff9ce5f19e52cd4279bcb57679610242ca3",
+          "size": 965
+        },
+        {
+          "source": "themes/railscasts.jsonc",
+          "target": "themes/railscasts.jsonc",
+          "sha256": "00f36d4d37f7f902d86d810684b98380e05643c02e7770f25f08be5bb7800d39",
+          "size": 970
+        },
+        {
+          "source": "themes/rebecca.jsonc",
+          "target": "themes/rebecca.jsonc",
+          "sha256": "d81737b0a42f47eaa50843ca0e91deec352be2c21fdb1cd2e028ed38ac5ca84f",
+          "size": 967
+        },
+        {
+          "source": "themes/rose-pine-dawn.jsonc",
+          "target": "themes/rose-pine-dawn.jsonc",
+          "sha256": "185c8e5e4ad24155e19a759db4f52f30207e3a533016a306b3ad2d52cc0ccc96",
+          "size": 974
+        },
+        {
+          "source": "themes/rose-pine-moon.jsonc",
+          "target": "themes/rose-pine-moon.jsonc",
+          "sha256": "8c86ceabd68b97541788588ecbb7139a3ba05aa20c54d9b8d361fcfeefd9e94b",
+          "size": 974
+        },
+        {
+          "source": "themes/rose-pine.jsonc",
+          "target": "themes/rose-pine.jsonc",
+          "sha256": "1257132b2e61c5fb9d6d14bb1b7b89ac2825f14ed42b42a20b3bcdde5c071f31",
+          "size": 969
+        },
+        {
+          "source": "themes/selenized-black.jsonc",
+          "target": "themes/selenized-black.jsonc",
+          "sha256": "7569f021d41458d1fc583b4578dd4b9dd1cefb5aa4947fb1c2661e23ffdd0c50",
+          "size": 975
+        },
+        {
+          "source": "themes/selenized-dark.jsonc",
+          "target": "themes/selenized-dark.jsonc",
+          "sha256": "646beb0870f8eefc02cf3063a4f8c8e3daf4f7afe301137bc3ab6fb27c7bef50",
+          "size": 974
+        },
+        {
+          "source": "themes/selenized-light.jsonc",
+          "target": "themes/selenized-light.jsonc",
+          "sha256": "25a7937619eabd8ab7da3094b2d40aec6b6660e1d2e11b413090036073a58109",
+          "size": 975
+        },
+        {
+          "source": "themes/selenized-white.jsonc",
+          "target": "themes/selenized-white.jsonc",
+          "sha256": "75878358e7f0d8ae18282325fdd6f4cfba60c86d1d2367c300fd88dfd40de85a",
+          "size": 975
+        },
+        {
+          "source": "themes/seti.jsonc",
+          "target": "themes/seti.jsonc",
+          "sha256": "1973184a610a32d4798d842ca373492cff1e9372188afd812875678cf8388438",
+          "size": 964
+        },
+        {
+          "source": "themes/silk-dark.jsonc",
+          "target": "themes/silk-dark.jsonc",
+          "sha256": "e097719104b220edeeb78a9cabef4adcb129e7562b46a3a46cf2b3852e984d32",
+          "size": 969
+        },
+        {
+          "source": "themes/silk-light.jsonc",
+          "target": "themes/silk-light.jsonc",
+          "sha256": "a3b1d577b090aaee785922ee5279fdd7269337623c561e40acb28c4b607b6278",
+          "size": 970
+        },
+        {
+          "source": "themes/solarized-dark.jsonc",
+          "target": "themes/solarized-dark.jsonc",
+          "sha256": "b8d54dd0dca1fa047ba89738e86fabed8571058e0eb294c8535131949331383e",
+          "size": 974
+        },
+        {
+          "source": "themes/solarized-light.jsonc",
+          "target": "themes/solarized-light.jsonc",
+          "sha256": "3f852634ae04c82b308df686b00feee24229856b3642c31cb18c936d2fdf7f73",
+          "size": 975
+        },
+        {
+          "source": "themes/spaceduck.jsonc",
+          "target": "themes/spaceduck.jsonc",
+          "sha256": "d0a69cf5f1dbbb773fd75a3c521d00f075007334d9c785d49c65cfc5d0cd3f8c",
+          "size": 969
+        },
+        {
+          "source": "themes/summerfruit-light.jsonc",
+          "target": "themes/summerfruit-light.jsonc",
+          "sha256": "ff5e9124c5643a4b919474b7fae8ebb0bf609a9c6bf9ad3173219135b63bb9cb",
+          "size": 977
+        },
+        {
+          "source": "themes/synth-midnight-dark.jsonc",
+          "target": "themes/synth-midnight-dark.jsonc",
+          "sha256": "2ef34ad404593dba85d22b26cec6cfc987a308f2b5627d26bfad3f1c594e697b",
+          "size": 979
+        },
+        {
+          "source": "themes/synth-midnight-light.jsonc",
+          "target": "themes/synth-midnight-light.jsonc",
+          "sha256": "d629688b77ce23403b41f93e5a10cd288da6d4c0247347546535e705e75022a5",
+          "size": 980
+        },
+        {
+          "source": "themes/tokio.jsonc",
+          "target": "themes/tokio.jsonc",
+          "sha256": "a3115c07f6a95f9b4914fc1389f2b3b33e73a550621a08f70f103a3d528609c7",
+          "size": 965
+        },
+        {
+          "source": "themes/tokyo-city-dark.jsonc",
+          "target": "themes/tokyo-city-dark.jsonc",
+          "sha256": "a6c1fefc65ec848200c5c3729a93ed97703e0f465c50f49a44475c523c5801f3",
+          "size": 975
+        },
+        {
+          "source": "themes/tokyo-city-light.jsonc",
+          "target": "themes/tokyo-city-light.jsonc",
+          "sha256": "548566bed88dba56ad99740ebb74c92b7783288dc6ea8806e4ba8e5588e81db0",
+          "size": 976
+        },
+        {
+          "source": "themes/tokyo-city-terminal-dark.jsonc",
+          "target": "themes/tokyo-city-terminal-dark.jsonc",
+          "sha256": "630c13d422c91fe09c4f4d041625a91617edf6f75417d75f7a44a11b40b039de",
+          "size": 984
+        },
+        {
+          "source": "themes/tokyo-city-terminal-light.jsonc",
+          "target": "themes/tokyo-city-terminal-light.jsonc",
+          "sha256": "a0407261d9544584225879e01c675d7a26f78d7c9e2772455dc4e99dc3e63d44",
+          "size": 985
+        },
+        {
+          "source": "themes/tokyo-night-dark.jsonc",
+          "target": "themes/tokyo-night-dark.jsonc",
+          "sha256": "9774faa09b52f8b5593b8dfbfdee1e3eb35d13c4a4ad5d92ed6c765fa535a4e2",
+          "size": 976
+        },
+        {
+          "source": "themes/tokyo-night-light.jsonc",
+          "target": "themes/tokyo-night-light.jsonc",
+          "sha256": "eaf13813affbc2b9f04c85eda3b3ed3e201065ae1fec42c45b8abcfaa11c6d01",
+          "size": 977
+        },
+        {
+          "source": "themes/tokyo-night-moon.jsonc",
+          "target": "themes/tokyo-night-moon.jsonc",
+          "sha256": "2ebc95c071e7433617aeb69fa3b8a0b218029c457a52b49fef2ad892882c8066",
+          "size": 976
+        },
+        {
+          "source": "themes/tokyo-night-storm.jsonc",
+          "target": "themes/tokyo-night-storm.jsonc",
+          "sha256": "76531ef6fba6e7c2ffcac11e62d78f23d25e8841020fdc032af4129f7f1180db",
+          "size": 977
+        },
+        {
+          "source": "themes/tokyo-night-terminal-dark.jsonc",
+          "target": "themes/tokyo-night-terminal-dark.jsonc",
+          "sha256": "d6fa9691e8134e127b01d82c4c071a0ab5c452a46ec729f51dd01b148ace9992",
+          "size": 985
+        },
+        {
+          "source": "themes/tokyo-night-terminal-light.jsonc",
+          "target": "themes/tokyo-night-terminal-light.jsonc",
+          "sha256": "8f95d91bcecc7f90a329439d33a24e81357481584ac2961abf2a6c27a36d9901",
+          "size": 986
+        },
+        {
+          "source": "themes/tokyo-night-terminal-storm.jsonc",
+          "target": "themes/tokyo-night-terminal-storm.jsonc",
+          "sha256": "d693d58fcf9d4d8ba9a8cd8d0ac2bd8eb2ce83b74872edc728fb11a57f5aa17b",
+          "size": 986
+        },
+        {
+          "source": "themes/tokyodark-terminal.jsonc",
+          "target": "themes/tokyodark-terminal.jsonc",
+          "sha256": "cab781cbbfad100bee15e8ca1e987456edadf8eff4dff9c442093f4cb20a2932",
+          "size": 978
+        },
+        {
+          "source": "themes/tokyodark.jsonc",
+          "target": "themes/tokyodark.jsonc",
+          "sha256": "253dcb29fef6928b1c211cb2a3b467bbc90e8c388f88c1ee2138277c2d2aa61a",
+          "size": 969
+        },
+        {
+          "source": "themes/tomorrow-night.jsonc",
+          "target": "themes/tomorrow-night.jsonc",
+          "sha256": "bb6c7b72d8e291971cf3ca4cb77ce6dbe5d72f82f2384781b9597ce193581b80",
+          "size": 974
+        },
+        {
+          "source": "themes/tomorrow.jsonc",
+          "target": "themes/tomorrow.jsonc",
+          "sha256": "e8c726442c4a0dbca7ea69fc583f647c9829f0052f77ff76b798902bf636fc36",
+          "size": 968
+        },
+        {
+          "source": "themes/unikitty-light.jsonc",
+          "target": "themes/unikitty-light.jsonc",
+          "sha256": "ea002ecb1a207150b7d2cd89f193e928d5a4c0bdca1160d544b8e2c3012993c3",
+          "size": 974
+        },
+        {
+          "source": "themes/x.jsonc",
+          "target": "themes/x.jsonc",
+          "sha256": "711248fc6206755430efcaa2943a1d4bb7d33a2eac5d765fb40b5f0a5abe35a5",
+          "size": 961
+        },
+        {
+          "source": "themes/zenburn.jsonc",
+          "target": "themes/zenburn.jsonc",
+          "sha256": "b83baf507b7c2348ae5420c28b7a6902b95fcca44e6d81635bebae91a5434c2c",
+          "size": 967
+        }
+      ]
+    }
+  ]
+}

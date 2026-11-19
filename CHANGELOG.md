@@ -8,8 +8,11 @@ per-folder changelog:
 ## 2026-11-19
 
 - Added `configshunter/cyberpunk`, a complete preset for the `confighunter`
-  command: main roulette config, 16 variants, banners, themes, logos and 16
-  image logos stored as base64 `.b64` assets without image extensions.
+  command: main roulette config, 16 variants, banners, logos and 16 image
+  logos stored as base64 `.b64` assets without image extensions.
+- `configshunter/cyberpunk` no longer bundles `themes/`: equisdots theme-sync
+  owns that directory and generates one theme per palette. The preset now
+  requires `xfetch extension install theme-sync` at runtime.
 
 ## 2026-11-16
 
